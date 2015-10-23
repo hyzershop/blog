@@ -397,4 +397,6 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 
 .post-thumbnail .sticky-post { display:none; }
 
-body { border-top: 10px solid #000;}
+/* FTPLOY AND GITHUB TEST */
+body { border-top: 10px solid #000; }
+
