@@ -396,3 +396,5 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 .entry-meta + .post-thumbnail { margin-top:0; }
 
 .post-thumbnail .sticky-post { display:none; }
+
+body { border-top: 10px solid #000; }
