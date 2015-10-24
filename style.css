@@ -127,13 +127,25 @@ a { color:#ff3c7c; }
 	    z-index: 999999;
 	    position: relative;
 	    top: 31px;
-    	}
+    }
 }
 @media screen and (min-width: 1080px) {
 	.home .widget-area,
 	.archive .widget-area {
 		width: 256px;
 	}
+}
+@media screen and (min-width: 1280px) {
+	.home .has-post-thumbnail .entry-meta:first-child .cat-links {
+		width: 96px;
+	    margin-left: -48px;
+	    margin-top: -34px;
+	}
+
+	.home .has-post-thumbnail .entry-meta:first-child .cat-links {
+	    margin-top: -26px;
+    	width: 96px;
+    }
 }
 @media screen and (min-width: 1380px) {
 	.home .widget-area,
@@ -243,7 +255,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 }
 
 .main-navigation li {
-	padding: 27px 20px 20px;
+	padding: 27px 20px 21px;
 }
 
 .current-menu-item, .main-navigation > li:hover, .main-navigation > li:focus {

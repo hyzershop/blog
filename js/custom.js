@@ -69,7 +69,9 @@ function placeBlogIcons() {
 			$this.append("<img src='/wp-content/uploads/journal-icon-white.png' width='70' height='52' alt='journal' style='margin-top:-26px;'/>");
 		}
 	} else {
-		$this.parent(".entry-meta").css({top: topPos});
+		$this.parent(".entry-meta").css({
+			top: topPos,
+		});
 	}
 	
 }
