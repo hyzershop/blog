@@ -142,8 +142,7 @@ a { color:#ff3c7c; }
 	    margin-top: -34px;
 	}
 
-	.home .has-post-thumbnail .entry-meta:first-child .cat-links {
-	    margin-top: -26px;
+	.home .has-post-thumbnail .entry-meta:first-child .cat-links img {
     	width: 96px;
     }
 }
