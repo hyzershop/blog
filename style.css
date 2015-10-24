@@ -387,6 +387,18 @@ a { color:#ff3c7c; }
 		color: #fff;
 	}
 }
+@media screen and (max-width: 960px) {
+	.search-toggle {
+    	color: #00b0ff;
+    }
+
+    .menu-toggle {
+    	background: #00b0ff;
+    	border: 0 none;
+    	border-radius: 100px;
+    	color: #ffffff;
+    }
+}
 @media screen and (min-width: 961px) {
 	.home .widget-area,
 	.archive .widget-area {
@@ -437,19 +449,6 @@ a { color:#ff3c7c; }
 	    z-index: 999999;
 	    position: relative;
 	    top: 31px;
-    }
-
-    .search-toggle {
-    	color: #00b0ff;
-    }
-
-    /* whatttt */
-
-    .menu-toggle {
-    	background: #00b0ff;
-    	border: 0 none;
-    	border-radius: 100px;
-    	color: #ffffff;
     }
 }
 @media screen and (min-width: 1081px) {
