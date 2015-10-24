@@ -79,50 +79,50 @@ a { color:#ff3c7c; }
 	background: transparent;
 	color: #ffffff;
 }
-.search-form:before {
+.search-header .search-form:before {
 	background: transparent;
 	color: #ffffff;
 }
-.search-form {
+.search-header .search-form {
 	background: #00b0ff;
     width: 60%;
     right: 0;
     left: auto;
 }
-.search-form .search-submit {
+.search-header .search-form .search-submit {
 	border: 0px none; background: transparent; color: transparent;
 }
-.search-form .search-field {
+.search-header .search-form .search-field {
 	border: 0px none;
 	background: transparent;
 	color: transparent;
 }
 .search-toggle { height:60px !important; }
-.search-form.hover::before { background: transparent; }
+.search-header .search-form.hover::before { background: transparent; }
 
-.search-form ::-webkit-input-placeholder {
+.search-header .search-form ::-webkit-input-placeholder {
    color: #ffffff;
 }
-.search-form :-moz-placeholder { /* Firefox 18- */
+.search-header .search-form :-moz-placeholder { /* Firefox 18- */
    color: #ffffff;  
 }
-.search-form ::-moz-placeholder {  /* Firefox 19+ */
+.search-header .search-form ::-moz-placeholder {  /* Firefox 19+ */
    color: #ffffff;  
 }
-.search-form :-ms-input-placeholder {  
+.search-header .search-form :-ms-input-placeholder {  
    color: #ffffff;  
 }
 
-.search-form input[type="search"]:focus::-webkit-input-placeholder {
+.search-header .search-form input[type="search"]:focus::-webkit-input-placeholder {
    opacity: 0;
 }
-.search-form input[type="search"]:focus:-moz-placeholder { /* Firefox 18- */
+.search-header .search-form input[type="search"]:focus:-moz-placeholder { /* Firefox 18- */
    opacity: 0; 
 }
-.search-form input[type="search"]:focus::-moz-placeholder {  /* Firefox 19+ */
+.search-header .search-form input[type="search"]:focus::-moz-placeholder {  /* Firefox 19+ */
    opacity: 0; 
 }
-.search-form input[type="search"]:focus:-ms-input-placeholder {  
+.search-header .search-form input[type="search"]:focus:-ms-input-placeholder {  
    opacity: 0; 
 }
 
