@@ -86,6 +86,7 @@ a { color:#ff3c7c; }
 .search-header .search-form {
 	background: #00b0ff;
     width: 60%;
+    height: 100%;
     right: 0;
     left: auto;
 }
