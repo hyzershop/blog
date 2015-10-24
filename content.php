@@ -27,14 +27,15 @@
 			</a>
 		<?php endif; ?>
 
-		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
-
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php $email = get_the_author_meta( user_email ); ?>
 			<?php echo get_avatar($email); ?><strong><?php the_author(); ?></strong> on <?php gazette_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
+
+		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+
 	</header><!-- .entry-header -->
 
 	<div class="entry-summary">
