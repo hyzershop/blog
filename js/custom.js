@@ -81,8 +81,10 @@ $(document).ready(function() {
 	$(".search-toggle").click(function() {
 		$(".search-form .search-field").focus();
 	});
-	$(".search-form .search-field").blur(function() {
-		$(".search-toggle[aria-expanded='true']").click();
+	$(".search-form .search-field").blur(function(event) {
+		if (event.target.hasClass("search-toggle") === false) {
+			$(".search-toggle[aria-expanded='false']").click();
+		}
 	});
 });
 
