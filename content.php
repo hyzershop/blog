@@ -30,7 +30,7 @@
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php $email = get_the_author_meta( user_email ); ?>
-			<?php echo get_avatar($email); ?><strong><?php the_author(); ?></strong> on <?php gazette_posted_on(); ?>
+			<?php echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php gazette_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 

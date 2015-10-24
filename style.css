@@ -323,13 +323,14 @@ a { color:#ff3c7c; }
     margin-bottom: 50px;
     padding-left: 25px;
     color: #fff;
+    text-align: center;
 }
 .content-area .entry-meta:nth-child(3) img {
     width: 40px;
     height: 40px;
     position: relative;
     top: 15px;
-    margin-right: 12px;
+    margin-right: 0;
 }
 
 /** MEDIA QUERIES **/
