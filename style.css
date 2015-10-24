@@ -70,7 +70,7 @@ a { color:#ff3c7c; }
 }
 
 .site-header {
-	padding: 6px 0;
+	padding: 25px 0;
 }
 
 .search-toggle,
@@ -79,18 +79,23 @@ a { color:#ff3c7c; }
 	background: transparent;
 	color: #ffffff;
 }
-.search-form .search-submit {
-	border: 0px none; background: transparent; color: transparent;
-}
-input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea,
-.search-form .search-field {
-	border: 0px none;
-	background: #00b0ff;
-	color: transparent;
-}
 .search-form:before {
 	background: transparent;
 	color: #ffffff;
+}
+.search-form {
+	background: #00b0ff;
+    width: 60%;
+    right: 0;
+    left: auto;
+}
+.search-form .search-submit {
+	border: 0px none; background: transparent; color: transparent;
+}
+.search-form .search-field {
+	border: 0px none;
+	background: transparent;
+	color: transparent;
 }
 .search-toggle { height:60px !important; }
 .search-form.hover::before { background: transparent; }
@@ -106,6 +111,19 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 }
 .search-form :-ms-input-placeholder {  
    color: #ffffff;  
+}
+
+.search-form input[type="search"]:focus::-webkit-input-placeholder {
+   opacity: 0;
+}
+.search-form input[type="search"]:focus:-moz-placeholder { /* Firefox 18- */
+   opacity: 0; 
+}
+.search-form input[type="search"]:focus::-moz-placeholder {  /* Firefox 19+ */
+   opacity: 0; 
+}
+.search-form input[type="search"]:focus:-ms-input-placeholder {  
+   opacity: 0; 
 }
 
 /* LOGO */
