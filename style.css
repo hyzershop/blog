@@ -396,7 +396,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 	.home .has-post-thumbnail .entry-meta:first-child .cat-links {
 		width: 96px;
 	    margin-left: -48px;
-	    margin-top: -34px;
+	    margin-top: -8px;
 	}
 
 	.home .has-post-thumbnail .entry-meta:first-child .cat-links img {
