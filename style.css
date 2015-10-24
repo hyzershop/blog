@@ -319,9 +319,9 @@ a { color:#ff3c7c; }
 .content-area .entry-meta:nth-child(3) {
     position: relative;
     z-index: 99999;
-    margin-top: -99px;
+    margin-top: -102px;
     margin-bottom: 50px;
-    padding-left: 25px;
+    padding-left: 0;
     color: #fff;
     text-align: center;
 }
@@ -329,7 +329,7 @@ a { color:#ff3c7c; }
     width: 40px;
     height: 40px;
     position: relative;
-    top: 15px;
+    top: 0;
     margin-right: 0;
 }
 
