@@ -333,6 +333,10 @@ a { color:#ff3c7c; }
     margin-right: 0;
 }
 
+a.post-thumbnail img {
+	opacity: 0.7;
+}
+
 /** MEDIA QUERIES **/
 
 @media screen and (min-width: 601px) {
