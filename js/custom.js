@@ -60,7 +60,7 @@ $(window).resize(function() {
 });
 function placeBlogIcons() {
 	var $this = $(this);
-	var topPos = (($this.parent(".entry-meta").siblings(".post-thumbnail").height()) / 2);
+	var topPos = (($this.parent(".entry-meta").siblings(".post-thumbnail").height()) / 2) - 30;
 	
 	if ($this.find("img").length === 0) {
 		$this.find("a").hide();
