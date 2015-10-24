@@ -99,7 +99,7 @@ a { color:#ff3c7c; }
 .search-header .search-form .search-field {
 	border: 0px none;
 	background: transparent;
-	color: transparent;
+	color: #00b0ff;
 }
 .search-toggle { height:60px !important; }
 .search-header .search-form.hover::before { background: transparent; }
