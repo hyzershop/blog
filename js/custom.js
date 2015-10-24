@@ -78,6 +78,9 @@ function placeBlogIcons() {
 
 $(document).ready(function() {
 	$("input[type='search']").attr("placeholder", "SEARCH THE HYZER BLOG");
+	$(".search-toggle").click(function() {
+		$(".search-form .search-field").focus();
+	});
 });
 
 
