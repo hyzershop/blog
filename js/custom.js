@@ -82,7 +82,8 @@ $(document).ready(function() {
 		$(".search-form .search-field").focus();
 	});
 	$(".search-form .search-field").blur(function(event) {
-		if (event.target.hasClass("search-toggle") === false) {
+		var target = $(event.target);
+		if (target.hasClass("search-toggle") === false) {
 			$(".search-toggle").click();
 		}
 	});
