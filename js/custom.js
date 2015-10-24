@@ -83,7 +83,7 @@ $(document).ready(function() {
 	});
 	$(".search-form .search-field").blur(function(event) {
 		if (event.target.hasClass("search-toggle") === false) {
-			$(".search-toggle[aria-expanded='false']").click();
+			$(".search-toggle").click();
 		}
 	});
 });
