@@ -124,18 +124,18 @@ a { color:#ff3c7c; }
    color: #ffffff;  
 }
 
-.search-header .search-form input[type="search"]:focus::-webkit-input-placeholder {
+/*.search-header .search-form input[type="search"]:focus::-webkit-input-placeholder {
    opacity: 0;
 }
-.search-header .search-form input[type="search"]:focus:-moz-placeholder { /* Firefox 18- */
+.search-header .search-form input[type="search"]:focus:-moz-placeholder {
    opacity: 0; 
 }
-.search-header .search-form input[type="search"]:focus::-moz-placeholder {  /* Firefox 19+ */
+.search-header .search-form input[type="search"]:focus::-moz-placeholder {
    opacity: 0; 
 }
 .search-header .search-form input[type="search"]:focus:-ms-input-placeholder {  
    opacity: 0; 
-}
+}*/
 
 /* LOGO */
 .site-branding {
