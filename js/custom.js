@@ -85,6 +85,7 @@ $(document).ready(function() {
 		var target = $(event.target);
 		if (target.hasClass("search-toggle") === false) {
 			$(".search-toggle").click();
+			console.log("toggle");
 		}
 	});
 });
