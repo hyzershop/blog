@@ -98,7 +98,8 @@ a { color:#ff3c7c; }
 	border: 0px none;
 	background: transparent;
 	color: #00b0ff;
-	height: 100%;
+	height: 60px;
+	padding-top: 0; padding-bottom: 0;
 
 	font-weight: bold;
 }
