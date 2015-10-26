@@ -409,7 +409,7 @@ a.post-thumbnail img {
 
 .flex-control-paging li a {
 	background: #eee !important;
-	background: rgba(255,255,255,0.4);
+	background: rgba(255,255,255,0.4) !important;
 }
 
 .flex-control-paging li a.flex-active {
