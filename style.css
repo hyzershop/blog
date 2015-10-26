@@ -402,7 +402,20 @@ a.post-thumbnail img {
 	background-size: 57px 27px !important;
 }
 
+.flex-control-nav {
+	z-index: 999999 !important;
+    bottom: 0 !important;
+}
 
+.flex-control-paging li a {
+	background: #eee;
+	background: rgba(255,255,255,0.6);
+}
+
+.flex-control-paging li a.flex-active {
+	background: #fff;
+	background: rgba(255,255,255,0.9);
+}
 
 
 
