@@ -23,15 +23,18 @@ Updated: 2015-10-05 23:07:49
 
 body, button, input, select, textarea, .main-navigation,
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 a { color:#ff3c7c; }
 
 .home h1 a, .archive h1 a {
-	font-family: 'Rock Salt';
-	font-weight: normal;
-	color:#00b0ff;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: bold;
+    color: #00b0ff;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    line-height: 1;
 }
 
 /* ADDING WIDGETS TO INDEX AND ARCHIVE */
@@ -359,6 +362,7 @@ a.post-thumbnail img {
 .flexslider-caption-inner h3 {
     font-size: 3em !important;
     font-family: 'Viga', 'Montserrat', Helvetica, sans-serif;
+    line-height: 1;
 }
 
 .flexslider .slides li a > div:first-child {
