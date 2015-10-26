@@ -64,9 +64,11 @@ function placeBlogIcons() {
 	var $this = $(this);
 	var topPos = (($this.parent(".entry-meta").siblings(".post-thumbnail").height()) / 2);
 	
-	if ($this.find("img").length === 0) {
+	if ($this.find("img").length === 0) { // if icon has not already been placed
 		$this.find("a").hide();
-		$this.parent(".entry-meta").css({top: topPos});
+		$this.parent(".entry-meta").css({
+			top: topPos
+		});
 		if ($this.find("a").text().indexOf("Journal") > -1) {
 			$this.append("<img src='/wp-content/uploads/journal-icon-white.png' width='70' height='52' alt='journal' style='margin-top:-26px;'/>");
 		}
@@ -76,7 +78,7 @@ function placeBlogIcons() {
 		if ($this.find("a").text().indexOf("Knowledge") > -1 && $this.find("a").text().indexOf("Basics") <= 0) {
 			$this.append("<img src='/wp-content/uploads/knowledge-icon-white.png' width='70' height='52' alt='knowledge' style='margin-top:-26px;'/>");
 		}
-	} else {
+	} else { // if icon is already in place
 		$this.parent(".entry-meta").css({
 			top: topPos,
 		});
