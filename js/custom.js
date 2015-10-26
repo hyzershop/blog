@@ -62,7 +62,7 @@ $(window).resize(function() {
 });
 function placeBlogIcons() {
 	var $this = $(this);
-	var topPos = (($this.parent(".entry-meta").siblings(".post-thumbnail").height()) / 6);
+	var topPos = (($this.parent(".entry-meta").siblings(".post-thumbnail").height()) / 5.4);
 	
 	if ($this.find("img").length === 0) { // if icon has not already been placed
 		$this.find("a").hide();
