@@ -31,7 +31,7 @@ a { color:#ff3c7c; }
 .archive .hentry .entry-title, .blog .hentry .entry-title, .search .hentry .entry-title {
 	font-size: 1.4em;
 	line-height: 1;
-	text-align: center;
+	text-align: left;
 
 	margin-bottom: 6px;
 }
@@ -45,7 +45,7 @@ a { color:#ff3c7c; }
 
 .entry-summary {
 	font-size: 0.7em;
-    text-align: center;
+    text-align: left;
     color: #777;
     margin-top: 0;
 }
