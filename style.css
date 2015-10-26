@@ -361,7 +361,7 @@ a.post-thumbnail img {
 /* HOME PAGE BANNER WIDGET */
 
 .flexslider {
-	margin: 0 0 30px;
+	margin: 0 0 30px !important;
 }
 
 #home-page-banner .flexslider-title {
@@ -408,13 +408,13 @@ a.post-thumbnail img {
 }
 
 .flex-control-paging li a {
-	background: #eee;
+	background: #eee !important;
 	background: rgba(255,255,255,0.6);
 }
 
 .flex-control-paging li a.flex-active {
-	background: #fff;
-	background: rgba(255,255,255,0.9);
+	background: #fff !important;
+	background: rgba(255,255,255,0.9) !important;
 }
 
 
