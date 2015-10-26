@@ -9,6 +9,8 @@
 		<?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta">
 				<?php gazette_entry_meta(); ?>
+				<?php $email = get_the_author_meta( user_email ); ?>
+				<?php echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php the_time('F j, Y'); ?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 		
@@ -25,13 +27,6 @@
 					<span class="sticky-post"><span class="genericon genericon-pinned"><span class="screen-reader-text"><?php _e( 'Sticky post', 'gazette' ); ?></span></span></span>
 				<?php endif; ?>
 			</a>
-		<?php endif; ?>
-
-		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php $email = get_the_author_meta( user_email ); ?>
-			<?php echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php the_time('F j, Y'); ?>
-		</div><!-- .entry-meta -->
 		<?php endif; ?>
 
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
