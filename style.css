@@ -360,6 +360,10 @@ a.post-thumbnail img {
 
 /* HOME PAGE BANNER WIDGET */
 
+.flexslider {
+	margin: 0 0 30px;
+}
+
 #home-page-banner .flexslider-title {
     position: absolute;
     z-index: 99999;
