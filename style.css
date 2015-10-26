@@ -353,13 +353,13 @@ a.post-thumbnail img {
 }
 
 .flexslider-caption {
-	background: transparent;
+	background: transparent !important;
 	margin-top: -180px;
     margin-bottom: 180px;
 }
 
 .flexslider-caption-inner h3 {
-    font-size: 3em;
+    font-size: 3em !important;
     font-family: 'Viga', 'Montserrat', Helvetica, sans-serif;
 }
 
