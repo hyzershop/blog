@@ -29,8 +29,9 @@ h1, h2, h3, h4, h5, h6 {
 a { color:#ff3c7c; }
 
 .archive .hentry .entry-title, .blog .hentry .entry-title, .search .hentry .entry-title {
-	font-size: 1.1em;
+	font-size: 1.4em;
 	line-height: 1;
+	text-align: center;
 }
 
 .home h1 a, .archive h1 a {
