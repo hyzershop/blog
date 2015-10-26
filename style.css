@@ -507,8 +507,9 @@ a.post-thumbnail img {
 @media screen and (min-width: 1280px) {
 	.home .has-post-thumbnail .entry-meta .cat-links {
 		width: 96px;
-	    margin-left: -48px;
-	    margin-top: -8px;
+    	margin-left: -48px;
+    	margin-top: 0;
+    	top: 30px;
 	}
 
 	.home .has-post-thumbnail .entry-meta .cat-links img {
