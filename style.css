@@ -347,6 +347,12 @@ a.post-thumbnail img {
     margin-top: 60px;
 }
 
+.flexslider-caption {
+	background: transparent;
+	margin-top: -180px;
+    margin-bottom: 180px;
+}
+
 
 
 
