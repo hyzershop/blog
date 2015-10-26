@@ -344,13 +344,23 @@ a.post-thumbnail img {
     z-index: 99999;
     width: 100%;
     text-align: center;
-    margin-top: 60px;
+
+    font-family: 'Rock Salt';
+    text-transform: lowercase;
+    color: #fff;
+    margin: 115px auto 0 auto;
+    font-size: 1em;
 }
 
 .flexslider-caption {
 	background: transparent;
 	margin-top: -180px;
     margin-bottom: 180px;
+}
+
+.flexslider-caption-inner h3 {
+    font-size: 3em;
+    font-family: 'Viga', 'Montserrat', Helvetica, sans-serif;
 }
 
 
