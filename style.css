@@ -573,6 +573,11 @@ a.post-thumbnail img {
 		width: 256px;
 	}
 }
+@media screen and (max-width: 1279px) {
+	.home .has-post-thumbnail .entry-meta .cat-links img {
+    	margin-top: -4px !important;
+    }
+}
 @media screen and (min-width: 1280px) {
 	.home .has-post-thumbnail .entry-meta .cat-links {
 		width: 96px;
