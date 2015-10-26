@@ -515,6 +515,18 @@ a.post-thumbnail img {
 
     .flex-control-nav, .flex-direction-nav, .flexslider-title { visibility: hidden; }
 }
+@media screen and (max-width: 959px), screen and (min-width: 768px) {
+	.home .has-post-thumbnail .entry-meta .cat-links {
+		top: 12px;
+	    margin-left: -30px;
+	    width: 60px;
+	}
+
+	.home .has-post-thumbnail .entry-meta {
+		margin-top: -12px;
+	}
+}
+
 @media screen and (min-width: 960px) {
 	.home .widget-area,
 	.archive .widget-area {
