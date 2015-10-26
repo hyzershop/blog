@@ -363,6 +363,14 @@ a.post-thumbnail img {
     font-family: 'Viga', 'Montserrat', Helvetica, sans-serif;
 }
 
+.flexslider .slides li a > div:first-child {
+	background: #000;
+}
+
+.flexslider .slides li a > div img {
+	opacity: 0.7;
+}
+
 
 
 
