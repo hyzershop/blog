@@ -515,7 +515,7 @@ a.post-thumbnail img {
 
     .flex-control-nav, .flex-direction-nav, .flexslider-title { visibility: hidden; }
 }
-@media screen and (max-width: 959px), screen and (min-width: 768px) {
+@media screen and (max-width: 959px) and (min-width: 768px) {
 	.home .has-post-thumbnail .entry-meta .cat-links {
 		top: 12px;
 	    margin-left: -30px;
