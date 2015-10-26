@@ -476,6 +476,21 @@ a.post-thumbnail img {
     	border-radius: 100px;
     	color: #ffffff;
     }
+
+    .flexslider .slides {
+    	overflow: visible;
+    }
+
+    .flexslider .slides li {
+    	max-height: 500px !important;
+    }
+
+    .flexslider-caption {
+    	background: #00b0ff !important;
+  	  	margin-top: -54px;
+   	 	height: auto!important;
+    	padding: 50px 0;
+    }
 }
 @media screen and (min-width: 960px) {
 	.home .widget-area,
