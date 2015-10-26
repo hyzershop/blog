@@ -21,7 +21,7 @@ function arphabet_widgets_init() {
 	register_sidebar( array(
 		'name'          => 'Home Page Banner',
 		'id'            => 'home_page_banner',
-		'before_widget' => '<div>',
+		'before_widget' => '<div id="home-page-banner">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h2>',
 		'after_title'   => '</h2>',
