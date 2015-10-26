@@ -358,6 +358,8 @@ a.post-thumbnail img {
 	opacity: 0.7;
 }
 
+.entry-meta .byline { display: none; }
+
 /* HOME PAGE BANNER WIDGET */
 
 .flexslider {
