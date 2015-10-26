@@ -339,7 +339,7 @@ a.post-thumbnail img {
 
 /* HOME PAGE BANNER WIDGET */
 
-#home-page-banner h3 {
+#home-page-banner .flexslider-title {
     float: left;
     z-index: 99999;
     width: 100%;
