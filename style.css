@@ -312,7 +312,7 @@ a { color:#ff3c7c; }
 .home .has-post-thumbnail .entry-meta .cat-links {
     position: relative;
     left: 50%;
-    top: 60px;
+    top: 30px;
     margin-left: -35px;
     width: 70px;
     height: 0;
@@ -512,7 +512,7 @@ a.post-thumbnail img {
 		width: 96px;
     	margin-left: -48px;
     	margin-top: 0;
-    	top: 70px;
+    	top: 62px;
 	}
 
 	.home .has-post-thumbnail .entry-meta .cat-links img {
