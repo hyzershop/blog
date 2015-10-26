@@ -337,6 +337,27 @@ a.post-thumbnail img {
 	opacity: 0.7;
 }
 
+/* HOME PAGE BANNER WIDGET */
+
+#home-page-banner h3 {
+    float: left;
+    z-index: 99999;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /** MEDIA QUERIES **/
 
 @media screen and (min-width: 600px) {
