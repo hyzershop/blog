@@ -28,13 +28,16 @@ h1, h2, h3, h4, h5, h6 {
 
 a { color:#ff3c7c; }
 
+.archive .hentry .entry-title, .blog .hentry .entry-title, .search .hentry .entry-title {
+	font-size: 1.1em;
+	line-height: 1;
+}
+
 .home h1 a, .archive h1 a {
 	font-family: 'Montserrat', Helvetica, sans-serif;
     font-weight: bold;
     color: #00b0ff;
     text-transform: uppercase;
-    font-size: 1.1em;
-    line-height: 1;
 }
 
 /* ADDING WIDGETS TO INDEX AND ARCHIVE */
