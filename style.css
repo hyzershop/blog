@@ -50,6 +50,13 @@ a { color:#ff3c7c; }
     margin-top: 0;
 }
 
+.entry-summary .more-link {
+	font-family: 'Rock Salt';
+    text-transform: lowercase;
+    padding-left: 5px;
+    font-size: 0.9em;
+}
+
 /* ADDING WIDGETS TO INDEX AND ARCHIVE */
 .home .site-main,
 .home .widget-area,
