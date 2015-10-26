@@ -20,7 +20,7 @@ get_header(); ?>
 	}
 ?>
 
-<?php if ( is_active_sidebar( 'homepage_banner' ) ) : dynamic_sidebar( 'homepage_banner' ); endif; ?>
+<?php if ( is_active_sidebar( 'homepage_banner' ) ) : dynamic_sidebar( 'homepage_banner' ) endif; ?>
 
 	<div class="site-content-inner">
 	<div id="primary" class="content-area">
