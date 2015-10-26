@@ -1,33 +1,26 @@
 <?php
 /**
- * The main template file.
+ * The template for displaying archive pages.
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package Gazette
  */
 
 get_header(); ?>
-
-<?php
-	if ( is_home() ) {
-		// Include the featured content template.
-		get_template_part( 'featured-content' );
-	}
-?>
-
-<?php if ( is_active_sidebar( 'home_page_banner' ) ) : dynamic_sidebar( 'home_page_banner' ); ?>
-<?php endif; ?>
-
+	
 	<div class="site-content-inner">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
+
+			<header class="page-header">
+				<?php
+					the_archive_title( '<h1 class="page-title">', '</h1>' );
+					the_archive_description( '<div class="taxonomy-description">', '</div>' );
+				?>
+			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -53,6 +46,7 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	
+	<?php get_sidebar(); ?>
 	</div><!-- .site-content-inner -->
 
 <?php get_footer(); ?>
