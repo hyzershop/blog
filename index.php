@@ -20,6 +20,8 @@ get_header(); ?>
 	}
 ?>
 
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Page Banner') ) : ?><?php endif; ?>
+
 	<div class="site-content-inner">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
