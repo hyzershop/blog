@@ -23,7 +23,7 @@ function vAlignPostHero() {
 	});
 }
 
-
+/*
 var checkIfSliderLoaded = setInterval(function() {
 	sliderText(vAlignBannerText, sliderStopChecking);
 }, 200);
@@ -41,9 +41,11 @@ function sliderText(callback, stopfunc) {
 	}
 }
 
+
 function sliderStopChecking() {
 	clearInterval(checkIfSliderLoaded);
 }
+*/
 
 $(window).resize(vAlignBannerText);
 function vAlignBannerText() {
@@ -67,6 +69,12 @@ function placeBlogIcons() {
 		$this.parent(".entry-meta").css({top: topPos});
 		if ($this.find("a").text().indexOf("Journal") > -1) {
 			$this.append("<img src='/wp-content/uploads/journal-icon-white.png' width='70' height='52' alt='journal' style='margin-top:-26px;'/>");
+		}
+		if ($this.find("a").text().indexOf("Basics") > -1) {
+			$this.append("<img src='/wp-content/uploads/basics-icon-white.png' width='70' height='52' alt='basics' style='margin-top:-26px;'/>");
+		}
+		if ($this.find("a").text().indexOf("Knowledge") > -1 && $this.find("a").text().indexOf("Basics") <= 0) {
+			$this.append("<img src='/wp-content/uploads/knowledge-icon-white.png' width='70' height='52' alt='knowledge' style='margin-top:-26px;'/>");
 		}
 	} else {
 		$this.parent(".entry-meta").css({
