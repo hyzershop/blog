@@ -340,12 +340,11 @@ a.post-thumbnail img {
 /* HOME PAGE BANNER WIDGET */
 
 #home-page-banner .flexslider-title {
-    float: left;
+    position: absolute;
     z-index: 99999;
     width: 100%;
     text-align: center;
-    position: relative;
-    top: 60px;
+    margin-top: 60px;
 }
 
 
