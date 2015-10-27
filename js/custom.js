@@ -107,7 +107,7 @@ $(document).ready(function() {
 	$(".sub-menu").each(function() {
 		var id = $(this).parent("li").attr("id"),
 			subMenuClass = id + "-sub";
-		$(this).addClass(id).insertAfter($mainNav);
+		$(this).addClass(subMenuClass).insertAfter($mainNav);
 	});
 
 	$("#menu-item-17").click(function() {

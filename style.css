@@ -254,12 +254,8 @@ a { color:#ff3c7c; }
 	background: transparent;
 }
 
-.js .main-navigation ul li:hover > ul,
-.js .main-navigation ul li > ul {
+.js .menu-item-17-sub {
 	display: none;
-}
-
-.js .main-navigation ul li.clicked > ul {
 	position: absolute;
 	z-index: 999999;
 	top: 0;
@@ -268,7 +264,7 @@ a { color:#ff3c7c; }
 	height: 100%;
 }
 
-.menu-item-17 .sub-menu li a::before {
+.menu-item-17-sub li a::before {
 	content: " ";
     display: block;
     height: 20px;
