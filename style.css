@@ -578,6 +578,15 @@ a.post-thumbnail img {
 	    position: relative;
 	    top: 31px;
     }
+
+    .page .site-main, .single .site-main {
+		border-right: none;
+	}
+
+	.comments-area {
+		padding-right: 0;
+		margin-right: 0;
+	}
 }
 @media screen and (min-width: 1080px) {
 	.home .widget-area,
@@ -612,6 +621,14 @@ a.post-thumbnail img {
 	.home .widget-area,
 	.archive .widget-area {
 		width: 331px;
+	}
+
+	div#jp-relatedposts, .single .entry-content {
+		width: 870px;
+	}
+
+	.comments-area, .footer-text, .footer-text + .site-info, .social-navigation + .site-info {
+		width: 870px;
 	}
 }
 
