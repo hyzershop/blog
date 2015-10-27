@@ -557,6 +557,7 @@ a.post-thumbnail img {
     .single .entry-hero .post-thumbnail img {
     	width: 960px !important;
 	    max-width: 960px;
+	    position: relative;
 	    left: 50%;
 	    margin-left: -480px;
     }
