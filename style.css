@@ -240,7 +240,7 @@ a { color:#ff3c7c; }
 
 .menu-item-17-sub {
 	display: none;
-	position: absolute;
+	position: fixed;
 	z-index: 999999;
 	top: 0;
 	left: 0;

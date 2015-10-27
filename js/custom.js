@@ -123,7 +123,7 @@ $(document).ready(function() {
 	});
 
 	$exitBtn.click(function() {
-		$subMenu.fadeOut(300);
+		$(".menu-item-17-sub").fadeOut(300);
 	});
 })();
 
