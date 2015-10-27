@@ -24,7 +24,8 @@ html { overflow-x: hidden; }
 }
 
 body, button, input, select, textarea, .main-navigation,
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.comment-navigation, .post-navigation, .posts-navigation, {
 	font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
