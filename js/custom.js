@@ -101,7 +101,12 @@ $(document).ready(function() {
 
 (function() {
 	var $exitBtn = $("<div class='menu-exit'></div>"),
+		$mainNav = $(".main-navigation"),
 		$subMenuParent = $(".main-navigation li.menu-item-has-children");
+
+	$(".sub-menu").each(function() {
+		$(this).insertAfter($mainNav);
+	});
 
 	$subMenuParent.click(function() {
 		var $this = $(this),
