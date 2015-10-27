@@ -105,13 +105,17 @@ $(document).ready(function() {
 		$subMenuParent = $(".main-navigation li.menu-item-has-children");
 
 	$(".sub-menu").each(function() {
-		$(this).insertAfter($mainNav);
+		var id = $(this).parent("li").attr("id"),
+			subMenuClass = id + "-sub";
+		$(this).addClass(id).insertAfter($mainNav);
 	});
 
-	$subMenuParent.click(function() {
+	$("#menu-item-17").click(function() {
 		var $this = $(this),
-			$subMenu = $this.find("ul");
-		$this.addClass("clicked").find("ul").fadeIn(300);
+			$subMenu = $(".menu-item-17-sub");
+		$this.addClass("clicked");
+		$subMenu.fadeIn(300);
+
 		if ( !$subMenu.hasClass("hasexit") ) {
 			$subMenu.addClass("hasexit")
 				.prepend($exitBtn);
@@ -119,7 +123,7 @@ $(document).ready(function() {
 	});
 
 	$exitBtn.click(function() {
-		$subMenuParent.find("ul").fadeOut(300);
+		$subMenu.fadeOut(300);
 	});
 })();
 
