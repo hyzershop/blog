@@ -514,6 +514,13 @@ a.post-thumbnail img {
     }
 
     .flex-control-nav, .flex-direction-nav, .flexslider-title { visibility: hidden; }
+
+    .single .entry-hero .post-thumbnail img {
+    	width: 960px !important;
+	    max-width: 960px;
+	    left: 50%;
+	    margin-left: -480px;
+    }
 }
 @media screen and (max-width: 959px) and (min-width: 768px) {
 	.home .has-post-thumbnail .entry-meta .cat-links {
