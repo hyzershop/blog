@@ -240,13 +240,17 @@ a { color:#ff3c7c; }
     top: 72px;
     left: 0;
     z-index: 99999;
+}
+
+.main-navigation ul li > ul {
     border: none;
     box-shadow: none;
     width: 100%;
     background: rgba(255,255,255,0.9);
     color: #00b0ff;
 }
-.main-navigation ul li:hover > ul li {
+
+.main-navigation ul li > ul li {
 	background: transparent;
 }
 
@@ -255,7 +259,7 @@ a { color:#ff3c7c; }
 	display: none;
 }
 
-.js .main-navigation ul li > ul {
+.js .main-navigation ul li.clicked > ul {
 	position: fixed;
 	z-index: 999999;
 	top: 0;

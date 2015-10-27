@@ -100,7 +100,14 @@ $(document).ready(function() {
 });
 
 $(".main-navigation li.menu-item-has-children").click(function() {
-	$(this).find("ul").show();
+	var $this = $(this),
+		$subMenu = $this.find("ul");
+		$exitBtn = $("<div class='menu-exit'></div>");
+	$this.addClass("clicked").find("ul").show();
+	if ( !$subMenu.hasClass("hasexit") ) {
+		$subMenu.addClass("hasexit")
+			prepend($exitBtn);
+	}
 });
 
 
