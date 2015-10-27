@@ -260,7 +260,7 @@ a { color:#ff3c7c; }
 }
 
 .js .main-navigation ul li.clicked > ul {
-	position: fixed;
+	position: absolute;
 	z-index: 999999;
 	top: 0;
 	left: 0;
@@ -277,6 +277,7 @@ a { color:#ff3c7c; }
     background: #00b0ff;
 }
 
+/* SINGLE POST */
 .single .entry-meta {
 	font-size: 10px;
 }

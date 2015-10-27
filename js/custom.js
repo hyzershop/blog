@@ -106,7 +106,7 @@ $(document).ready(function() {
 	$subMenuParent.click(function() {
 		var $this = $(this),
 			$subMenu = $this.find("ul");
-		$this.addClass("clicked").find("ul").show();
+		$this.addClass("clicked").find("ul").fadeIn(300);
 		if ( !$subMenu.hasClass("hasexit") ) {
 			$subMenu.addClass("hasexit")
 				.prepend($exitBtn);
@@ -114,7 +114,7 @@ $(document).ready(function() {
 	});
 
 	$exitBtn.click(function() {
-		$subMenuParent.find("ul").hide();
+		$subMenuParent.find("ul").fadeOut(300);
 	});
 })();
 
