@@ -109,7 +109,7 @@ $(document).ready(function() {
 		$this.addClass("clicked").find("ul").show();
 		if ( !$subMenu.hasClass("hasexit") ) {
 			$subMenu.addClass("hasexit")
-				prepend($exitBtn);
+				.prepend($exitBtn);
 		}
 	});
 
