@@ -99,10 +99,6 @@ $(document).ready(function() {
 	});
 });
 
-
-$(".main-navigation li.menu-item-has-children").hover(function(event) {
-	event.preventDefault();
-});
 $(".main-navigation li.menu-item-has-children").click(function() {
 	$(this).find("ul").show();
 });
