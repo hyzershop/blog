@@ -257,6 +257,7 @@ a { color:#ff3c7c; }
 
 .js .main-navigation ul li > ul {
 	position: fixed;
+	z-index: 999999;
 	top: 0;
 	left: 0;
 	width: 100%;
