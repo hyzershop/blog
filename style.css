@@ -424,6 +424,16 @@ a.post-thumbnail img {
 
 
 
+.post-navigation .nav-links { text-align: center; }
+
+.post-navigation a {
+	padding: 80px 0 90px;
+}
+
+.post-navigation .nav-next a,
+.post-navigation .nav-previous a {
+	background-color: rgba(0,0,0,0.1);
+}
 
 
 
