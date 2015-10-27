@@ -225,6 +225,7 @@ a { color:#ff3c7c; }
 
 .main-navigation li {
 	padding: 27px 20px 21px;
+	border-bottom: 7px solid #fff;
 }
 
 .current-menu-item, .main-navigation > li:hover, .main-navigation > li:focus {
@@ -243,6 +244,10 @@ a { color:#ff3c7c; }
     box-shadow: none;
     width: 100%;
     background: rgba(255,255,255,0.9);
+    color: #00b0ff;
+}
+.js .main-navigation ul li:hover > ul {
+	display: none;
 }
 .main-navigation ul li:hover > ul li {
 	background: transparent;
