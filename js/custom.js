@@ -99,16 +99,24 @@ $(document).ready(function() {
 	});
 });
 
-$(".main-navigation li.menu-item-has-children").click(function() {
-	var $this = $(this),
-		$subMenu = $this.find("ul");
-		$exitBtn = $("<div class='menu-exit'></div>");
-	$this.addClass("clicked").find("ul").show();
-	if ( !$subMenu.hasClass("hasexit") ) {
-		$subMenu.addClass("hasexit")
-			prepend($exitBtn);
-	}
-});
+(function() {
+	var $exitBtn = $("<div class='menu-exit'></div>"),
+		$subMenuParent = $(".main-navigation li.menu-item-has-children");
+
+	$subMenuParent.click(function() {
+		var $this = $(this),
+			$subMenu = $this.find("ul");
+		$this.addClass("clicked").find("ul").show();
+		if ( !$subMenu.hasClass("hasexit") ) {
+			$subMenu.addClass("hasexit")
+				prepend($exitBtn);
+		}
+	});
+
+	$exitBtn.click(function() {
+		$subMenuParent.find("ul").hide();
+	});
+})();
 
 
 })(jQuery);
