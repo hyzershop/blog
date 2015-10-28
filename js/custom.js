@@ -126,5 +126,9 @@ $(document).ready(function() {
 	});
 })();
 
+(function() {
+	$("#contact-col form input[type='submit']").attr("value", "GO");
+})();
+
 
 })(jQuery);
