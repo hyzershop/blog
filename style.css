@@ -721,7 +721,7 @@ a.post-thumbnail img {
 	.about-contact-columns .col-inner {
 		width: auto;
 		padding: 120px 10%;
-		min-height: none;
+		min-height: auto;
 	}
 
 	#about-col .col-inner, #contact-col .col-inner { border: none; }
