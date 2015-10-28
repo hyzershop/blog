@@ -144,7 +144,7 @@ function fullScreenMenu() {
 	$(".menu-toggle").click(function() {
 		var $this = $(this);
 
-		if ( $this.attr("aria-expanded") == "false" ) {
+		if ( $this.attr("aria-expanded") == "true" ) {
 			$mainMenu.fadeIn(300);
 		} else {
 			$mainMenu.fadeOut(300);
