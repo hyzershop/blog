@@ -10,7 +10,7 @@ Updated: 2015-10-05 23:07:49
 
 html { overflow-x: hidden; }
 
-.edit-link { border: none; padding-left: 20px; color: #ff3c7c; }
+.edit-link { border-top: none !important; border-bottom: none !important; padding-left: 20px !important; color: #ff3c7c !important; }
 
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
