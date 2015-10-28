@@ -31,8 +31,9 @@ h1, h2, h3, h4, h5, h6,
 	font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
-a { color:#ff3c7c; }
-a:focus { background-color: transparent; }
+a { color:#666666; }
+a:focus { color: #ff3c7c; background-color: transparent; }
+a:hover { color: #ff3c7c; }
 
 .montserrat { font-family: 'Montserrat', Helvetica, sans-serif !important; }
 .rocksalt { font-family: 'Rock Salt', Helvetica, sans-serif !important; }
@@ -690,18 +691,6 @@ body.page .entry-header { display: none; }
 
     .site-header { padding: 30px 0; }
 
-    .menu-main-menu-container li a { color: #00b0ff; }
-
-    .js .menu-main-menu-container ul {
-    	list-style: none;
-    	padding-top: 60px;
-    }
-
-    .js .menu-main-menu-container li {
-    	text-align: center;
-    	padding: 15px 0;
-    }
-
     .js .menu-main-menu-container {
     	display: none;
 /*    	transition: opacity 0.3s;
@@ -718,6 +707,22 @@ body.page .entry-header { display: none; }
 	    width: 100%;
 	    height: 100%;
 	    overflow-y: scroll;
+    }
+
+    .js .menu-main-menu-container ul {
+    	list-style: none;
+    	padding-top: 60px;
+    }
+
+    .js .menu-main-menu-container li {
+    	text-align: center;
+    	padding: 10px 0;
+    }
+
+    .menu-main-menu-container li a {
+    	color: #00b0ff;
+    	font-size: 1.3em;
+    	text-transform: uppercase;
     }
 
     .menu-item-17-sub li {
