@@ -33,7 +33,7 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 add_filter( 'grunion_contact_form_success_message', 'nmm_change_contact_form_success_message' );
 function nmm_change_contact_form_success_message( $msg ) {
     global $contact_form_message;
-    return "<h3 class='contact-success'>Thanks! We'll be in touch soon.</h3>" . wp_kses( 
+    return "<h3 class='contact-success rocksalt pink'>Thanks!</h3><h5 class='montserrat white'>We'll be in touch soon.</h5>" . wp_kses( 
         $contact_form_message, 
         array( 'br' => array(), 'blockquote' => array() )
     );
