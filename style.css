@@ -683,7 +683,9 @@ a.post-thumbnail img {
     .menu-main-menu-container li a { color: #00b0ff; }
     .js .menu-main-menu-container li a { color: #ffffff; }
 
+    .js .menu-main-menu-container { display: none; }
     .js .toggled .menu-main-menu-container {
+    	display: block;
     	position: fixed;
 	    z-index: 999999;
 	    top: 0;
