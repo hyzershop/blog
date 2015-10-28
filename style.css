@@ -464,7 +464,8 @@ a.post-thumbnail img {
 
 /* PAGE (ABOUT/CONTACT) */
 
-.page .site-content-inner { width: 100%; }
+.page .site-content-inner,
+.page .site-main { width: 100%; padding: 0; }
 
 
 /** MEDIA QUERIES **/
