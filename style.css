@@ -165,19 +165,6 @@ a:focus { background-color: transparent; }
    color: #00b0ff;  
 }
 
-input:focus::-webkit-input-placeholder {
-   opacity: 0;
-}
-input:focus:-moz-placeholder {
-   opacity: 0; 
-}
-input:focus::-moz-placeholder {
-   opacity: 0; 
-}
-input:focus:-ms-input-placeholder {  
-   opacity: 0; 
-}
-
 /* LOGO */
 .site-branding {
 	padding-right: 16px;
@@ -555,6 +542,15 @@ a.post-thumbnail img {
 #contact-col form textarea {
 	border-radius: 12px;
 }
+
+#contact-col input:focus::-webkit-input-placeholder { opacity: 0; }
+#contact-col input:focus:-moz-placeholder { opacity: 0; }
+#contact-col input:focus::-moz-placeholder { opacity: 0; }
+#contact-col input:focus:-ms-input-placeholder { opacity: 0; }
+#contact-col textarea:focus::-webkit-input-placeholder { opacity: 0; }
+#contact-col textarea:focus:-moz-placeholder { opacity: 0; }
+#contact-col textarea:focus::-moz-placeholder { opacity: 0; }
+#contact-col textarea:focus:-ms-input-placeholder { opacity: 0; }
 
 .page-header {
 	margin-top: 30px;
