@@ -534,7 +534,7 @@ a.post-thumbnail img {
     color: #ffffff;
 
     padding: 12px 0;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.3);
     border: 3px solid #00b0ff;    
     border-radius: 50px;
 }
@@ -543,7 +543,7 @@ a.post-thumbnail img {
 .site-content .contact-form > div { margin-bottom: 10px; }
 
 #contact-col form textarea {
-	border-radius: 12px;
+	border-radius: 20px;
 }
 
 #contact-col input:focus::-webkit-input-placeholder { opacity: 0; }
