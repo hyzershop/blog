@@ -630,7 +630,7 @@ a.post-thumbnail img {
     }
 }
 @media screen and (max-width: 959px) {
-    .menu-toggle {
+    .menu-toggle, .menu-toggle:active, .menu-toggle:focus, .menu-toggle:hover {
     	background: #00b0ff;
     	border: 0 none;
     	border-radius: 100px;
@@ -676,7 +676,7 @@ a.post-thumbnail img {
 	#about-col .col-inner, #contact-col .col-inner { border: none; }
 }
 @media screen and (max-width: 839px) {
-	.search-toggle {
+	.search-toggle, .search-toggle, .search-toggle:active, .search-toggle:focus, .search-toggle:hover {
     	color: #00b0ff;
     }
 
