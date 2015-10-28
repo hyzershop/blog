@@ -674,7 +674,7 @@ a.post-thumbnail img {
 	#about-col .col-inner, #contact-col .col-inner { border: none; }
 
 	.home .has-post-thumbnail .entry-meta .cat-links img, .search .has-post-thumbnail .entry-meta .cat-links img {
-		margin-top: 8px !important;
+		margin-top: 12px !important;
 	}
 }
 @media screen and (max-width: 839px) {
