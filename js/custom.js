@@ -96,7 +96,7 @@ $(document).ready(function() {
 			$(".search-form .search-field").focus();
 		}
 	});
-	$(".search-form[aria-expanded='true'] .search-field").blur(function() {
+	$(".search-form[aria-expanded='true'] .search-field").focusout(function() {
 		$(".search-toggle").click();
 		console.log("yay");
 	});
