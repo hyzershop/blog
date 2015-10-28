@@ -347,7 +347,8 @@ a:focus { background-color: transparent; }
 	transition: opacity 300ms linear !important;
 }*/
 
-.home .has-post-thumbnail .comments-link {
+.home .has-post-thumbnail .comments-link,
+.search .has-post-thumbnail .comments-link {
 	display:none;
 }
 
