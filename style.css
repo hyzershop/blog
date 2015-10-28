@@ -479,7 +479,8 @@ a.post-thumbnail img {
 #about-col, #contact-col {
 	float: left;
 	width: 50%;
-	background-position: center middle;
+	min-height: 1100px;
+	background-position: center 50%;
 	background-repeat: no-repeat;
 	background-color: transparent;
 	background-size: cover;
@@ -494,7 +495,7 @@ a.post-thumbnail img {
 }
 
 .about-contact-columns .col-inner {
-	padding: 0 8%;
+	padding: 140px 8% 80px;
 }
 
 
