@@ -98,6 +98,7 @@ $(document).ready(function() {
 	});
 	$(".search-form[aria-expanded='true'] .search-field").blur(function() {
 		$(".search-toggle").click();
+		console.log("yay");
 	});
 });
 
