@@ -680,6 +680,10 @@ a.post-thumbnail img {
     	color: #00b0ff;
     }
 
+    .search-header .search-toggle[aria-expanded="true"] {
+    	color: #ffffff !important;
+    }
+
     .site-header { padding: 30px 0; }
 
     .menu-main-menu-container li a { color: #00b0ff; }
