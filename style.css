@@ -703,7 +703,7 @@ body.page .entry-header { display: none; }
 	    z-index: 999999;
 	    top: 120px;
 	    left: 0;
-	    background: rgba(255,255,255,0.9);
+	    background: rgba(255,255,255,0.95);
 	    width: 100%;
 	    height: 100%;
 	    overflow-y: scroll;
