@@ -514,12 +514,13 @@ a.post-thumbnail img {
 	line-height: 1.3;
     font-weight: 300;
     font-size: 1.6em;
+    margin-bottom: 10px;
 }
 
 .about-contact-columns h3 {
 	line-height: 1.2;
     font-weight: 300;
-    font-size: 2.2em;
+    font-size: 2.4em;
 }
 
 .about-contact-columns p {
