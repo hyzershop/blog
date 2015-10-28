@@ -511,6 +511,7 @@ a.post-thumbnail img {
 #contact-col form label { display: none; }
 
 .page-header {
+	margin-top: 30px;
 	margin-bottom: 30px;
 	padding-bottom: 0;
 	border-bottom: none;
