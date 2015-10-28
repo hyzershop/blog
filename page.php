@@ -31,8 +31,6 @@ get_header(); ?>
 	
 			</main><!-- #main -->
 		</div><!-- #primary -->
-	
-		<?php get_sidebar(); ?>
 	</div><!-- .site-content-inner -->
 
 <?php get_footer(); ?>
