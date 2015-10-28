@@ -286,16 +286,6 @@ a:hover { color: #ff3c7c; }
 	cursor: pointer;
 }
 
-.menu-exit::before,
-.sub-menu-exit::before {
-	content: "x";
-	font-size: 1.4em;
-	font-weight: 300;
-	color: #fff;
-	display: block;
-	cursor: pointer;
-}
-
 /* no js */
 .main-navigation ul li:hover > ul {
 	display: block;
