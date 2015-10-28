@@ -467,6 +467,16 @@ a.post-thumbnail img {
 
 .page .site-content-inner,
 .page .site-main { width: 100%; padding: 0; }
+.page .entry-header { display: none; }
+
+#about-col, #contact-col {
+	float: left;
+	width: 50%;
+}
+
+.about-contact-columns .col-inner {
+	padding: 0 8%;
+}
 
 
 /** MEDIA QUERIES **/
