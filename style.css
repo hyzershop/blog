@@ -699,6 +699,7 @@ body.page .entry-header { display: none; }
 
     .js .menu-main-menu-container li {
     	text-align: center;
+    	padding: 15px 0;
     }
 
     .js .menu-main-menu-container {
