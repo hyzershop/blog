@@ -539,7 +539,8 @@ a.post-thumbnail img {
     border-radius: 50px;
 }
 
-#contact-form-46 { max-width: 480px; }
+.site-content #contact-form-46 { max-width: 480px; }
+.site-content .contact-form > div { margin-bottom: 10px; }
 
 #contact-col form textarea {
 	border-radius: 12px;
