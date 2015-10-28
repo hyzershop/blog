@@ -603,6 +603,10 @@ a.post-thumbnail img {
     background: #00b0ff;
 }
 
+#contact-col form input[type="submit"]:hover {
+	background: #ff3c7c;
+}
+
 .page-header {
 	margin-top: 30px;
 	margin-bottom: 30px;
