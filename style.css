@@ -515,11 +515,11 @@ a.post-thumbnail img {
 	color: white;
 	font-weight: normal;
 	font-size: 0.8em;
-	line-height: 1.3;
+	line-height: 1.6;
 }
 
 .about-contact-columns h3.contact-success {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 #contact-col form label { display: none; }
