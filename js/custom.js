@@ -139,6 +139,8 @@ function fullScreenMenu() {
 
 	if ($(window).width() < 840) {
 		$mainMenu.appendTo("body");
+	} else {
+		$mainMenu.appendTo("#site-navigation");
 	}
 
 	$(".menu-toggle").click(function() {

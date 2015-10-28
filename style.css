@@ -120,7 +120,7 @@ a:focus { background-color: transparent; }
 	color: #ffffff;
 }
 .search-header .search-form {
-	background: #00b0ff;
+	background: transparent;
     width: 60%;
     height: 100%;
     right: 0;
