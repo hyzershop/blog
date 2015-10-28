@@ -165,18 +165,18 @@ a:focus { background-color: transparent; }
    color: #00b0ff;  
 }
 
-/*.search-header .search-form input[type="search"]:focus::-webkit-input-placeholder {
+input:focus::-webkit-input-placeholder {
    opacity: 0;
 }
-.search-header .search-form input[type="search"]:focus:-moz-placeholder {
+input:focus:-moz-placeholder {
    opacity: 0; 
 }
-.search-header .search-form input[type="search"]:focus::-moz-placeholder {
+input:focus::-moz-placeholder {
    opacity: 0; 
 }
-.search-header .search-form input[type="search"]:focus:-ms-input-placeholder {  
+input:focus:-ms-input-placeholder {  
    opacity: 0; 
-}*/
+}
 
 /* LOGO */
 .site-branding {
