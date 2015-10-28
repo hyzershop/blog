@@ -516,6 +516,11 @@ a.post-thumbnail img {
 	border-bottom: none;
 }
 
+.page-title {
+	color: #777;
+	text-transform: uppercase;
+}
+
 
 /** MEDIA QUERIES **/
 
