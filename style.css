@@ -522,7 +522,11 @@ a.post-thumbnail img {
     font-size: 2em;
 }
 
-.about-contact-columns p { color: white; }
+.about-contact-columns p {
+	color: white;
+	font-weight: normal;
+	font-size: 0.8em;
+}
 
 #contact-col form label { display: none; }
 
