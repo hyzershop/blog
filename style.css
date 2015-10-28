@@ -526,6 +526,7 @@ a.post-thumbnail img {
 	color: white;
 	font-weight: normal;
 	font-size: 0.8em;
+	line-height: 1.3;
 }
 
 #contact-col form label { display: none; }
