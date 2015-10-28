@@ -462,7 +462,9 @@ a.post-thumbnail img {
 }
 
 
+/* PAGE (ABOUT/CONTACT) */
 
+.page .site-content-inner { width: 100%; }
 
 
 /** MEDIA QUERIES **/
