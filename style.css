@@ -710,6 +710,8 @@ body.page .entry-header { display: none; }
 	    height: 100%;
 	    overflow-y: scroll;
     }
+
+    body.search-toggled .menu-toggle { opacity: 0; }
 }
 
 @media screen and (min-width: 600px) {
