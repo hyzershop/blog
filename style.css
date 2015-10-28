@@ -649,6 +649,18 @@ a.post-thumbnail img {
 	    left: 50%;
 	    margin-left: -480px;
     }
+
+    #about-col, #contact-col {
+		width: 100%;
+	}
+
+	.about-contact-columns .col-inner {
+		width: auto;
+		padding: 120px 10%;
+		min-height: none;
+	}
+
+	#about-col .col-inner, #contact-col .col-inner { border: none; }
 }
 @media screen and (max-width: 959px) and (min-width: 768px) {
 	.home .has-post-thumbnail .entry-meta .cat-links,
