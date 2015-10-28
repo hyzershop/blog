@@ -694,6 +694,7 @@ body.page .entry-header { display: none; }
 
     .js .menu-main-menu-container ul {
     	list-style: none;
+    	padding-top: 60px;
     }
 
     .js .menu-main-menu-container li {
