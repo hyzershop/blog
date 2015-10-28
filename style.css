@@ -201,9 +201,10 @@ a { color:#ff3c7c; }
 	color: #ffffff;
 }
 
-.single .post-thumbnail {
+.single .entry-hero .post-thumbnail {
 	height: 300px;
 	overflow: hidden;
+	background: transparent;
 }
 
 .single .post-thumbnail img {
