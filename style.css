@@ -710,6 +710,10 @@ body.page .entry-header { display: none; }
 	    height: 100%;
 	    overflow-y: scroll;
     }
+
+    .menu-item-17-sub li {
+		display: block;
+	}
 }
 
 @media screen and (max-width: 839px) and (min-width: 600px) {
