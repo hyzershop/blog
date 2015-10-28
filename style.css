@@ -248,11 +248,12 @@ a:focus { background-color: transparent; }
 
 	text-align: center;
 	list-style: none;
-	padding: 100px 0 60px;
+	padding: 100px 12% 60px;
 }
 
 .menu-item-17-sub li {
-	padding: 20px 0;
+	padding: 20px;
+	display: inline;
 }
 
 .menu-item-17-sub li a {
@@ -283,8 +284,8 @@ a:focus { background-color: transparent; }
 }
 
 .menu-exit::before {
-	content: "X";
-	font-size: 2em;
+	content: "x";
+	font-size: 1.4em;
 	font-weight: 300;
 	color: #fff;
 	display: block;
