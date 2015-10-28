@@ -691,7 +691,14 @@ body.page .entry-header { display: none; }
     .site-header { padding: 30px 0; }
 
     .menu-main-menu-container li a { color: #00b0ff; }
-    .js .menu-main-menu-container li a { color: #ffffff; }
+
+    .js .menu-main-menu-container ul {
+    	list-style: none;
+    }
+
+    .js .menu-main-menu-container li {
+    	text-align: center;
+    }
 
     .js .menu-main-menu-container {
     	display: none;
