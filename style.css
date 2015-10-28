@@ -495,8 +495,11 @@ a.post-thumbnail img {
 }
 
 .about-contact-columns .col-inner {
-	padding: 140px 8% 80px;
+	padding: 140px 14% 80px;
 }
+
+#about-col .col-inner { border-right: 2px solid #ffffff; }
+#contact-col .col-inner { border-left: 2px solid #ffffff; }
 
 .about-contact-columns p { color: white; }
 
