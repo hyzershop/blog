@@ -498,6 +498,10 @@ a.post-thumbnail img {
 	padding: 140px 8% 80px;
 }
 
+.about-contact-columns p { color: white; }
+
+#contact-col form label { display: none; }
+
 
 /** MEDIA QUERIES **/
 
