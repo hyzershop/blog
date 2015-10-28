@@ -131,4 +131,13 @@ $(document).ready(function() {
 })();
 
 
+fullScreenMenu();
+$(window).resize(fullScreenMenu);
+function fullScreenMenu() {
+	if ($(window).width() < 840) {
+		$(".menu-main-menu-container").appendTo("body");
+	}
+}
+
+
 })(jQuery);

@@ -681,8 +681,9 @@ a.post-thumbnail img {
     .site-header { padding: 30px 0; }
 
     .menu-main-menu-container li a { color: #00b0ff; }
+    .js .menu-main-menu-container li a { color: #ffffff; }
 
-    .js .menu-main-menu-container {
+    .js .toggled .menu-main-menu-container {
     	position: fixed;
 	    z-index: 999999;
 	    top: 0;
