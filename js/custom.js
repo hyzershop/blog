@@ -146,8 +146,10 @@ function fullScreenMenu() {
 
 		if ( $this.attr("aria-expanded") == "true" ) {
 			$mainMenu.fadeIn(300);
+			$("body").css("overflow-y", "hidden");
 		} else {
 			$mainMenu.fadeOut(300);
+			$("body").css("overflow-y", "scroll");
 		}
 	});
 }
