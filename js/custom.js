@@ -55,10 +55,10 @@ function vAlignBannerText() {
 }
 
 setTimeout(function() {
-	$(".home .has-post-thumbnail .cat-links").each(placeBlogIcons);
+	$(".home .has-post-thumbnail .cat-links, .search .has-post-thumbnail .cat-links").each(placeBlogIcons);
 }, 1000);
 $(window).resize(function() {
-	$(".home .has-post-thumbnail .cat-links").each(placeBlogIcons);
+	$(".home .has-post-thumbnail .cat-links, .search .has-post-thumbnail .cat-links").each(placeBlogIcons);
 });
 function placeBlogIcons() {
 	var $this = $(this);
