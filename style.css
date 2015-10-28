@@ -737,6 +737,10 @@ a.post-thumbnail img {
 	}
 
 	#about-col .col-inner, #contact-col .col-inner { border: none; }
+
+	.home .has-post-thumbnail .entry-meta .cat-links img, .search .has-post-thumbnail .entry-meta .cat-links img {
+		margin-top: 5px !important;
+	}
 }
 @media screen and (max-width: 959px) and (min-width: 768px) {
 	.home .has-post-thumbnail .entry-meta .cat-links,
@@ -838,7 +842,6 @@ a.post-thumbnail img {
 	.home .has-post-thumbnail .entry-meta .cat-links img,
 	.search .has-post-thumbnail .entry-meta .cat-links img {
     	width: 96px !important;
-    	margin-top: -36px !important;
     }
 
     .flexslider .slides li a > div img {
