@@ -29,3 +29,12 @@ function arphabet_widgets_init() {
 
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
+
+add_filter( 'grunion_contact_form_success_message', 'nmm_change_contact_form_success_message' );
+function nmm_change_contact_form_success_message( $msg ) {
+    global $contact_form_message;
+    return "<h3 class='contact-success'>Thanks! We'll be in touch soon.</h3>" . wp_kses( 
+        $contact_form_message, 
+        array( 'br' => array(), 'blockquote' => array() )
+    );
+}

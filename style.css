@@ -555,6 +555,10 @@ a.post-thumbnail img {
 #contact-col textarea:focus::-moz-placeholder { opacity: 0; }
 #contact-col textarea:focus:-ms-input-placeholder { opacity: 0; }
 
+#contact-col blockquote.contact-form-submission {
+	display: none;
+}
+
 .page-header {
 	margin-top: 30px;
 	margin-bottom: 30px;
