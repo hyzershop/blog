@@ -274,7 +274,8 @@ a:focus { background-color: transparent; }
     background: #00b0ff;
 }
 
-.menu-exit {
+.menu-exit,
+.sub-menu-exit {
 	position: absolute;
 	top: 10px;
 	right: 10px;
@@ -283,7 +284,8 @@ a:focus { background-color: transparent; }
 	background: transparent;
 }
 
-.menu-exit::before {
+.menu-exit::before,
+.sub-menu-exit::before {
 	content: "x";
 	font-size: 1.4em;
 	font-weight: 300;
@@ -685,19 +687,15 @@ a.post-thumbnail img {
 
     .js .menu-main-menu-container {
     	display: none;
-    	opacity: 0;
-    	transition: opacity 0.3s;
+/*    	transition: opacity 0.3s;
     	-webkit-transition: opacity 0.3s;
     	-moz-transition: opacity 0.3s;
     	-ms-transition: opacity 0.3s;
-    	-o-transition: opacity 0.3s;
-    }
-    .js .toggled .menu-main-menu-container {
-    	display: block;
-    	opacity: 1;
+    	-o-transition: opacity 0.3s;*/
+
     	position: fixed;
 	    z-index: 999999;
-	    top: 0;
+	    top: 120px;
 	    left: 0;
 	    background: rgba(255,255,255,0.9);
 	    width: 100%;

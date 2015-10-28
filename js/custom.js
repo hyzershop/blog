@@ -99,7 +99,7 @@ $(document).ready(function() {
 });
 
 (function() {
-	var $exitBtn = $("<div class='menu-exit'></div>"),
+	var $exitBtn = $("<div class='sub-menu-exit'></div>"),
 		$mainNav = $(".main-navigation"),
 		$subMenuParent = $(".main-navigation li.menu-item-has-children");
 
@@ -112,7 +112,7 @@ $(document).ready(function() {
 	$("#menu-item-17").click(function() {
 		var $this = $(this),
 			$subMenu = $(".menu-item-17-sub");
-		$this.addClass("clicked");
+		$this.toggleClass("clicked");
 		$subMenu.fadeIn(300);
 
 		if ( !$subMenu.hasClass("hasexit") ) {
@@ -134,9 +134,22 @@ $(document).ready(function() {
 fullScreenMenu();
 $(window).resize(fullScreenMenu);
 function fullScreenMenu() {
+	// var $exitBtn = $("<div class='menu-exit'></div>");
+	var	$mainMenu = $(".menu-main-menu-container");
+
 	if ($(window).width() < 840) {
-		$(".menu-main-menu-container").appendTo("body");
+		$mainMenu.appendTo("body");
 	}
+
+	$(".menu-toggle").click(function() {
+		var $this = $(this);
+
+		if ( $this.attr("aria-expanded") == "false" ) {
+			$mainMenu.fadeIn(300);
+		} else {
+			$mainMenu.fadeOut(300);
+		}
+	});
 }
 
 
