@@ -472,6 +472,18 @@ a.post-thumbnail img {
 #about-col, #contact-col {
 	float: left;
 	width: 50%;
+	background-position: center middle;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: cover;
+}
+
+#about-col {
+	background-image: url(http://blog.hyzershop.com/wp-content/uploads/about-bg.jpg);
+}
+
+#contact-col {
+	background-image: url(http://blog.hyzershop.com/wp-content/uploads/contact-bg.jpg);
 }
 
 .about-contact-columns .col-inner {
