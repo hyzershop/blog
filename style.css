@@ -510,6 +510,12 @@ a.post-thumbnail img {
 
 #contact-col form label { display: none; }
 
+.page-header {
+	margin-bottom: 30px;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
 
 /** MEDIA QUERIES **/
 
@@ -522,6 +528,11 @@ a.post-thumbnail img {
 	.search .widget-area {
 		padding-top: 0;
 		margin-top: 0;
+	}
+
+	.page-header {
+		margin-bottom: 30px;
+		padding-bottom: 0;
 	}
 
 	/*.home .widget-area:before,
