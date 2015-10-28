@@ -479,7 +479,6 @@ a.post-thumbnail img {
 #about-col, #contact-col {
 	float: left;
 	width: 50%;
-	min-height: 1100px;
 	background-position: center 50%;
 	background-repeat: no-repeat;
 	background-color: transparent;
@@ -495,11 +494,13 @@ a.post-thumbnail img {
 }
 
 .about-contact-columns .col-inner {
+	width: auto;
 	padding: 140px 14% 80px;
+	min-height: 1100px;
 }
 
-#about-col .col-inner { border-right: 2px solid #ffffff; }
-#contact-col .col-inner { border-left: 2px solid #ffffff; }
+#about-col .col-inner { border-right: 3px solid #ffffff; }
+#contact-col .col-inner { border-left: 3px solid #ffffff; }
 
 .about-contact-columns p { color: white; }
 
