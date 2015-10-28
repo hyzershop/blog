@@ -531,6 +531,30 @@ a.post-thumbnail img {
 }
 
 #contact-col form label { display: none; }
+#contact-col form input {
+	text-align: center;
+}
+
+#contact-col form ::-webkit-input-placeholder { color: #ffffff; }
+#contact-col form :-moz-placeholder { color: #ffffff; }
+#contact-col form ::-moz-placeholder { color: #ffffff; }
+#contact-col form :-ms-input-placeholder { color: #ffffff; }
+
+#contact-col form input,
+#contact-col form textarea {
+	text-align: center;
+	text-transform: uppercase;
+    color: #ffffff;
+
+    padding: 12px 0;
+    background: rgba(255,255,255,0.5);
+    border: 3px solid #00b0ff;    
+    border-radius: 50px;
+}
+
+#contact-col form textarea {
+	border-radius: 12px;
+}
 
 .page-header {
 	margin-top: 30px;
