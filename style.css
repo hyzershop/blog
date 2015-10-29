@@ -234,7 +234,24 @@ a:hover { color: #ff3c7c; }
 }
 
 /* SUB MENU */
+/* no js */
+.main-navigation ul li:hover > ul {
+	display: block;
+    position: fixed;
+    margin-left: 0;
+    top: 72px;
+    left: 0;
+    z-index: 99999;
+}
 
+.main-navigation ul li > ul {
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+    color: #00b0ff;
+}
+/* js */
 .main-navigation ul li > ul li {
 	background: transparent;
 }
@@ -288,22 +305,8 @@ a:hover { color: #ff3c7c; }
 	cursor: pointer;
 }
 
-/* no js */
-.main-navigation ul li:hover > ul {
-	display: block;
-    position: fixed;
-    margin-left: 0;
-    top: 72px;
-    left: 0;
-    z-index: 99999;
-}
-
-.main-navigation ul li > ul {
-    border: none;
-    box-shadow: none;
-    width: 100%;
-    background: rgba(255,255,255,0.9);
-    color: #00b0ff;
+.main-navigation .menu-item-has-children > a:after {
+	content: "\f419";
 }
 
 /* SINGLE POST */
