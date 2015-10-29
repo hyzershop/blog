@@ -12,7 +12,7 @@ html { overflow-x: hidden; }
 
 .page .entry-footer { height: 0; margin: 0; overflow: visible; }
 .edit-link { border-top: none !important; border-bottom: none !important; padding-left: 20px !important; }
-.post-edit-link { color: #fff; text-shadow: 1px 1px 4px #000; }
+.entry-footer a.post-edit-link { color: #00b0ff; text-shadow: 1px 1px 4px #fff; }
 
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
@@ -630,6 +630,7 @@ body.page .entry-header { display: none; }
 .footer-widget {
 	background: #666;
 	border-top: 0;
+	margin-top: 50px;
 }
 
 h2.widget-title {
@@ -642,14 +643,14 @@ h2.widget-title {
 	text-align: center;
 }
 .widget_wpcom_social_media_icons_widget li {
-	margin-right: 1.2em !important;
+	margin-right: 2em !important;
 }
 .widget_wpcom_social_media_icons_widget li:last-child {
 	margin-right: 0 !important;
 }
 .widget_wpcom_social_media_icons_widget a.genericon {
 	color: #00b0ff;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 .widget_wpcom_social_media_icons_widget a.genericon:hover { color: #ff3c7c; }
 
