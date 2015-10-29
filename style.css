@@ -226,11 +226,11 @@ a:hover { color: #ff3c7c; }
 
 .main-navigation li {
 	padding: 27px 20px 21px;
-	border-bottom: 10px solid #fff;
+	border-bottom: 7px solid #fff;
 }
 
 .main-navigation li.current-menu-item, .main-navigation > div > ul li:hover, .main-navigation > div > ul li a:focus {
-    border-bottom: 10px solid #ff3c7c;
+    border-bottom: 7px solid #ff3c7c;
 }
 
 /* SUB MENU */
