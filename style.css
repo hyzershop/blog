@@ -622,9 +622,13 @@ body.page .entry-header { display: none; }
 
 
 /* FOOTER */
+
+.footer-widget { background: #666; }
+
 h2.widget-title {
 	font-family: 'Rock Salt', 'Montserrat', Helvetica, sans-serif;
 	text-align: center;
+	color: #fff;
 }
 
 .widget_wpcom_social_media_icons_widget ul {
