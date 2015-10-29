@@ -10,7 +10,9 @@ Updated: 2015-10-05 23:07:49
 
 html { overflow-x: hidden; }
 
-.edit-link { border-top: none !important; border-bottom: none !important; padding-left: 20px !important; color: #ff3c7c !important; }
+.page .entry-footer { height: 0; margin: 0; overflow: visible; }
+.edit-link { border-top: none !important; border-bottom: none !important; padding-left: 20px !important; }
+.post-edit-link { color: #fff; text-shadow: 1px 1px 4px #000; }
 
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
@@ -489,6 +491,8 @@ a.post-thumbnail img {
 
 /* PAGE (ABOUT/CONTACT) */
 
+.page .hentry { margin: 0; }
+
 .page .site-content-inner,
 .page .site-main { width: 100%; padding: 0; }
 body.page .entry-header { display: none; }
@@ -623,7 +627,10 @@ body.page .entry-header { display: none; }
 
 /* FOOTER */
 
-.footer-widget { background: #666; }
+.footer-widget {
+	background: #666;
+	border-top: 0;
+}
 
 h2.widget-title {
 	font-family: 'Rock Salt', 'Montserrat', Helvetica, sans-serif;
