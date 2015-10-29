@@ -226,11 +226,11 @@ a:hover { color: #ff3c7c; }
 
 .main-navigation li {
 	padding: 27px 20px 21px;
-	border-bottom: 6px solid #fff;
+	border-bottom: 10px solid #fff;
 }
 
-.main-navigation li.current-menu-item, .main-navigation > li:hover, .main-navigation > li:focus {
-    border-bottom: 6px solid #ff3c7c;
+.main-navigation li.current-menu-item, .main-navigation > div > ul li:hover, .main-navigation > div > ul li:focus {
+    border-bottom: 10px solid #ff3c7c;
 }
 
 /* SUB MENU */
@@ -423,6 +423,11 @@ a.post-thumbnail img {
 
 .flexslider {
 	margin: 0 0 30px !important;
+}
+
+#slider-wrap {
+	position: relative;
+		z-index: 999;
 }
 
 #home-page-banner .flexslider-title {
