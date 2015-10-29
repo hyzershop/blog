@@ -173,5 +173,14 @@ $("body.category .page-title").each(function() {
 	$(this).html(newCatTitle);
 });
 
+$(".fullwidthimage").each(function() {
+	$(this).css("width:100%;");
+});
+
+$("blockquote.tweet").each(function(){
+// do something
+});
+
+// http://twitter.com/home?status=Put%20your
 
 })(jQuery);
