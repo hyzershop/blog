@@ -643,14 +643,14 @@ h2.widget-title {
 	text-align: center;
 }
 .widget_wpcom_social_media_icons_widget li {
-	margin-right: 2em !important;
+	margin-right: 1.8em !important;
 }
 .widget_wpcom_social_media_icons_widget li:last-child {
 	margin-right: 0 !important;
 }
 .widget_wpcom_social_media_icons_widget a.genericon {
 	color: #00b0ff;
-	font-size: 2.5em;
+	font-size: 2.6em;
 }
 .widget_wpcom_social_media_icons_widget a.genericon:hover { color: #ff3c7c; }
 
