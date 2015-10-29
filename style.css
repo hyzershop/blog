@@ -278,8 +278,8 @@ a:hover { color: #ff3c7c; }
 .menu-exit,
 .sub-menu-exit {
 	position: absolute;
-	top: 10px;
-	right: 10px;
+	top: 20px;
+	right: 20px;
 	width: 40px;
 	height: 40px;
 	background: transparent;
@@ -570,6 +570,11 @@ body.page .entry-header { display: none; }
     border-radius: 50px;
 }
 
+#contact-col form input:focus,
+#contact-col form textarea:focus {
+	background: #00b0ff;
+}
+
 .site-content #contact-form-46 { max-width: 480px; margin: 0 auto; }
 .site-content .contact-form > div { margin-bottom: 10px; }
 
@@ -596,6 +601,7 @@ body.page .entry-header { display: none; }
     font-size: 13px;
     padding: 0;
     background: #00b0ff;
+    border: none;
 }
 
 #contact-col form input[type="submit"]:hover {
