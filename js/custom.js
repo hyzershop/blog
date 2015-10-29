@@ -168,7 +168,9 @@ function fullScreenSubMenu() {
 }
 
 $(document).ready(function() {
-	$("body.category .page-title").replace("Category: ", "");
+	var categoryTitle = $("body.category .page-title").html().toString();
+	var newCatTitle = categoryTitle.replace("Category: ", "");
+	$("body.category .page-title").html(newCatTitle);
 });
 
 
