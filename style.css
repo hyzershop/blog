@@ -621,6 +621,18 @@ body.page .entry-header { display: none; }
 }
 
 
+/* FOOTER */
+
+.widget_wpcom_social_media_icons_widget li {
+	margin-right: 1.2em;
+}
+.widget_wpcom_social_media_icons_widget a.genericon {
+	color: #00b0ff;
+	font-size: 3em;
+}
+.widget_wpcom_social_media_icons_widget a.genericon:hover { color: #ff3c7c; }
+
+
 /** MEDIA QUERIES **/
 @media screen and (max-width: 1279px) {
 	.home .has-post-thumbnail .entry-meta .cat-links img,
