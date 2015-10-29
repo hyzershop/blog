@@ -622,9 +622,19 @@ body.page .entry-header { display: none; }
 
 
 /* FOOTER */
+h2.widget-title {
+	font-family: 'Rock Salt', 'Montserrat', Helvetica, sans-serif;
+	text-align: center;
+}
 
+.widget_wpcom_social_media_icons_widget ul {
+	text-align: center;
+}
 .widget_wpcom_social_media_icons_widget li {
-	margin-right: 1.2em;
+	margin-right: 1.2em !important;
+}
+.widget_wpcom_social_media_icons_widget li:last-child {
+	margin-right: 0 !important;
 }
 .widget_wpcom_social_media_icons_widget a.genericon {
 	color: #00b0ff;
