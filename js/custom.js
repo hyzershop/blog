@@ -161,6 +161,10 @@ function fullScreenSubMenu() {
 	$exitBtn.click(function() {
 		$(".menu-item-17-sub").fadeOut(300);
 	});
+
+	$(".menu-toggle[aria-expanded='true']").click(function() {
+		$(".menu-item-17-sub").fadeOut(300);
+	});
 }
 
 
