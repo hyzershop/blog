@@ -672,6 +672,7 @@ h2.widget-title {
 .category .hentry .cat-links { display: none; }
 
 .category .entry-meta br { display: none; }
+.category .entry-meta { top: -15px; }
 .category .content-area .entry-meta .avatar {
 	top: 15px;
 	margin-right: 10px;
