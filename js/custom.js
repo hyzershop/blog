@@ -167,5 +167,9 @@ function fullScreenSubMenu() {
 	});
 }
 
+$(document).ready(function() {
+	$("body.category .page-title").replace("Category: ", "");
+});
+
 
 })(jQuery);
