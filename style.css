@@ -639,6 +639,8 @@ body.page .entry-header { display: none; }
 
 .footer-widget-inner .widget {
 	width: 31.33%;
+	margin-left: 1% !important;
+	margin-right: 1% !important;
 }
 
 h2.widget-title {
