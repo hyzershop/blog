@@ -229,7 +229,7 @@ a:hover { color: #ff3c7c; }
 	border-bottom: 10px solid #fff;
 }
 
-.main-navigation li.current-menu-item, .main-navigation > div > ul li:hover, .main-navigation > div > ul li:focus {
+.main-navigation li.current-menu-item, .main-navigation > div > ul li:hover, .main-navigation > div > ul li a:focus {
     border-bottom: 10px solid #ff3c7c;
 }
 
