@@ -170,7 +170,7 @@ function fullScreenSubMenu() {
 $("body.category .page-title").each(function() {
 	var categoryTitle = $(this).html();
 	var newCatTitle = categoryTitle.replace("Category: ", "");
-	$("body.category .page-title").html(newCatTitle);
+	$(this).html(newCatTitle);
 });
 
 
