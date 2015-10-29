@@ -260,15 +260,15 @@ a:hover { color: #ff3c7c; }
 	display: none;
 	position: fixed;
 	z-index: 999999;
-	top: 0;
+	top: 91px;
 	left: 0;
 	width: 100%;
-	height: 100%;
-	background: rgba(0,176,255,0.9);
+	height: auto;
+	background: rgba(0,176,255,0.95);
 
 	text-align: center;
 	list-style: none;
-	padding: 100px 12% 60px;
+	padding: 100px 12% 100px;
 }
 
 .menu-item-17-sub li {
@@ -611,7 +611,8 @@ body.page .entry-header { display: none; }
     border: none;
 }
 
-#contact-col form input[type="submit"]:hover {
+#contact-col form input[type="submit"]:hover,
+#contact-col form input[type="submit"]:focus {
 	background: #ff3c7c;
 }
 
