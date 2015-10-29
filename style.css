@@ -633,6 +633,10 @@ body.page .entry-header { display: none; }
 	margin-top: 50px;
 }
 
+.footer-widget-inner .widget {
+	width: 31.33%;
+}
+
 h2.widget-title {
 	font-family: 'Rock Salt', 'Montserrat', Helvetica, sans-serif;
 	text-align: center;
