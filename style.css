@@ -736,16 +736,6 @@ h2.widget-title {
 	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
 		width: 100%;
 	}
-
-	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
-	.search .site-main {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
-		width: 100%;
-	}
 }
 
 @media screen and (max-width: 1279px) {
@@ -755,6 +745,11 @@ h2.widget-title {
     }
 }
 @media screen and (max-width: 959px) {
+	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
+	.search .site-main {
+		width: 95%;
+	}
+
     .menu-toggle, .menu-toggle:active, .menu-toggle:focus, .menu-toggle:hover {
     	background: #00b0ff;
     	border: 0 none;
