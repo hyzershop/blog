@@ -42,6 +42,10 @@ img {
 	max-width: 100%;
 }
 
+.fullwidthimage {
+	width: 100%;
+}
+
 .montserrat { font-family: 'Montserrat', Helvetica, sans-serif !important; }
 .rocksalt { font-family: 'Rock Salt', Helvetica, sans-serif !important; }
 .viga { font-family: 'Viga', Helvetica, sans-serif !important; }
@@ -744,6 +748,7 @@ h2.widget-title {
 .widget_wpcom_social_media_icons_widget a.genericon:hover { background-color: #ff3c7c; }
 
 /* CATEGORY */
+.category .main .hentry .entry-meta,
 .category .hentry .cat-links { display: none; }
 
 .category .entry-meta br { display: none; }

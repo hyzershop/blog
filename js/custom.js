@@ -246,7 +246,7 @@ $("body.category .page-title").each(function() {
 });
 
 $(".fullwidthimage").each(function() {
-	$(this).css("width:100%;");
+	$(this).parent("p").css("width:100%;");
 });
 
 $("blockquote.tweet").each(function(){
