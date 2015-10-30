@@ -19,6 +19,7 @@ html { overflow-x: hidden; }
 	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
 	.site-main {
 		width: 90%;
+		margin: 0 auto;
 	}
 
 	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
@@ -30,6 +31,7 @@ html { overflow-x: hidden; }
 	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
 	.site-main {
 		width: 90%;
+		margin: 0 auto;
 	}
 
 	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
