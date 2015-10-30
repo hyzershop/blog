@@ -40,7 +40,7 @@ function postHeroParallax() {
 		blur = scrollTop/100 + "px",
 		dissolve = 1 - (scrollTop/500);
 
-	if (scrollTop < 300) {
+	if (scrollTop < 400) {
 		postHero.css({
 			"-webkit-transform": "translateZ(" + zTransform + ")"
 		//	, "-webkit-filter": "blur(" + blur + ")"
