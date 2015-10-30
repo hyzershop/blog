@@ -16,14 +16,22 @@ html { overflow-x: hidden; }
 
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
-	.archive .content-area, .blog .content-area, .entry-header-inner, .error404 .content-area, .footer-widget-inner, .search .content-area, .site-content-inner, .site-footer-inner, .site-header-inner {
+	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner {
 		width: 90%;
+	}
+
+	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
+		width: 100%;
 	}
 }
 
 @media screen and (min-width: 1280px) {
-	.archive .content-area, .blog .content-area, .entry-header-inner, .error404 .content-area, .footer-widget-inner, .search .content-area, .site-content-inner, .site-footer-inner, .site-header-inner {
+	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner {
 		width: 90%;
+	}
+
+	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
+		width: 100%;
 	}
 }
 
