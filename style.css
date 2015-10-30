@@ -10,6 +10,8 @@ Updated: 2015-10-05 23:07:49
 
 html { overflow-x: hidden; }
 
+.ifie8 { position:absolute; top:0; left:0; width:100%; height:100%; background: #fff; color: #000; }
+
 .page .entry-footer { height: 0; margin: 0; overflow: visible; }
 .edit-link { border-top: none !important; border-bottom: none !important; padding-left: 20px !important; }
 .entry-footer a.post-edit-link { color: #00b0ff; text-shadow: 1px 1px 4px #fff; }
