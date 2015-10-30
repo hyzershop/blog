@@ -121,7 +121,7 @@ function vAlignCategoryEntryTitle() {
 	var $this = $(this);
 	var topPos = -(($this.siblings(".post-thumbnail").height()) / 2);
 
-	$this.parent(".entry-meta").css({
+	$this.css({
 		top: topPos
 	});
 }
