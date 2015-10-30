@@ -18,13 +18,30 @@ function vAlignPostHero() {
 	var postHero = $(".single .post-thumbnail img"),
 		imgHeight = postHero.attr("height"),
 		imgTop = imgHeight / 4;
+	
 	postHero.css({
 		position: "relative",
 		top: "50%",
-		marginTop: -(imgTop) + "px"
+		marginTop: -(imgTop) + "px",
+		width: "100%",
+	    maxWidth: "none",
+	    left: "50%",
+	    marginLeft: "-50%"
+	}).parent(".post-thumbnail").css({
+		"perspective": "500px"
 	});
 }
 
+$(window).scroll(postHeroParallax);
+function postHeroParallax() {
+	var postHero = $(".single .post-thumbnail img"),
+		scrollTop = $(document).scrollTop(),
+		zTransform = scrollTop/2 + "px";
+
+	postHero.css({
+		"-webkit-transform": "translateZ(" + zTransform + ")"
+	});
+}
 /*
 var checkIfSliderLoaded = setInterval(function() {
 	sliderText(vAlignBannerText, sliderStopChecking);
