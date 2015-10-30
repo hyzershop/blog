@@ -37,14 +37,15 @@ function postHeroParallax() {
 	var postHero = $(".single .post-thumbnail img"),
 		scrollTop = $(document).scrollTop(),
 		zTransform = scrollTop/4 + "px",
+		blur = scrollTop/100 + "px",
 		dissolve = 1 - (scrollTop/500);
 
 	if (scrollTop < 300) {
 		postHero.css({
 			"-webkit-transform": "translateZ(" + zTransform + ")",
-			"opacity": dissolve
+			"opacity": dissolve,
+			"filter": "blur(" + blur + ")"
 		});
-		console.log(dissolve);
 	}
 }
 /*
