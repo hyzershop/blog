@@ -190,7 +190,7 @@ img {
 .site-logo-link img {
     height: auto;
     width: auto;
-    padding: 10px 0 6px 0;
+    padding: 0;
 }
 
 .site-branding:before {
