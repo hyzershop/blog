@@ -986,7 +986,7 @@ h2.widget-title {
 	.archive .hentry:nth-of-type(odd), .blog .hentry:nth-of-type(odd), .footer-widget-inner .widget:nth-of-type(odd), .search .hentry:nth-of-type(odd) {
 		margin-right: 2% !important;
 		margin-left: 0 !important;
-		clear: none !important;
+		clear: left !important;
 	}
 	
 	.archive .hentry:nth-of-type(even), .blog .hentry:nth-of-type(even), .footer-widget-inner .widget:nth-of-type(even), .search .hentry:nth-of-type(even) {
