@@ -68,7 +68,7 @@ function placeBlogIcons() {
 		$this.parent(".entry-meta").css({
 			top: topPos
 		});
-		
+
 		if ($this.find("a").text().indexOf("Journal") > -1) {
 			$this.html("").append("<img src='/wp-content/uploads/journal-icon-white.png' width='70' height='52' alt='journal' style='margin-top:-26px;'/>");
 			return;
@@ -115,19 +115,20 @@ $(document).ready(function() {
 $(window).load(function() {
 
 fullScreenMenu();
-fullScreenSubMenu();
 $(window).resize(fullScreenMenu);
-$(window).resize(fullScreenSubMenu);
+fullScreenSubMenu();
 
 function fullScreenMenu() {
 	// var $exitBtn = $("<div class='menu-exit'></div>");
 	var	$mainMenu = $(".menu-main-menu-container");
 
-	if ($(window).width() < 840) {
-		$mainMenu.appendTo("body");
-	} else {
-		$mainMenu.show().appendTo("#site-navigation");
-	}
+//	$(window).resize(
+		if ($(window).width() < 840) {
+			$mainMenu.appendTo("body");
+		} else {
+			$mainMenu.show().appendTo("#site-navigation");
+		}
+//	});
 
 	$(".menu-toggle").click(function() {
 		var $this = $(this);
