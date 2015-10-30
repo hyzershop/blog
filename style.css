@@ -439,6 +439,7 @@ blockquote.tweet .twitter-button {
 .home .has-post-thumbnail .entry-meta,
 .search .has-post-thumbnail .entry-meta {
     position: relative;
+	    z-index: 9999999;
     float: left;
     width: 100%;
     z-index: 99999;
