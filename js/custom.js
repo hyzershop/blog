@@ -185,16 +185,16 @@ $("blockquote.tweet").each(function(){
 		twitterButton = $("<div class=''><a href target='_blank'></a></div>");
 	twitterButton.attr("href", $url);
 
-	if ($this.find("a").length() > 0) {
+	if ($this.find("a").length > 0) {
 		content = $this.find("a").text();
 	}
 
-	$(this).mouseenter(function() {
+	$this.mouseenter(function() {
 		var $this = $(this);
 		twitterButton.appendTo($(this));
 	});
 
-	$(this).mouseleave(function() {
+	$this.mouseleave(function() {
 		var $this = $(this);
 		twitterButton.remove();
 	});
