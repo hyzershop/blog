@@ -161,6 +161,7 @@ function fullScreenSubMenu() {
 			$(this).css({
 				"opacity": "0",
 				"position": "relative",
+				"top": "20px"
 			});
 		});
 
@@ -176,7 +177,7 @@ function fullScreenSubMenu() {
 			var $this = $(this),
 				$delay = 600 + (index * 200);
 			$this.delay($delay).animate({
-				"top": "-10px",
+				"top": "0px",
 				"opacity": "1"
 			}, 600, "easeOutQuad");
 		});
@@ -187,11 +188,10 @@ function fullScreenSubMenu() {
 		var $subMenu = $(".menu-item-17-sub");
 		$subMenu.fadeOut(300).find("li").each(function(index) {
 			var $this = $(this),
-				$delay = 600 + (index * 200);
-			$this.delay($delay).animate({
-				"top": "0px",
+			$this.animate({
+				"top": "20px",
 				"opacity": "0"
-			}, 600, "easeOutQuad");
+			}, 200, "easeOutQuad");
 		});
 	}
 
