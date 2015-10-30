@@ -141,7 +141,7 @@ function fullScreenMenu() {
 function fullScreenSubMenu() {
 	var $exitBtn = $("<div class='sub-menu-exit'><img src='/wp-content/themes/gazette-child/images/exit-button.png' width='70' height='70' /></div>"),
 		$mainNav = $(".main-navigation"),
-		$subMenuParent = $(".main-navigation li.menu-item-has-children");
+		$subMenuParent = $("#primary-menu > li.menu-item-has-children");
 
 	$("#primary-menu > li > ul").each(function() {
 		var id = $(this).parent("li").attr("id"),
