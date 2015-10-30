@@ -155,9 +155,9 @@ function fullScreenSubMenu() {
 		} else {
 			subMenuIn();
 		}
+		$this.toggleClass("submenu-expanded");
 
-		 $this.toggleClass("submenu-expanded");
-		 $subMenu.find("li").each(function() {
+		$subMenu.find("li").each(function() {
 			$(this).css({
 				"opacity": "0",
 				"position": "relative",
