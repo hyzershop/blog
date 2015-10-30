@@ -16,7 +16,8 @@ html { overflow-x: hidden; }
 
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
-	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner {
+	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
+	.site-main {
 		width: 90%;
 	}
 
@@ -26,7 +27,8 @@ html { overflow-x: hidden; }
 }
 
 @media screen and (min-width: 1280px) {
-	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner {
+	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
+	.site-main {
 		width: 90%;
 	}
 
