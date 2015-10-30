@@ -549,6 +549,11 @@ a.post-thumbnail img {
 
 /* PAGE (ABOUT/CONTACT) */
 
+.page #main .entry-content {
+	position: relative;
+    z-index: 9999;
+}
+
 .page .hentry { margin: 0; }
 
 .page .site-content-inner,
