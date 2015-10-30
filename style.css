@@ -277,11 +277,25 @@ li > ul, li > ol {
 }
 
 .menu-item-17-sub li {
+	padding: 4px 0;
+    display: inline-block;
+    line-height: 1;
+    float: left;
+    clear: none;
+
+    font-size: 0.6em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.menu-item-17-sub > li {
 	padding: 20px;
     display: inline-block;
     line-height: 1.4;
     float: left;
     clear: none;
+
+    font-size: 1em;
     text-align: left;
     margin-left: 20px;
 }
