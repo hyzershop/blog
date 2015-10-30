@@ -174,7 +174,7 @@ function fullScreenSubMenu() {
 		var $subMenu = $(".menu-item-17-sub");
 		$subMenu.fadeIn(300).find("li").each(function(index) {
 			var $this = $(this),
-				$delay = 600 + (index * 200);
+				$delay = 300 + (index * 200);
 			$this.delay($delay).animate({
 				"top": "0px",
 				"opacity": "1"
