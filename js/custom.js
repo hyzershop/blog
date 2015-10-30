@@ -180,7 +180,7 @@ function fullScreenSubMenu() {
 				"opacity": "1"
 			}, 600, "easeOutQuad");
 		});
-		$(this).toggleClass("submenu-expanded");
+		$(this).addClass("submenu-expanded");
 	}
 
 	function subMenuOut() {
@@ -192,7 +192,7 @@ function fullScreenSubMenu() {
 				"opacity": "0"
 			}, 200, "easeOutQuad");
 		});
-		$(this).toggleClass("submenu-expanded");
+		$(this).removeClass("submenu-expanded");
 	}
 
 	$exitBtn.click(function() {
