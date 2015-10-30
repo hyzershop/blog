@@ -253,7 +253,7 @@ $(".main-navigation > div > ul li").each(function() {
 })();
 
 $(window).resize(function() {
-	$(body).removeClass("search-toggled");
+	$(body).removeClass("search-toggled search-toggled search-toggled search-toggled search-toggled");
 });
 
 })(jQuery);
