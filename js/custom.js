@@ -182,7 +182,7 @@ $("blockquote.tweet").each(function(){
 		content = $this.find("a").text(),
 		contentString = content.replace(" ", "%20"),
 		$url = "http://twitter.com/home?status=" + contentString,
-		twitterButton = $("<div class=""><a href target='_blank'></a></div>");
+		twitterButton = $("<div class=''><a href target='_blank'></a></div>");
 	twitterButton.attr("href", $url);
 
 	if ($this.find("a").length() > 0) {
