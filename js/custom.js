@@ -41,7 +41,7 @@ function postHeroParallax() {
 		dissolve = 1 - (scrollTop/500);
 
 	if (scrollTop < 300) {
-		TweenLite.to(postHero, 0.1 {
+		TweenLite.to(postHero, 0.1, {
 			"-webkit-transform": "translateZ(" + zTransform + ")",
 			"opacity": dissolve,
 			"-webkit-filter": "blur(" + blur + ")"
