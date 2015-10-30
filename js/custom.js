@@ -39,7 +39,7 @@ function postHeroParallax() {
 		zTransform = scrollTop/4 + "px",
 		dissolve = 50/scrollTop + "px";
 
-	if (scrollTop < 200) {
+	if (scrollTop < 300) {
 		postHero.css({
 			"-webkit-transform": "translateZ(" + zTransform + ")",
 			"opacity": dissolve
