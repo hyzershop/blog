@@ -189,8 +189,6 @@ img {
 
 .site-logo-link img {
     height: auto;
-    max-height: 70px;
-    max-width: 90%;
     width: auto;
     padding: 10px 0 6px 0;
 }
