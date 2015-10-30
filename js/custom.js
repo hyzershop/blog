@@ -39,10 +39,12 @@ function postHeroParallax() {
 		zTransform = scrollTop/4 + "px",
 		dissolve = 50/scrollTop + "px";
 
-	postHero.css({
-		"-webkit-transform": "translateZ(" + zTransform + ")",
-		"opacity": dissolve + "px"
-	});
+	if (scrollTop < 200) {
+		postHero.css({
+			"-webkit-transform": "translateZ(" + zTransform + ")",
+			"opacity": dissolve + "px"
+		});
+	}
 }
 /*
 var checkIfSliderLoaded = setInterval(function() {
