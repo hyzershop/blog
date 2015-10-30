@@ -1,7 +1,7 @@
 (function($) {
 
 var mask_fouc = $(".js body").delay(800).animate({ opacity: "1" }, 300); // hiding the flash of un-styled content
-$(document).ready(mask_fouc);
+$(window).load(mask_fouc);
 
 $(".site-logo").attr("src", "http://blog.hyzershop.com/wp-content/uploads/hyzerblog-logo-643-102015.png");
 
