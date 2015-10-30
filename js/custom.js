@@ -247,6 +247,7 @@ $(".main-navigation > div > ul li").each(function() {
 
 $(document).ready(function() {
 	$("nav.toggled .menu-toggle").click(function() {
+		console.log("clicked");
 		$(".sub-menu-exit").click();
 	});
 
