@@ -220,6 +220,7 @@ img {
 
 .main-navigation li {
 	border-bottom: 7px solid #fff;
+	padding: 0;
 }
 
 .main-navigation li a {
