@@ -197,6 +197,8 @@ $("blockquote.tweet").each(function(){
 // do something
 });
 
-// http://twitter.com/home?status=Put%20your
+$(".main-navigation > div > ul li").each(function() {
+	$(this).attr("tabindex", "0");
+});
 
 })(jQuery);
