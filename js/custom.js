@@ -108,7 +108,7 @@ $(document).ready(function() {
 })();
 
 $(document).ready(function() {
-	
+
 fullScreenMenu();
 fullScreenSubMenu();
 $(window).resize(fullScreenMenu);
@@ -142,7 +142,7 @@ function fullScreenSubMenu() {
 		$mainNav = $(".main-navigation"),
 		$subMenuParent = $(".main-navigation li.menu-item-has-children");
 
-	$(".sub-menu").each(function() {
+	$("#primary-menu > li > a > ul").each(function() {
 		var id = $(this).parent("li").attr("id"),
 			subMenuClass = id + "-sub";
 		$(this).addClass(subMenuClass + " submenu-expanded").appendTo("body");
