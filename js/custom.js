@@ -107,6 +107,7 @@ $(document).ready(function() {
 	$("#contact-col form input[type='submit']").attr("value", "GO");
 })();
 
+$(document).ready(function() {
 $(window).load(function() {
 
 fullScreenMenu();
@@ -201,6 +202,7 @@ function fullScreenSubMenu() {
 		subMenuOut();
 	});
 }
+});
 });
 
 $("body.category .page-title").each(function() {
