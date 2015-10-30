@@ -728,7 +728,7 @@ h2.widget-title {
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
 	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
-	.site-main {
+	.search .site-main {
 		width: 90%;
 		margin: 0 auto;
 	}
@@ -738,7 +738,7 @@ h2.widget-title {
 	}
 
 	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
-	.site-main {
+	.search .site-main {
 		width: 90%;
 		margin: 0 auto;
 	}
