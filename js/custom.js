@@ -160,7 +160,8 @@ function fullScreenSubMenu() {
 		 $subMenu.find("li").each(function() {
 			$(this).css({
 				"-webkit-transform": "translate(0px, 10px)",
-				"opacity": "0"
+				"opacity": "0",
+				"display": "block"
 			});
 		});
 
