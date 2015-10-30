@@ -8,8 +8,6 @@
 	<header class="entry-header">
 		<?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta">
-				<?php $email = get_the_author_meta( user_email ); ?>
-				<?php echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php the_time('F j, Y'); ?>
 				<?php gazette_entry_meta(); ?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -30,7 +28,7 @@
 		<?php endif; ?>
 
 		<div class="entry-meta">
-			<?php /* echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php the_time('F j, Y'); */ ?>
+			<?php /* $email = get_the_author_meta( user_email ); echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php the_time('F j, Y'); */ ?>
 			<?php gazette_entry_meta(); ?>
 		</div>
 
