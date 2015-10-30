@@ -949,11 +949,15 @@ h2.widget-title {
 	}*/
 	
 	.archive .hentry:nth-of-type(odd), .blog .hentry:nth-of-type(odd), .footer-widget-inner .widget:nth-of-type(odd), .search .hentry:nth-of-type(odd) {
+		margin-right: 2%;
 		margin-left: 0;
+		clear: none !important;
 	}
 	
 	.archive .hentry:nth-of-type(even), .blog .hentry:nth-of-type(even), .footer-widget-inner .widget:nth-of-type(even), .search .hentry:nth-of-type(even) {
+		margin-left: 2%;
 		margin-right: 0;
+		clear: none !important;
 	}
 	
 	#search-header {
