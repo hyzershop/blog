@@ -166,8 +166,6 @@ function fullScreenMenu() {
 			$("html, body").css("overflow-y", "scroll");
 		}
 	});
-
-
 }
 
 function fullScreenSubMenu() {
@@ -240,6 +238,10 @@ function fullScreenSubMenu() {
 	});
 }
 });
+});
+
+$("#primary-menu li").click(function() {
+	$(this).children("a").click();
 });
 
 $("body.category .page-title").each(function() {
