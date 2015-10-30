@@ -290,7 +290,7 @@ $(window).resize(function() {
 	$("body").removeClass("search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled");
 });
 
-/** FIND/REPLACES **/
+/** FIND-REPLACE **/
 // Remove "Category: "
 $(document).ready(function() {
 	$("body.category .page-title").each(function() {
