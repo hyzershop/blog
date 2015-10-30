@@ -181,8 +181,9 @@ $("blockquote.tweet").each(function(){
 	var $this = $(this),
 		content = $(this).text(),
 		contentString = content.replace(" ", "%20"),
-		url = "http://twitter.com/home?status=" + contentString,
+		$url = "http://twitter.com/home?status=" + contentString,
 		twitterButton = $("<div class=""><a href target='_blank'></a></div>");
+		twitterButton.attr("href", $url);
 
 	$(this).mouseenter(function() {
 		var $this = $(this);
