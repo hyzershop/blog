@@ -693,6 +693,7 @@ body.page .entry-header { display: none; }
 
 .page-header {
 	margin-top: 30px;
+	margin-bottom: 0;
 	padding-bottom: 0;
 	border-bottom: none;
 }
@@ -701,6 +702,9 @@ body.page .entry-header { display: none; }
 	color: #777;
 	text-transform: uppercase;
 	margin-bottom: 0;
+
+	font-family: 'Rock Salt', 'Montserrat', Helvetica, sans-serif;
+	text-align: center;
 }
 
 
