@@ -136,6 +136,8 @@ function fullScreenMenu() {
 			$("html, body").css("overflow-y", "scroll");
 		}
 	});
+
+
 }
 
 function fullScreenSubMenu() {
@@ -171,6 +173,11 @@ function fullScreenSubMenu() {
 			$subMenu.addClass("hasexit")
 				.prepend($exitBtn);
 		}
+
+		$("nav.toggled .menu-toggle").click(function() {
+			console.log("clicked");
+			$exitBtn.click();
+		});
 	});
 
 	function subMenuIn() {
@@ -244,14 +251,5 @@ $(".main-navigation > div > ul li").each(function() {
 		$(this).find("a").click();
 	});
 })();
-
-$(document).ready(function() {
-	setTimeout(function() {
-		$(".sub-menu-exit").click();
-		$("nav.toggled .menu-toggle").click(function() {
-			console.log("clicked");
-		});
-	}, 200);
-});
 
 })(jQuery);
