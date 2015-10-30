@@ -143,7 +143,7 @@ function fullScreenSubMenu() {
 	$(".sub-menu").each(function() {
 		var id = $(this).parent("li").attr("id"),
 			subMenuClass = id + "-sub";
-		$(this).addClass(subMenuClass).appendTo("body");
+		$(this).addClass(subMenuClass + " submenu-expanded").appendTo("body");
 	});
 
 	$("#menu-item-17").click(function() {
