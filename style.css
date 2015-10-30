@@ -763,7 +763,7 @@ h2.widget-title {
 /** MEDIA QUERIES **/
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
-	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
+	.entry-header-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
 	.search .site-main {
 		width: 90%;
 		margin: 0 auto;
@@ -781,7 +781,7 @@ h2.widget-title {
     }
 }
 @media screen and (max-width: 959px) {
-	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
+	.entry-header-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
 	.search .site-main {
 		width: 95%;
 	}
@@ -1016,13 +1016,13 @@ h2.widget-title {
 		clear: left;
 	}*/
 	
-	.archive .hentry:nth-of-type(odd), .blog .hentry:nth-of-type(odd), .footer-widget-inner .widget:nth-of-type(odd), .search .hentry:nth-of-type(odd) {
+	.archive .hentry:nth-of-type(odd), .blog .hentry:nth-of-type(odd), .search .hentry:nth-of-type(odd) {
 		margin-right: 2% !important;
 		margin-left: 0 !important;
 		clear: left !important;
 	}
 	
-	.archive .hentry:nth-of-type(even), .blog .hentry:nth-of-type(even), .footer-widget-inner .widget:nth-of-type(even), .search .hentry:nth-of-type(even) {
+	.archive .hentry:nth-of-type(even), .blog .hentry:nth-of-type(even), .search .hentry:nth-of-type(even) {
 		margin-left: 2% !important;
 		margin-right: 0 !important;
 		clear: none !important;
