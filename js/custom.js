@@ -174,7 +174,7 @@ function fullScreenSubMenu() {
 
 	function subMenuIn() {
 		var $subMenu = $(".menu-item-17-sub");
-		$subMenu.fadeIn(300).find("li").each(function(index) {
+		$subMenu.fadeIn(300).children("li").each(function(index) {
 			var $this = $(this),
 				$delay = 300 + (index * 200);
 			$this.delay($delay).animate({
@@ -187,7 +187,7 @@ function fullScreenSubMenu() {
 
 	function subMenuOut() {
 		var $subMenu = $(".menu-item-17-sub");
-		$subMenu.fadeOut(300).find("li").each(function(index) {
+		$subMenu.fadeOut(300).children("li").each(function(index) {
 			var $this = $(this);
 			$this.animate({
 				"top": "20px",
