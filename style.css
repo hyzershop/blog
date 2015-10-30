@@ -442,7 +442,6 @@ blockquote.tweet .twitter-button {
 	    z-index: 9999999;
     float: left;
     width: 100%;
-    z-index: 99999;
     height: 0;
     overflow: visible;
     top: 130px;
