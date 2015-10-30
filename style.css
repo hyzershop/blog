@@ -254,6 +254,9 @@ li:focus {
     color: #00b0ff;
 }
 /* js */
+li > ul, li > ol {
+	margin-left: 0;
+}
 .main-navigation ul li > ul li {
 	background: transparent;
 }
@@ -275,7 +278,12 @@ li:focus {
 
 .menu-item-17-sub li {
 	padding: 20px;
-	display: inline;
+    display: inline-block;
+    line-height: 1.4;
+    float: left;
+    clear: none;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .menu-item-17-sub li a {
