@@ -362,7 +362,10 @@ li > ul, li > ol {
 }
 
 .single .entry-meta {
+	margin: 0 auto;
+
 	font-size: 0.6em;
+	text-align: center;
 }
 
 .single .entry-meta img.avatar {
@@ -375,8 +378,11 @@ li > ul, li > ol {
 }
 
 .page .entry-title, .single .entry-title {
+	margin: 0 auto;
+
 	font-size: 3em;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 blockquote.tweet .twitter-button {
@@ -801,19 +807,6 @@ body.category .hentry .entry-title a {
 
 
 /** MEDIA QUERIES **/
-/** SET DESKTOP WIDTH OF SITE **/
-@media screen and (min-width: 960px) {
-	.entry-header-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
-	.search .site-main {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
-		width: 100%;
-	}
-}
-
 @media screen and (max-width: 1279px) {
 	.home .has-post-thumbnail .entry-meta .cat-links img,
 	.search .has-post-thumbnail .entry-meta .cat-links img {
@@ -1019,23 +1012,22 @@ body.category .hentry .entry-title a {
 }
 
 @media screen and (min-width: 960px) {
-/*	.home .widget-area,
-	.archive .widget-area {
-		width: 23%;
+	.entry-header-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
+	.search .site-main {
+		width: 90%;
+		margin: 0 auto;
 	}
 
-	.home .widget-area,
-	.archive .widget-area {
-		border-left: 1px solid #ddd;
-		float: right;
-		margin-left: -1px;
-		padding-left: 60px;
-		padding-top: 60px;
+	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
+		width: 100%;
 	}
-	.home .widget-area:before,
-	.archive .widget-area:before {
-		display: none;
-	}*/
+
+	.page .site-main, .single .site-main {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		padding-right: 0;
+	}
 
 	.home.no-footer-widget .site-footer,
 	.archive.no-footer-widget .site-footer,
@@ -1088,6 +1080,10 @@ body.category .hentry .entry-title a {
 	.archive .widget-area {
 		width: 256px;
 	}*/
+
+	.page .site-main, .single .site-main {
+		width: 100%;
+	}
 }
 @media screen and (min-width: 1280px) {
 	.home .has-post-thumbnail .entry-meta .cat-links,
@@ -1114,8 +1110,15 @@ body.category .hentry .entry-title a {
 		width: 331px;
 	}*/
 
-	div#jp-relatedposts, .single .entry-content {
+	div#jp-relatedposts {
 		width: 870px;
+	}
+
+	.single .entry-content {
+		width: 80%;
+	    float: left;
+	    clear: both;
+	    margin-left: 10%;
 	}
 
 	.comments-area, .footer-text, .footer-text + .site-info, .social-navigation + .site-info {
