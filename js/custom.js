@@ -44,6 +44,7 @@ function postHeroParallax() {
 			"-webkit-transform": "translateZ(" + zTransform + ")",
 			"opacity": dissolve
 		});
+		console.log(dissolve);
 	}
 }
 /*
