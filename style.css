@@ -328,6 +328,10 @@ li > ul, li > ol {
 }
 
 /* SINGLE POST */
+.entry-header-wrapper {
+	padding-bottom: 40px;
+}
+
 .single .entry-hero .post-thumbnail {
 	height: 300px;
 	overflow: hidden;
