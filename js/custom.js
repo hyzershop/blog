@@ -36,7 +36,7 @@ $(window).scroll(postHeroParallax);
 function postHeroParallax() {
 	var postHero = $(".single .post-thumbnail img"),
 		scrollTop = $(document).scrollTop(),
-		zTransform = scrollTop/4 + "px",
+		zTransform = scrollTop/6 + "px",
 		blur = scrollTop/100 + "px",
 		dissolve = 1 - (scrollTop/500);
 
