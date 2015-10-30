@@ -37,7 +37,7 @@ function postHeroParallax() {
 	var postHero = $(".single .post-thumbnail img"),
 		scrollTop = $(document).scrollTop(),
 		zTransform = scrollTop/4 + "px",
-		dissolve = 1 - (400/scrollTop);
+		dissolve = 1 - (scrollTop/300);
 
 	if (scrollTop < 300) {
 		postHero.css({
