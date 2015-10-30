@@ -156,8 +156,8 @@ function fullScreenSubMenu() {
 			subMenuIn();
 		}
 
-		 $this.toggleClass("submenu-expanded").find("li").each(function(index) {
-		 	console.log("index");
+		 $this.toggleClass("submenu-expanded");
+		 $subMenu.find("li").each(function(index) {
 			$(this).css({
 				"-webkit-transform": "translate(0px, 10px)",
 				"opacity": "0"
