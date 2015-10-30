@@ -42,8 +42,8 @@ function postHeroParallax() {
 
 	if (scrollTop < 300) {
 		postHero.css({
-			"-webkit-transform": "translateZ(" + zTransform + ")",
-			"-webkit-filter": "blur(" + blur + ")"
+			"-webkit-transform": "translateZ(" + zTransform + ")"
+		//	, "-webkit-filter": "blur(" + blur + ")"
 		});
 	}
 }
