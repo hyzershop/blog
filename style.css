@@ -53,6 +53,8 @@ img {
 .white { color: #ffffff !important; }
 .pink { color: #ff3c7c !important; }
 
+.sidebar-toggle { display: none; }
+
 .archive .hentry .entry-title, .blog .hentry .entry-title, .search .hentry .entry-title {
 	font-size: 1.4em;
 	line-height: 1;
