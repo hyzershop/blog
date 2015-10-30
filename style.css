@@ -362,7 +362,7 @@ li > ul, li > ol {
 }
 
 .single .entry-meta {
-	font-size: 10px;
+	font-size: 0.6em;
 }
 
 .single .entry-meta img.avatar {
