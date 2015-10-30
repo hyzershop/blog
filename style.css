@@ -513,6 +513,7 @@ a.post-thumbnail img {
 	padding-top: 5px;
     font-size: 0.7em;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 .flexslider .slides li a > div:first-child {
