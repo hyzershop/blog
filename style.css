@@ -14,31 +14,6 @@ html { overflow-x: hidden; }
 .edit-link { border-top: none !important; border-bottom: none !important; padding-left: 20px !important; }
 .entry-footer a.post-edit-link { color: #00b0ff; text-shadow: 1px 1px 4px #fff; }
 
-/** SET DESKTOP WIDTH OF SITE **/
-@media screen and (min-width: 960px) {
-	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
-	.site-main {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
-		width: 100%;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
-	.site-main {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
-		width: 100%;
-	}
-}
-
 body, button, input, select, textarea, .main-navigation,
 h1, h2, h3, h4, h5, h6,
 .comment-navigation, .post-navigation, .posts-navigation {
@@ -750,6 +725,29 @@ h2.widget-title {
 
 
 /** MEDIA QUERIES **/
+/** SET DESKTOP WIDTH OF SITE **/
+@media screen and (min-width: 960px) {
+	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
+	.site-main {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
+		width: 100%;
+	}
+
+	.entry-header-inner, .footer-widget-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
+	.site-main {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 1279px) {
 	.home .has-post-thumbnail .entry-meta .cat-links img,
 	.search .has-post-thumbnail .entry-meta .cat-links img {
