@@ -160,7 +160,7 @@ function fullScreenSubMenu() {
 		 $subMenu.find("li").each(function() {
 			$(this).css({
 				"opacity": "0",
-				"display": "block"
+				"position": "relative",
 			});
 		});
 
@@ -176,7 +176,7 @@ function fullScreenSubMenu() {
 			var $this = $(this),
 				$delay = 600 + (index * 200);
 			$this.delay($delay).animate({
-				"-webkit-transform": "translateY(" + 10 + "px)",
+				"top": "-10px",
 				"opacity": "1"
 			}, 600, "easeOutQuad");
 		});
@@ -189,7 +189,7 @@ function fullScreenSubMenu() {
 			var $this = $(this),
 				$delay = 600 + (index * 200);
 			$this.delay($delay).animate({
-				"-webkit-transform": "translateY(" + 0 + "px)",
+				"top": "0px",
 				"opacity": "0"
 			}, 600, "easeOutQuad");
 		});
