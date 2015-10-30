@@ -156,12 +156,12 @@ function fullScreenSubMenu() {
 			subMenuIn();
 		}
 
-		$this.toggleClass("submenu-expanded").find("li").each(function() {
-			$(this).css({
-				"-webkit-transform": "translate(0px, 10px)",
-				"opacity": "0"
-			});
-		});
+		// $this.toggleClass("submenu-expanded").find("li").each(function() {
+		// 	$(this).css({
+		// 		"-webkit-transform": "translate(0px, 10px)",
+		// 		"opacity": "0"
+		// 	});
+		// });
 
 		if ( !$subMenu.hasClass("hasexit") ) {
 			$subMenu.addClass("hasexit")
