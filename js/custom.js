@@ -252,4 +252,8 @@ $(".main-navigation > div > ul li").each(function() {
 	});
 })();
 
+$(window).resize(function() {
+	$(body).removeClass("search-toggled");
+});
+
 })(jQuery);
