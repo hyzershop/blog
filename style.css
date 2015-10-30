@@ -230,7 +230,7 @@ img {
 }
 
 .main-navigation li a {
-	padding: 28px 20px 20px;
+	padding: 24px 20px 24px 20px;
 }
 
 .main-navigation li.current-menu-item, .main-navigation > div > ul li:hover, .main-navigation > div > ul li:focus {
