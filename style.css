@@ -230,7 +230,7 @@ img {
 }
 
 .main-navigation li a {
-	padding: 28px 20px 21px;
+	padding: 28px 20px 20px;
 }
 
 .main-navigation li.current-menu-item, .main-navigation > div > ul li:hover, .main-navigation > div > ul li:focus {
@@ -535,7 +535,7 @@ a.post-thumbnail img {
 	background-image: url('images/bg_direction_nav.png') !important;
 	background-color: transparent;
 	background-size: 57px 27px !important;
-	
+
 }
 
 .flex-control-nav {
