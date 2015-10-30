@@ -245,11 +245,11 @@ $(".main-navigation > div > ul li").each(function() {
 	});
 })();
 
-setTimeout(function() {
-	$("nav.toggled .menu-toggle").click(function() {
-		console.log("clicked");
+$("nav.toggled .menu-toggle").click(function() {
+	console.log("clicked");
+	setTimeout(function() {
 		$(".sub-menu-exit").click();
-	});
-}, 1000);
+	}, 500);
+});
 
 })(jQuery);
