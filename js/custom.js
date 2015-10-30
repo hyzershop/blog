@@ -36,10 +36,12 @@ $(window).scroll(postHeroParallax);
 function postHeroParallax() {
 	var postHero = $(".single .post-thumbnail img"),
 		scrollTop = $(document).scrollTop(),
-		zTransform = scrollTop/2 + "px";
+		zTransform = scrollTop/4 + "px",
+		blur = scrollTop/50 + "px";
 
 	postHero.css({
-		"-webkit-transform": "translateZ(" + zTransform + ")"
+		"-webkit-transform": "translateZ(" + zTransform + ")",
+		"filter": "blur(" + blur + ")"
 	});
 }
 /*
