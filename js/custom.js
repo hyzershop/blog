@@ -42,7 +42,7 @@ function postHeroParallax() {
 	if (scrollTop < 200) {
 		postHero.css({
 			"-webkit-transform": "translateZ(" + zTransform + ")",
-			"opacity": dissolve + "px"
+			"opacity": dissolve
 		});
 	}
 }
