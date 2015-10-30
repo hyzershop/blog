@@ -149,12 +149,18 @@ function fullScreenSubMenu() {
 	$("#menu-item-17").click(function() {
 		var $this = $(this),
 			$subMenu = $(".menu-item-17-sub");
-		$this.toggleClass("clicked");
+		$this.toggleClass("submenu-expanded");
 		$subMenu.fadeIn(300);
 
 		if ( !$subMenu.hasClass("hasexit") ) {
 			$subMenu.addClass("hasexit")
 				.prepend($exitBtn);
+		}
+
+		if ( $this.hasClass("submenu-expanded") ) {
+			$(".menu-item-17-sub").fadeOut(300);
+		} else {
+			$(".menu-item-17-sub").fadeIn(300);
 		}
 	});
 
@@ -163,7 +169,7 @@ function fullScreenSubMenu() {
 	});
 
 	$(".menu-toggle[aria-expanded='true']").click(function() {
-		$(".menu-item-17-sub").fadeOut(300);
+		
 	});
 }
 
