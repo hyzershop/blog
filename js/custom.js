@@ -245,11 +245,13 @@ $(".main-navigation > div > ul li").each(function() {
 	});
 })();
 
-$("nav.toggled .menu-toggle").click(function() {
-	console.log("clicked");
-	setTimeout(function() {
-		$(".sub-menu-exit").click();
-	}, 500);
+$(document).ready(function() {
+	$("nav.toggled .menu-toggle").click(function() {
+		console.log("clicked");
+		setTimeout(function() {
+			$(".sub-menu-exit").click();
+		}, 200);
+	});
 });
 
 })(jQuery);
