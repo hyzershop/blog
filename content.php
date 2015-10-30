@@ -30,7 +30,7 @@
 		<?php endif; ?>
 
 		<div class="entry-meta">
-			<?php echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php the_time('F j, Y'); ?>
+			<?php /* echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php the_time('F j, Y'); */ ?>
 			<?php gazette_entry_meta(); ?>
 		</div>
 
