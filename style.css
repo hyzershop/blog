@@ -771,7 +771,7 @@ body.category .hentry .entry-title {
     margin-top: -32px;
     top: -195px;
 
-    height: 32px;
+    height: 0;
     overflow: hidden;
 }
 
