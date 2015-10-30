@@ -46,6 +46,7 @@ function postHeroParallax() {
 			"opacity": dissolve,
 			"-webkit-filter": "blur(" + blur + ")"
 		});
+		console.log(blur);
 	}
 }
 /*
