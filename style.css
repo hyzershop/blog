@@ -219,8 +219,11 @@ img {
 }
 
 .main-navigation li {
-	padding: 28px 20px 21px;
 	border-bottom: 7px solid #fff;
+}
+
+.main-navigation li a {
+	padding: 28px 20px 21px;
 }
 
 .main-navigation li.current-menu-item, .main-navigation > div > ul li:hover, .main-navigation > div > ul li:focus {
