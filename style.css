@@ -938,14 +938,14 @@ h2.widget-title {
 	}
 	
 	.archive .hentry, .blog .hentry, .footer-widget-inner .widget, .search .hentry, .archive .hentry:nth-of-type(3n+3), .blog .hentry:nth-of-type(3n+3), .footer-widget-inner .widget:nth-of-type(4n+4), .search .hentry:nth-of-type(3n+3) {
-		margin-left: 2%;
-		margin-right: 2%;
+		margin-left: 2% !important;
+		margin-right: 2% !important;
 	}
 
-	.archive .hentry:nth-of-type(3n+3), .blog .hentry:nth-of-type(3n+3), .footer-widget-inner .widget:nth-of-type(4n+4), .search .hentry:nth-of-type(3n+3) {
+/*	.archive .hentry:nth-of-type(3n+3), .blog .hentry:nth-of-type(3n+3), .footer-widget-inner .widget:nth-of-type(4n+4), .search .hentry:nth-of-type(3n+3) {
 		margin-right: 3%;
 		clear: left;
-	}
+	}*/
 	
 	.archive .hentry:nth-of-type(odd), .blog .hentry:nth-of-type(odd), .footer-widget-inner .widget:nth-of-type(odd), .search .hentry:nth-of-type(odd) {
 		margin-left: 0;
