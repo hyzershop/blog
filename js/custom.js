@@ -44,7 +44,7 @@ function postHeroParallax() {
 		postHero.css({
 			"-webkit-transform": "translateZ(" + zTransform + ")",
 			"opacity": dissolve,
-			"filter": "blur(" + blur + ")"
+			"-webkit-filter": "blur(" + blur + ")"
 		});
 	}
 }
