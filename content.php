@@ -27,11 +27,6 @@
 			</a>
 		<?php endif; ?>
 
-		<div class="entry-meta">
-			<?php /* $email = get_the_author_meta( user_email ); echo get_avatar($email); ?><br/><strong><?php the_author(); ?></strong> on <?php the_time('F j, Y'); */ ?>
-			<?php gazette_entry_meta(); ?>
-		</div>
-
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 
 	</header><!-- .entry-header -->
