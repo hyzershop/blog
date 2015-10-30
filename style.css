@@ -724,6 +724,11 @@ h2.widget-title {
 }
 
 
+#jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post img.jp-relatedposts-post-img, #jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post span{
+	width: 100%;
+}
+
+
 /** MEDIA QUERIES **/
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
