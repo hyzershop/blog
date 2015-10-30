@@ -509,6 +509,12 @@ a.post-thumbnail img {
     line-height: 1;
 }
 
+.flexslider-caption-inner p {
+	padding-top: 5px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
 .flexslider .slides li a > div:first-child {
 	background: #000;
 }
