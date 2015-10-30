@@ -332,10 +332,18 @@ li > ul, li > ol {
 	padding-bottom: 40px;
 }
 
+.post-thumbnail, .entry-header-wrapper {
+	position: relative;
+		z-index: 999999;
+}
+
+.entry-header-wrapper {
+	z-index: 9999999;
+}
+
 .single .entry-hero .post-thumbnail {
 	height: 300px;
 	overflow: hidden;
-	background: transparent;
 }
 
 .single .post-thumbnail img {
