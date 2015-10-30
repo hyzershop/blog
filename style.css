@@ -17,13 +17,13 @@ html { overflow-x: hidden; }
 /** SET DESKTOP WIDTH OF SITE **/
 @media screen and (min-width: 960px) {
 	.archive .content-area, .blog .content-area, .entry-header-inner, .error404 .content-area, .footer-widget-inner, .search .content-area, .site-content-inner, .site-footer-inner, .site-header-inner {
-		width: 960px;
+		width: 90%;
 	}
 }
 
 @media screen and (min-width: 1280px) {
 	.archive .content-area, .blog .content-area, .entry-header-inner, .error404 .content-area, .footer-widget-inner, .search .content-area, .site-content-inner, .site-footer-inner, .site-header-inner {
-		width: 1280px;
+		width: 90%;
 	}
 }
 
