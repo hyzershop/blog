@@ -972,7 +972,7 @@ body.category .hentry .entry-title a {
 	}
 
 	.main-navigation .menu-item-has-children > a:after {
-		margin-top: -5px;
+		margin-top: -4px;
 	}
 
 	body.long-menu .main-navigation > div:before { display: none; }
