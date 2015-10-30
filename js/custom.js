@@ -142,7 +142,7 @@ function fullScreenSubMenu() {
 		$mainNav = $(".main-navigation"),
 		$subMenuParent = $(".main-navigation li.menu-item-has-children");
 
-	$("#primary-menu > li > a > ul").each(function() {
+	$("#primary-menu > li > ul").each(function() {
 		var id = $(this).parent("li").attr("id"),
 			subMenuClass = id + "-sub";
 		$(this).addClass(subMenuClass + " submenu-expanded").appendTo("body");
