@@ -37,6 +37,11 @@ li:focus {
 	border: none;
 }
 
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
 .montserrat { font-family: 'Montserrat', Helvetica, sans-serif !important; }
 .rocksalt { font-family: 'Rock Salt', Helvetica, sans-serif !important; }
 .viga { font-family: 'Viga', Helvetica, sans-serif !important; }
