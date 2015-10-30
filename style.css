@@ -699,12 +699,12 @@ body.page .entry-header { display: none; }
 }
 
 .page-title {
-	color: #777;
-	text-transform: uppercase;
-	margin-bottom: 0;
-
+	color: #ff3c7c;
+	text-transform: lowercase;
 	font-family: 'Rock Salt', 'Montserrat', Helvetica, sans-serif;
 	text-align: center;
+	
+	margin-bottom: 0;
 }
 
 
