@@ -351,6 +351,11 @@ li > ul, li > ol {
 	z-index: 9999999;
 }
 
+.single .entry-content {
+	color: #666666;
+	font-size: 0.8em;
+}
+
 .single .entry-hero .post-thumbnail {
 	height: 300px;
 	overflow: hidden;
