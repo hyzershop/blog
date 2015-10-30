@@ -112,8 +112,8 @@ $(window).load(function() {
 
 fullScreenMenu();
 fullScreenSubMenu();
-$(window).resize(fullScreenMenu);
-$(window).resize(fullScreenSubMenu);
+// $(window).resize(fullScreenMenu);
+// $(window).resize(fullScreenSubMenu);
 
 function fullScreenMenu() {
 	// var $exitBtn = $("<div class='menu-exit'></div>");
