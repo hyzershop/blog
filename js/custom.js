@@ -68,14 +68,20 @@ function placeBlogIcons() {
 		$this.parent(".entry-meta").css({
 			top: topPos
 		});
+
+		$this.html("");
+
 		if ($this.find("a").text().indexOf("Journal") > -1) {
-			$this.html("").append("<img src='/wp-content/uploads/journal-icon-white.png' width='70' height='52' alt='journal' style='margin-top:-26px;'/>");
+			$this.append("<img src='/wp-content/uploads/journal-icon-white.png' width='70' height='52' alt='journal' style='margin-top:-26px;'/>");
+			return;
 		}
 		if ($this.find("a").text().indexOf("Basics") > -1) {
-			$this.html("").append("<img src='/wp-content/uploads/basics-icon-white.png' width='70' height='52' alt='basics' style='margin-top:-26px;'/>");
+			$this.append("<img src='/wp-content/uploads/basics-icon-white.png' width='70' height='52' alt='basics' style='margin-top:-26px;'/>");
+			return;
 		}
 		if ($this.find("a").text().indexOf("Knowledge") > -1 && $this.find("a").text().indexOf("Basics") <= 0) {
-			$this.html("").append("<img src='/wp-content/uploads/knowledge-icon-white.png' width='70' height='52' alt='knowledge' style='margin-top:-26px;'/>");
+			$this.append("<img src='/wp-content/uploads/knowledge-icon-white.png' width='70' height='52' alt='knowledge' style='margin-top:-26px;'/>");
+			return;
 		}
 	} else { // if icon is already in place
 		$this.parent(".entry-meta").css({
