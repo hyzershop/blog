@@ -107,6 +107,8 @@ $(document).ready(function() {
 	$("#contact-col form input[type='submit']").attr("value", "GO");
 })();
 
+$(document).ready(function() {
+	
 fullScreenMenu();
 fullScreenSubMenu();
 $(window).resize(fullScreenMenu);
@@ -199,6 +201,7 @@ function fullScreenSubMenu() {
 		subMenuOut();
 	});
 }
+});
 
 $("body.category .page-title").each(function() {
 	var categoryTitle = $(this).html();

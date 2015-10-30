@@ -938,8 +938,6 @@ h2.widget-title {
 	}
 	
 	.archive .hentry, .blog .hentry, .footer-widget-inner .widget, .search .hentry, .archive .hentry:nth-of-type(3n+3), .blog .hentry:nth-of-type(3n+3), .footer-widget-inner .widget:nth-of-type(4n+4), .search .hentry:nth-of-type(3n+3) {
-		margin-left: 2%;
-		margin-right: 2%;
 		clear: none !important;
 	}
 
