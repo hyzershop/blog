@@ -281,7 +281,7 @@ li > ul, li > ol {
     display: inline-block;
     line-height: 1;
     float: left;
-    clear: none;
+    clear: both;
 
     font-size: 0.6em;
     text-align: left;
@@ -289,6 +289,7 @@ li > ul, li > ol {
 }
 
 .menu-item-17-sub > li {
+	width: 24%;
 	padding: 20px;
     display: inline-block;
     line-height: 1.4;
