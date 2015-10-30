@@ -622,10 +622,10 @@ body.page .entry-header { display: none; }
 	text-align: center;
 }
 
-#contact-col form input::-webkit-input-placeholder { color: #ffffff; }
-#contact-col form input:-moz-placeholder { color: #ffffff; }
-#contact-col form input::-moz-placeholder { color: #ffffff; }
-#contact-col form input:-ms-input-placeholder { color: #ffffff; }
+#contact-col form ::-webkit-input-placeholder { color: #ffffff; }
+#contact-col form :-moz-placeholder { color: #ffffff; }
+#contact-col form ::-moz-placeholder { color: #ffffff; }
+#contact-col form :-ms-input-placeholder { color: #ffffff; }
 
 #contact-col form input,
 #contact-col form textarea {
