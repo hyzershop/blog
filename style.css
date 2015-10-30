@@ -768,7 +768,10 @@ body.category .hentry .entry-title {
     z-index: 999999;
     margin-top: -32px;
     top: -195px;
-    color: #ffffff !important;
+}
+
+body.category .hentry .entry-title a {
+	color: #ffffff;
 }
 
 .home .widget-area:before, .archive .widget-area:before { display: none; }
