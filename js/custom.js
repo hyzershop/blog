@@ -158,7 +158,7 @@ function fullScreenSubMenu() {
 			subMenuIn();
 		}
 
-		$subMenu.find("li").each(function() {
+		$subMenu.children("li").each(function() {
 			$(this).css({
 				"opacity": "0",
 				"position": "relative",
