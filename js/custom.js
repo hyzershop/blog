@@ -179,11 +179,15 @@ $(".fullwidthimage").each(function() {
 
 $("blockquote.tweet").each(function(){
 	var $this = $(this),
-		content = $(this).text(),
+		content = $this.find("a").text(),
 		contentString = content.replace(" ", "%20"),
 		$url = "http://twitter.com/home?status=" + contentString,
 		twitterButton = $("<div class=""><a href target='_blank'></a></div>");
-		twitterButton.attr("href", $url);
+	twitterButton.attr("href", $url);
+
+	if ($this.find("a").length() > 0) {
+		content = $this.find("a").text();
+	}
 
 	$(this).mouseenter(function() {
 		var $this = $(this);
