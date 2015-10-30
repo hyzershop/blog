@@ -176,7 +176,7 @@ function fullScreenSubMenu() {
 			var $this = $(this),
 				$delay = 600 + (index * 200);
 			$this.delay($delay).animate({
-				"-webkit-transform": "translate(0px, -10px)",
+				"-webkit-transform": "translateY(" + 10 + "px)",
 				"opacity": "1"
 			}, 600, "easeOutQuad");
 		});
@@ -189,7 +189,7 @@ function fullScreenSubMenu() {
 			var $this = $(this),
 				$delay = 600 + (index * 200);
 			$this.delay($delay).animate({
-				"-webkit-transform": "translate(0px, 0px)",
+				"-webkit-transform": "translateY(" + 0 + "px)",
 				"opacity": "0"
 			}, 600, "easeOutQuad");
 		});
