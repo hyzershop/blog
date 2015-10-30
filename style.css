@@ -734,7 +734,7 @@ h2.widget-title {
     padding: 20px;
     border-radius: 100px;
 }
-.widget_wpcom_social_media_icons_widget a.genericon:hover { color: #ffffff; }
+.widget_wpcom_social_media_icons_widget a.genericon:hover { background-color: #ff3c7c; }
 
 /* CATEGORY */
 .category .hentry .cat-links { display: none; }
