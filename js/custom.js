@@ -253,12 +253,6 @@ function fullScreenSubMenu() {
 });
 });
 
-$("body.category .page-title").each(function() {
-	var categoryTitle = $(this).html();
-	var newCatTitle = categoryTitle.replace("Category: ", "");
-	$(this).html(newCatTitle);
-});
-
 $(".fullwidthimage").each(function() {
 	$(this).parent("p").css("width:100%;");
 });
@@ -280,7 +274,6 @@ $("blockquote.tweet").each(function(){
 	$this.hover(function() {
 		twitterButton.toggle();
 	});
-// do something
 });
 
 $(".main-navigation > div > ul li").each(function() {
@@ -295,6 +288,22 @@ $(".main-navigation > div > ul li").each(function() {
 
 $(window).resize(function() {
 	$("body").removeClass("search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled");
+});
+
+/** FIND/REPLACES **/
+// Remove "Category: "
+$(document).ready(function() {
+	$("body.category .page-title").each(function() {
+		var categoryTitle = $(this).html();
+		var newCatTitle = categoryTitle.replace("Category: ", "");
+		$(this).html(newCatTitle);
+	});
+// Related posts -- remove "in"
+	$(".jp-relatedposts-post-context").each(function() {
+		var context = $(this).html();
+		var newContext = context.replace("In ", "");
+		$(this).html(newContext);
+	});
 });
 
 })(jQuery);
