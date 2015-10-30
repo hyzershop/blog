@@ -246,12 +246,12 @@ $(".main-navigation > div > ul li").each(function() {
 })();
 
 $(document).ready(function() {
-	$("nav.toggled .menu-toggle").click(function() {
-		console.log("clicked");
-		setTimeout(function() {
-			$(".sub-menu-exit").click();
-		}, 200);
-	});
+	setTimeout(function() {
+		$(".sub-menu-exit").click();
+		$("nav.toggled .menu-toggle").click(function() {
+			console.log("clicked");
+		});
+	}, 200);
 });
 
 })(jQuery);
