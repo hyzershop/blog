@@ -178,6 +178,21 @@ $(".fullwidthimage").each(function() {
 });
 
 $("blockquote.tweet").each(function(){
+	var $this = $(this),
+		content = $(this).text(),
+		contentString = content.replace(" ", "%20"),
+		url = "http://twitter.com/home?status=" + contentString,
+		twitterButton = $("<div class=""><a href target='_blank'></a></div>");
+
+	$(this).mouseenter(function() {
+		var $this = $(this);
+		twitterButton.appendTo($(this));
+	});
+
+	$(this).mouseleave(function() {
+		var $this = $(this);
+		twitterButton.remove();
+	});
 // do something
 });
 
