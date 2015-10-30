@@ -189,14 +189,10 @@ $("blockquote.tweet").each(function(){
 		content = $this.find("a").text();
 	}
 
-	$this.mouseenter(function() {
-		var $this = $(this);
-		twitterButton.appendTo($(this));
-	});
+	twitterButton.appendTo($this).show();
 
-	$this.mouseleave(function() {
-		var $this = $(this);
-		twitterButton.remove();
+	$this.hover(function() {
+		twitterButton.toggle();
 	});
 // do something
 });
