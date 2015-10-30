@@ -234,4 +234,10 @@ $(".main-navigation > div > ul li").each(function() {
 	$(this).attr("tabindex", "0");
 });
 
+(function() {
+	$("body.blog, body.archive").find(".hentry .entry-header").click(function() {
+		$(this).find("a").click();
+	});
+})();
+
 })(jQuery);
