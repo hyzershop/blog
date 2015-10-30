@@ -374,6 +374,11 @@ li > ul, li > ol {
     margin-right: 10px;
 }
 
+.page .entry-title, .single .entry-title {
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
 blockquote.tweet .twitter-button {
 	width: 40px;
 	height: 40px;
