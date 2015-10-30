@@ -706,10 +706,14 @@ h2.widget-title {
 	margin-right: 0 !important;
 }
 .widget_wpcom_social_media_icons_widget a.genericon {
-	color: #00b0ff;
-	font-size: 2.6em;
+	color: #ffffff;
+	font-size: 1.8em;
+
+	background-color: #00b0ff;
+    padding: 20px;
+    border-radius: 100px;
 }
-.widget_wpcom_social_media_icons_widget a.genericon:hover { color: #ff3c7c; }
+.widget_wpcom_social_media_icons_widget a.genericon:hover { color: #ffffff; }
 
 /* CATEGORY */
 .category .hentry .cat-links { display: none; }
