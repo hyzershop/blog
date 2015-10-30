@@ -151,19 +151,49 @@ function fullScreenSubMenu() {
 			$subMenu = $(".menu-item-17-sub");
 
 		if ( $this.hasClass("submenu-expanded") ) {
-			$(".menu-item-17-sub").fadeOut(300);
+			subMenuOut();
 		} else {
-			$(".menu-item-17-sub").fadeIn(300);
+			subMenuIn();
 		}
 
-		$this.toggleClass("submenu-expanded");
-		$subMenu.fadeIn(300);
+		$this.toggleClass("submenu-expanded").find("li").each(function() {
+			$(this).css({
+				"-webkit-transform": "translate(0px, 10px)",
+				"opacity": "0"
+			});
+		});
 
 		if ( !$subMenu.hasClass("hasexit") ) {
 			$subMenu.addClass("hasexit")
 				.prepend($exitBtn);
 		}
 	});
+
+	function subMenuIn() {
+		var $subMenu = $(".menu-item-17-sub");
+		$subMenu.fadeIn(300);
+		$(this).find("li").each(function(index) {
+			var $this = $(this),
+				$delay = index * 200;
+			$this.delay($delay).animate({
+				"-webkit-transform": "translate(0px, 0px)",
+				"opacity": "1"
+			}, 600, "easeOutQuad");
+		});
+	}
+
+	function subMenuOut() {
+		var $subMenu = $(".menu-item-17-sub");
+		$subMenu.fadeOut(300);
+		$(this).find("li").each(function(index) {
+			var $this = $(this),
+				$delay = index * 200;
+			$this.delay($delay).animate({
+				"-webkit-transform": "translate(0px, 10px)",
+				"opacity": "0"
+			}, 600, "easeOutQuad");
+		});
+	}
 
 	$exitBtn.click(function() {
 		$(".menu-item-17-sub").fadeOut(300);
