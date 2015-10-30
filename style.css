@@ -762,6 +762,15 @@ h2.widget-title {
 	margin-right: 10px;
 }
 
+body.category .hentry .entry-title {
+	text-align: center;
+    position: relative;
+    z-index: 999999;
+    margin-top: -32px;
+    top: -195px;
+    color: #ffffff !important;
+}
+
 .home .widget-area:before, .archive .widget-area:before { display: none; }
 
 

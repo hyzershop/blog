@@ -107,11 +107,25 @@ function placeBlogIcons() {
 		}
 	} else { // if icon is already in place
 		$this.parent(".entry-meta").css({
-			top: topPos,
+			top: topPos
 		});
 	}
-	
 }
+
+$(window).load(function() {
+	$("body.category .hentry .entry-title").each(vAlignCategoryEntryTitle);
+}).resize(function() {
+	$("body.category .hentry .entry-title").each(vAlignCategoryEntryTitle);
+});
+function vAlignCategoryEntryTitle() {
+	var $this = $(this);
+	var topPos = -(($this.siblings(".post-thumbnail").height()) / 2);
+
+	$this.parent(".entry-meta").css({
+		top: topPos
+	});
+}
+
 
 $(document).ready(function() {
 	$("input[type='search']").attr("placeholder", "SEARCH THE HYZER BLOG");
