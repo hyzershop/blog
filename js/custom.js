@@ -187,7 +187,7 @@ function fullScreenSubMenu() {
 	function subMenuOut() {
 		var $subMenu = $(".menu-item-17-sub");
 		$subMenu.fadeOut(300).find("li").each(function(index) {
-			var $this = $(this),
+			var $this = $(this);
 			$this.animate({
 				"top": "20px",
 				"opacity": "0"
