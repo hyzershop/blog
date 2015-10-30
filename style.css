@@ -332,9 +332,9 @@ li > ul, li > ol {
 	padding-bottom: 40px;
 }
 
-.post-thumbnail, .entry-header-wrapper {
+.post-thumbnail {
 	position: relative;
-		z-index: 999999;
+	z-index: 999999;
 }
 
 .entry-header-wrapper {
