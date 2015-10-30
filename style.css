@@ -1085,16 +1085,16 @@ body.category .hentry .entry-title a {
 @media screen and (min-width: 1280px) {
 	.home .has-post-thumbnail .entry-meta .cat-links,
 	.search .has-post-thumbnail .entry-meta .cat-links {
-		width: 96px;
-    	margin-left: -48px;
+		width: 110px;
+    	margin-left: -55px;
     	margin-top: 0;
     	top: 62px;
 	}
 
-	.home .has-post-thumbnail .entry-meta .cat-links img,
+/*	.home .has-post-thumbnail .entry-meta .cat-links img,
 	.search .has-post-thumbnail .entry-meta .cat-links img {
-    	width: 96px !important;
-    }
+    	width: 96px;
+    }*/
 
     .flexslider .slides li a > div img {
 		position: relative;
