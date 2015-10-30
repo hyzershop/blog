@@ -159,7 +159,6 @@ function fullScreenSubMenu() {
 		 $this.toggleClass("submenu-expanded");
 		 $subMenu.find("li").each(function() {
 			$(this).css({
-				"-webkit-transform": "translate(0px, 10px)",
 				"opacity": "0",
 				"display": "block"
 			});
@@ -177,7 +176,7 @@ function fullScreenSubMenu() {
 			var $this = $(this),
 				$delay = 600 + (index * 200);
 			$this.delay($delay).animate({
-				"-webkit-transform": "translate(0px, 0px)",
+				"-webkit-transform": "translate(0px, -10px)",
 				"opacity": "1"
 			}, 600, "easeOutQuad");
 		});
@@ -190,7 +189,7 @@ function fullScreenSubMenu() {
 			var $this = $(this),
 				$delay = 600 + (index * 200);
 			$this.delay($delay).animate({
-				"-webkit-transform": "translate(0px, 10px)",
+				"-webkit-transform": "translate(0px, 0px)",
 				"opacity": "0"
 			}, 600, "easeOutQuad");
 		});
