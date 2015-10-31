@@ -1,7 +1,7 @@
 (function($) {
 
 var mask_fouc = function() {
-	$(".js body").delay(800).animate({ opacity: "1" }, 300); // hiding the flash of un-styled content
+	$("body.home, body.archive").delay(800).animate({ opacity: "1" }, 300); // hiding the flash of un-styled content
 }
 $(window).load(mask_fouc);
 
