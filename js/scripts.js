@@ -172,7 +172,7 @@ $(document).ready(function() {
 
 	subMenuParent.click(function() {
 		var $this = $(this);
-		if ( $(this).next(".sub-menu").is(":visible") ) {
+		if ( !$(this).next(".sub-menu").is(":visible") ) {
 			menuShow(subMenu, $this);
 			subMenuExit.show();
 		} else {
