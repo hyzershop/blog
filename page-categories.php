@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<!-- BIG thank you to Wes Bos! http://wesbos.com/wordpress-list-posts-by-category/ -->
 	<main role="main">
 		<!-- section -->
 		<section class="inner">
