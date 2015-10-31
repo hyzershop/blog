@@ -185,8 +185,8 @@ $(document).ready(function() {
 		}
 	});
 
-	$(".menu-item-17.expanded").click(function() {
-		menuHide(subMenu, $this);
+	$(".menu-item-17.expanded a").click(function() {
+		subMenuExit.click();
 	});
 
 
