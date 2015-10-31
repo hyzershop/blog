@@ -1084,6 +1084,10 @@ body.category .hentry .entry-title a {
 		margin-right: 0;
 	}
 
+	div#jp-relatedposts {
+		border-top: none;
+	}
+
 	div#jp-relatedposts:before {
 		display: none;
 	}
