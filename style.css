@@ -356,6 +356,8 @@ li > ul, li > ol {
 	font-size: 0.8em;
 	margin: 0 auto;
 	max-width: 960px;
+	float: none;
+	width: 100%;
 }
 
 .single .entry-hero .post-thumbnail {
@@ -1142,12 +1144,6 @@ body.category .hentry .entry-title a {
 
 	div#jp-relatedposts {
 		width: 870px;
-	}
-
-	.single .entry-content {
-		width: 100%;
-	    float: left;
-	    clear: both;
 	}
 
 	.comments-area, .footer-text, .footer-text + .site-info, .social-navigation + .site-info {
