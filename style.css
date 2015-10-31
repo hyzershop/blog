@@ -807,7 +807,6 @@ body.category .hentry .entry-title a {
 
 #jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post img.jp-relatedposts-post-img, #jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post span{
 	width: 100%;
-	padding: 80px 0 90px;
 }
 
 
@@ -1132,10 +1131,9 @@ body.category .hentry .entry-title a {
 	}
 
 	.single .entry-content {
-		width: 80%;
+		width: 100%;
 	    float: left;
 	    clear: both;
-	    margin-left: 10%;
 	}
 
 	.comments-area, .footer-text, .footer-text + .site-info, .social-navigation + .site-info {
