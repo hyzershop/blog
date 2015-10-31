@@ -185,13 +185,13 @@ $(document).ready(function() {
 		}
 	});
 
-	$(".menu-item-17.expanded a").click(function() {
-		if ( $(this).next(".sub-menu").is(":visible") ) {
+	
+	if ( $(this).next(".sub-menu").is(":visible") ) {
+		$(".menu-item-17.expanded a").click(function() {
 			console.log("ran");
 			subMenuExit.click();
-		}
-	});
-
+		});
+	}
 
 
 
