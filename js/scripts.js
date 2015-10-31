@@ -300,7 +300,7 @@ $(document).ready(function() {
 			var $this = $(this),
 				$width = $this.width(),
 				$maxHeight = $width/1.5;
-			$this.css({"height": $maxHeight});
+			$this.css({"max-height": $maxHeight});
 		});
 	}
 
