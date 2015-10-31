@@ -31,6 +31,22 @@ function hyzerblog_scripts_method() {
 }
 add_action( 'wp_enqueue_scripts', 'hyzerblog_scripts_method' );
 
+function jquery_ui_method() {
+    wp_enqueue_script(
+        'scripts',
+        'https://code.jquery.com/ui/1.11.4/jquery-ui.min.js',
+        array( 'jquery' )
+    );
+}
+add_action( 'wp_enqueue_scripts', 'jquery_ui_method' );
+
+function greensock_scripts() {
+    wp_enqueue_script( 'tween_lite', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenLite.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'jquery_gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/jquery.gsap.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'gsap_css', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/CSSPlugin.min.js', array(), '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'greensock_scripts' );
+
 // add homepage banner widget
 function arphabet_widgets_init() {
 
