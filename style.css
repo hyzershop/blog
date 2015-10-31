@@ -634,6 +634,16 @@ article[grid]:not(.has-post-thumbnail) * {
 	color: #fff !important;
 }
 
+.single article:not(.has-post-thumbnail) > .post-header {
+	top: 0 !important;
+	height: auto !important;
+	padding-top: 2em;
+}
+
+.single article:not(.has-post-thumbnail) > .post-header .inner {
+	background: #00b0ff;
+}
+
 @media screen and (max-width: 960px) {
 	article[grid] {
 		width: 100%;
