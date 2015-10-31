@@ -112,7 +112,8 @@ function placeBlogIcons() {
 	}
 }
 
-$(window).load(function() {
+$(document).ready(function() {
+//$(window).load(function() {
 	$("body.category .hentry .entry-title").each(vAlignCategoryEntryTitle);
 }).resize(function() {
 	$("body.category .hentry .entry-title").each(vAlignCategoryEntryTitle);
@@ -150,7 +151,7 @@ $(document).ready(function() {
 })();
 
 $(document).ready(function() {
-$(window).load(function() {
+//$(window).load(function() {
 
 fullScreenMenu();
 $(window).resize(fullScreenMenu);
@@ -250,7 +251,7 @@ function fullScreenSubMenu() {
 		subMenuOut();
 	});
 }
-});
+//});
 });
 
 $(".fullwidthimage").each(function() {
