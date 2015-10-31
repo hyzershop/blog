@@ -186,7 +186,7 @@ $(document).ready(function() {
 	});
 
 	
-	if ( $(this).next(".sub-menu").is(":visible") ) {
+	if ( $(".menu-item-17.expanded a").next(".sub-menu").is(":visible") ) {
 		$(".menu-item-17.expanded a").click(function() {
 			console.log("ran");
 			subMenuExit.click();
