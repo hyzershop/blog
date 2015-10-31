@@ -271,14 +271,14 @@ $(document).ready(function() {
 	// }
 
 	$(window).scroll(function() {
-		$('.flexslider .slides li div > img').each(function() {
+		$('.flexslider .slides li.flex-active-slide div > img').each(function() {
 			parallax($(this));
 		});
 	});
 	function parallax(a) {
 		var plxImg = $(a),
 			scrollTop = $(document).scrollTop(),
-			zTransform = scrollTop/6 + "px",
+			zTransform = scrollTop/10 + "px",
 			yTransform = scrollTop/7 + "px";
 
 		plxImg.parent().css({
