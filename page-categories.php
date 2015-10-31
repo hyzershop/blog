@@ -11,7 +11,10 @@
 				// loop through the categries
 				foreach ($cats as $cat) {
 					// setup the cateogory ID
-					$cat_id= $cat->term_id;
+					$cat_id= $cat->term_id; ?>
+
+			<article grid>
+				<?php
 					// Make a header for the cateogry
 					echo "<h2>".$cat->name."</h2>";
 					// create a custom wordpress query
@@ -21,7 +24,7 @@
 
 						<?php // create our link now that the post is setup ?>
 						<a href="<?php the_permalink();?>"><?php the_title(); ?></a>
-						<?php echo '<hr/>'; ?>
+			</article>
 
 					<?php endwhile; endif; // done our wordpress loop. Will start again for each category ?>
 				<?php } // done the foreach statement ?>
