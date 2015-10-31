@@ -1,57 +1,36 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after
- *
- * @package Gazette
- */
-?>
+			<!-- footer -->
+			<footer id="site-footer" class="footer" role="contentinfo">
+				<!-- inner -->
+				<div class="inner footer-inner">
 
-	</div><!-- #content -->
+					<?php if ( is_active_sidebar( 'footer_widget_area' ) ) : dynamic_sidebar( 'footer_widget_area' ); ?>
+					<?php endif; ?>
 
-	<?php get_sidebar( 'footer' ); ?>
+				</div>
+				<!-- /inner -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-footer-inner">
-			<?php
-				$footer_content = get_theme_mod( 'gazette_footer_content' );
-				if ( '' != $footer_content ) :
-			?>
-			<div class="footer-text">
-				<?php echo wp_kses_post( $footer_content ); ?>
-			</div><!-- .footer-text -->
-			<?php endif; ?>
+				<!-- copyright -->
+				<p class="copyright">
+					&copy; <?php echo date('Y'); ?> Hyzer Shop, LLC. All rights reserved. Oh yeah, and we developed this awesome site ourselves. Bam.
+				</p>
+				<!-- /copyright -->
+			</footer>
+			<!-- /footer -->
 
-			<?php if ( has_nav_menu( 'social' ) ) : ?>
-				<nav class="social-navigation" role="navigation">
-					<?php
-						wp_nav_menu( array(
-							'theme_location'  => 'social',
-							'link_before'     => '<span class="screen-reader-text">',
-							'link_after'      => '</span>',
-							'depth'           => 1,
-						) );
-					?>
-				</nav><!-- .social-navigation -->
-			<?php endif; ?>
+		</div>
+		<!-- /wrapper -->
 
-			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'gazette' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'gazette' ), 'WordPress' ); ?></a>
-				<span class="genericon genericon-wordpress sep"></span>
-				<?php printf( __( 'Theme: %1$s by %2$s.', 'gazette' ), 'Gazette', '<a href="https://wordpress.com/themes/" rel="designer">Automattic</a>' ); ?>
-			</div><!-- .site-info -->
-		</div><!-- .site-footer-inner -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+		<?php wp_footer(); ?>
 
-<?php wp_footer(); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenLite.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/jquery.gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/plugins/CSSPlugin.min.js"></script>
+		<!-- analytics -->
+		<script>
+		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
+		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
+		l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
+		ga('send', 'pageview');
+		</script>
 
-<script src="http://blog.hyzershop.com/wp-content/themes/gazette-child/js/custom.js"></script>
-
-<div class="ifie8">Your browser is no longer supported.</div>
-</body>
+	</body>
 </html>
