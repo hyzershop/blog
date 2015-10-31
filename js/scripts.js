@@ -276,7 +276,7 @@ $(document).ready(function() {
 		});
 
 		if (scrollTop < 600) {
-			plxImg.css({
+			TweenLite.to(plxImg, 1, {
 			//	"-webkit-transform": "translateZ(" + zTransform + ")",
 				"-webkit-transform": "translateY(" + yTransform + ")"
 			//	, "-webkit-filter": "blur(" + blur + ")"
