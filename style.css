@@ -933,10 +933,6 @@ body.category .hentry .entry-title a {
 
 @media screen and (max-width: 839px) and (min-width: 600px) {
 	body.search-toggled .menu-toggle { opacity: 0; }
-
-	.page .site-main, .page .widget-area, .single .site-main, .single .widget-area {
-		padding-top: 20px;
-	}
 }
 
 @media screen and (min-width: 600px) {
@@ -962,6 +958,10 @@ body.category .hentry .entry-title a {
 
 	.header-image {
 		margin: 0;
+	}
+
+	.page .site-main, .page .widget-area, .single .site-main, .single .widget-area {
+		padding-top: 20px;
 	}
 }
 @media screen and (max-width: 959px) and (min-width: 768px) {
