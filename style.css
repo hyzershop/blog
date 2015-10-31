@@ -178,7 +178,7 @@ header > .nav li.current_page_item a {
 	border-bottom: 7px solid #ff3c7c;
 }
 
-.menu-item-17::before {
+header > .nav > ul > li.menu-item-has-children::before {
     font-family: "FontAwesome";
     content: "\f0c9";
     color: #fff;
@@ -336,14 +336,6 @@ header > .nav > ul > li > .sub-menu a:hover {
     .nav > ul li a:hover {
     	color: #ff3c7c;
     }
-
-	header > .nav-item-17-sub {
-		top: 112px;
-	}
-
-    header > .nav-item-17-sub li {
-		display: block;
-	}
 }
 
 
