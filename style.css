@@ -626,11 +626,11 @@ article[grid]:not(.has-post-thumbnail) {
     padding: 10em 4em;
 }
 
-article[grid]:nth-child(2n+1):not(.has-post-thumbnail) {
+article[grid]:nth-child(2n+2):not(.has-post-thumbnail) {
 	background: #ff3c7c !important;
 }
 
-article[grid]:nth-child(2n+2):not(.has-post-thumbnail) {
+article[grid]:nth-child(2n+3):not(.has-post-thumbnail) {
 	background: #ff3c7c !important;
 }
 
