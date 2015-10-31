@@ -186,7 +186,9 @@ $(document).ready(function() {
 	});
 
 	$(".menu-item-17.expanded a").click(function() {
-		subMenuExit.click();
+		if ( $(this).next(".sub-menu").is(":visible") ) {
+			subMenuExit.click();
+		}
 	});
 
 
