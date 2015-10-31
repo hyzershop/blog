@@ -162,10 +162,10 @@ $(document).ready(function() {
 
 	mainMenuToggle.click(function() {
 		var $this = $(this);
-		if ( $this.hasClass("expanded") === true ) {
+		if ( $this.hasClass("expanded") === true && $(window).width() < 840 ) {
 			menuHide(mainMenu, $this);
 		}
-		if ( $this.hasClass("expanded") === false ) {
+		if ( $this.hasClass("expanded") === false && $(window).width() < 840 ) {
 			menuShow(mainMenu, $this);
 		}
 	});
@@ -176,12 +176,14 @@ $(document).ready(function() {
 		subMenuExit.show();
 	});
 
-	subMenuExit.click(function() {
-		var $this = $(this);
-		menuHide(subMenu, $this);
-		$this.hide();
-		mainMenuToggle.click();
-	});
+	if ($(window).width() < 840) {
+		subMenuExit.click(function() {
+			var $this = $(this);
+			menuHide(subMenu, $this);
+			$this.hide();
+			mainMenuToggle.click();
+		});
+	}
 
 
 
