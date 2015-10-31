@@ -511,6 +511,10 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 	filter: blur(3px);*/
 }
 
+.flex-direction-nav {
+	display: none;
+}
+
 .flex-direction-nav a.flex-prev,
 .flex-direction-nav a.flex-next {
 	background-image: url('images/bg_direction_nav.png') !important;
