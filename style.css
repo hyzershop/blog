@@ -390,6 +390,7 @@ li > ul, li > ol {
 .page .entry-title, .single .entry-title {
 	margin: 0 auto;
 
+	line-height: 1;
 	font-size: 3em;
 	text-transform: uppercase;
 	text-align: center;
