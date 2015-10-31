@@ -591,6 +591,10 @@ article[grid] > p,
 	overflow: hidden;
 }
 
+.post-hero img {
+	max-height: none;
+}
+
 @media screen and (max-width: 959px) {
 	.post-hero img {
     	width: 960px;
