@@ -630,7 +630,7 @@ article[grid]:nth-child(2n+2):not(.has-post-thumbnail) {
 	background: #ff3c7c !important;
 }
 
-article[grid]:nth-child(2n+3):not(.has-post-thumbnail) {
+article[grid]:nth-child(2n+4):not(.has-post-thumbnail) {
 	background: #ff3c7c !important;
 }
 
