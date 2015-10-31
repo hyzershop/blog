@@ -186,7 +186,8 @@ $(document).ready(function() {
 	});
 
 	
-	$(".menu-item-17 > a").click(function() {
+	$(".menu-item-17 > a").click(function(e) {
+		e.preventDefault;
 		console.log("clicked");
 		if ( $(this).next(".sub-menu").is(":visible") ) {
 			console.log("ran");
