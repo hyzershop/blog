@@ -1083,6 +1083,10 @@ body.category .hentry .entry-title a {
 		padding-right: 0;
 		margin-right: 0;
 	}
+
+	div#jp-relatedposts:before {
+		display: none;
+	}
 }
 @media screen and (min-width: 1080px) {
 /*	.home .widget-area,
