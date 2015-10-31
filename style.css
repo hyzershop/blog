@@ -620,6 +620,16 @@ article[grid] > p,
 	margin-top: 0.5em;
 }
 
+article[grid]:not(.has-post-thumbnail) {
+	background: #00b0ff;
+    color: #fff;
+    padding: 10em 4em;
+}
+
+article[grid]:not(.has-post-thumbnail) * {
+	color: #fff !important;
+}
+
 @media screen and (max-width: 960px) {
 	article[grid] {
 		width: 100%;
