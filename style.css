@@ -646,7 +646,7 @@ article[grid] > p,
     height: auto;
     vertical-align: middle;
     position: relative;
-    top: -2px;
+    top: 5px;
     margin-right: 10px;
     border-radius: 100px;
 }
