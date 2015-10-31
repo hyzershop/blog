@@ -24,9 +24,9 @@
 
 						<?php // create our link now that the post is setup ?>
 						<a href="<?php the_permalink();?>"><?php the_title(); ?></a>
-			</article>
 
 					<?php endwhile; endif; // done our wordpress loop. Will start again for each category ?>
+			</article>
 				<?php } // done the foreach statement ?>
 
 		</section>
