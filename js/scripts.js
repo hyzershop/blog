@@ -185,6 +185,10 @@ $(document).ready(function() {
 		}
 	});
 
+	$(".menu-item-17.expanded").click(function() {
+		menuHide(subMenu, $this);
+	});
+
 
 
 
