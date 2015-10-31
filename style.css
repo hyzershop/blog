@@ -626,6 +626,10 @@ article[grid]:not(.has-post-thumbnail) {
     padding: 10em 4em;
 }
 
+article[grid]:nth-child(odd):not(.has-post-thumbnail) {
+	background: #ff3c7c !important;
+}
+
 article[grid]:not(.has-post-thumbnail) * {
 	color: #fff !important;
 }
