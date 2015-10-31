@@ -537,13 +537,13 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 	    margin-left: -480px;
     }
 
-    .flexslider-caption {
+/*    .flexslider-caption {
 	    bottom: 27em !important;
-	}
+	}*/
 
-	.flexslider-title {
+/*	.flexslider-title {
 		margin: 1.4em auto 0 auto !important;
-	}
+	}*/
 
 	.flexslider-caption-inner p { display: none; }
 }
