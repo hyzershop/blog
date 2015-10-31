@@ -265,7 +265,7 @@ $(document).ready(function() {
 	$(window).scroll(function() {
 		parallax('.flexslider .slides li div > img');
 	});
-	function parallax( a ) {
+	function parallax(a) {
 		var plxImg = $(a),
 			scrollTop = $(document).scrollTop(),
 			zTransform = scrollTop/6 + "px",
@@ -275,7 +275,7 @@ $(document).ready(function() {
 			"perspective": "200px"
 		});
 
-		if (scrollTop < 400) {
+		if (scrollTop < 600) {
 			plxImg.css({
 			//	"-webkit-transform": "translateZ(" + zTransform + ")",
 				"-webkit-transform": "translateY(" + yTransform + ")"
