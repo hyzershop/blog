@@ -101,7 +101,7 @@ $(document).ready(function() {
 
 			postCategory.css({
 				top: -thumbHeight + "px"
-			}).children("a").css({
+			}).children("a:first-child").css({
 				display: "block",
 				height: thumbHeight + "px",
 				backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
