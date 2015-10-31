@@ -212,7 +212,8 @@ img {
 	color: #ffffff;
 }
 
-.js body {
+.js body.home,
+.js body.archive {
 	opacity: 0;
 }
 
