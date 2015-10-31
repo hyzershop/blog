@@ -354,6 +354,8 @@ li > ul, li > ol {
 .single .entry-content {
 	color: #666666;
 	font-size: 0.8em;
+	margin: 0 auto;
+	max-width: 960px;
 }
 
 .single .entry-hero .post-thumbnail {
@@ -1029,10 +1031,13 @@ body.category .hentry .entry-title a {
 }
 
 @media screen and (min-width: 960px) {
+
+	/** SITE WIDTH **/
 	.entry-header-inner, .site-content-inner, .site-footer-inner, .site-header-inner,
 	.search .site-main {
 		width: 90%;
-		margin: 0 auto;
+	    max-width: 1136px;
+	    margin: 0 auto;
 	}
 
 	.search .content-area, .archive .content-area, .blog .content-area, .error404 .content-area {
