@@ -290,6 +290,10 @@ $(window).resize(function() {
 	$("body").removeClass("search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled search-toggled");
 });
 
+$(document).ready(function() {
+	$(".single #jp-relatedposts").insertAfter(".entry-content");
+});
+
 /** FIND-REPLACE **/
 // Remove "Category: "
 $(document).ready(function() {
