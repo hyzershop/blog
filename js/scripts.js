@@ -290,14 +290,16 @@ $(document).ready(function() {
 	}
 
 
-
-
-	$("article[grid] .post-thumbnail").each(function() {
-		var $this = $(this),
-			$width = $this.width(),
-			$maxHeight = $width/1.5;
-		$this.css({"height": $maxHeight});
-	});
+	$(window).resize(sizePostThumbnails);
+	sizePostThumbnails();
+	function sizePostThumbnails() {
+		$("article[grid] .post-thumbnail").each(function() {
+			var $this = $(this),
+				$width = $this.width(),
+				$maxHeight = $width/1.5;
+			$this.css({"height": $maxHeight});
+		});
+	}
 
 });
 
