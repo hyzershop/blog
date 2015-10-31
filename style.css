@@ -14,6 +14,10 @@ html, body {
 	color: #666;
 }
 
+.js body {
+	opacity: 0;
+}
+
 footer {
 	color: #fff;
 }
