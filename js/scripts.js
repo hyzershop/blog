@@ -172,12 +172,12 @@ $(document).ready(function() {
 
 	subMenuParent.click(function() {
 		var $this = $(this);
-		if ( !$(this).next(".sub-menu").is(":visible") ) {
+		if ( !$this.children("a").next(".sub-menu").is(":visible") ) {
 			menuShow(subMenu, $this);
-			subMenuExit.show();
+			subMenuExit.fadeIn();
 		} else {
 			menuHide(subMenu, $this);
-			subMenuExit.hide();
+			subMenuExit.fadeOut();
 		}
 	});
 
