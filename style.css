@@ -174,9 +174,10 @@ header > .nav li.current_page_item a {
 .menu-item-17::before {
     font-family: "FontAwesome";
     content: "\f0c9";
+    color: #fff;
     display: inline-block;
     position: relative;
-    right: 0;
+    right: 2em;
     text-align: right;
     float: right;
 }
