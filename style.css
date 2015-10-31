@@ -637,11 +637,11 @@ article[grid]:not(.has-post-thumbnail) * {
 .single article:not(.has-post-thumbnail) > .post-header {
 	top: 0 !important;
 	height: auto !important;
-	padding-top: 2em;
 }
 
 .single article:not(.has-post-thumbnail) > .post-header .inner {
-	background: #00b0ff;
+	background: #00b0ff !important;
+	padding-top: 5em !important;
 }
 
 @media screen and (max-width: 960px) {
