@@ -315,7 +315,7 @@ header .widget_search > form {
 	width: 3em;
 	height: 4.6em;
     margin: 1.1em 2em 0 0;
-	background: #00b0ff url(/hyzershop/wp-content/themes/hyzer-blog/images/search-icon-white-hi.png) no-repeat 50%;
+	background: #00b0ff url(/wp-content/themes/hyzer-blog/images/search-icon-white-hi.png) no-repeat 50%;
 		background-size: 24px 24px;
 }
 
@@ -342,7 +342,7 @@ header .widget_search button.search-submit {
 	-webkit-appearance: none;
     border: none;
     color: transparent;
-    background: #00b0ff url(/hyzershop/wp-content/themes/hyzer-blog/images/search-icon-white-hi.png) no-repeat 50%;
+    background: #00b0ff url(/wp-content/themes/hyzer-blog/images/search-icon-white-hi.png) no-repeat 50%;
     	background-size: 24px 24px;
     height: 3em;
     width: 3em;
