@@ -176,14 +176,14 @@ $(document).ready(function() {
 		subMenuExit.show();
 	});
 
-	if ($(window).width() < 840) {
-		subMenuExit.click(function() {
-			var $this = $(this);
-			menuHide(subMenu, $this);
-			$this.hide();
+	subMenuExit.click(function() {
+		var $this = $(this);
+		menuHide(subMenu, $this);
+		$this.hide();
+		if ($(window).width() < 840) {
 			mainMenuToggle.click();
-		});
-	}
+		}
+	});
 
 
 
