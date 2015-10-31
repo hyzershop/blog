@@ -218,6 +218,10 @@ header > .nav > ul > li > .sub-menu a:hover {
 	cursor: pointer;
 }
 
+.sub-menu-exit img {
+	height: 100%;
+}
+
 
 
 
