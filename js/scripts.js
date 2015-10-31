@@ -186,12 +186,12 @@ $(document).ready(function() {
 	});
 
 	
-	if ( $(".menu-item-17.expanded > a").next(".sub-menu").is(":visible") ) {
-		$(".menu-item-17.expanded > a").click(function() {
+	$(".menu-item-17.expanded > a").click(function() {
+		if ( $(".menu-item-17.expanded > a").next(".sub-menu").is(":visible") ) {
 			console.log("ran");
 			subMenuExit.click();
-		});
-	}
+		}
+	});
 
 
 
