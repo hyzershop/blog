@@ -1018,7 +1018,11 @@ body.category .hentry .entry-title a {
 		color: #fff;
 	}
 
-	.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post {
+	div#jp-relatedposts {
+		width: 100%;
+	}
+
+	div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post {
 		width: 30.33% !important;
 		margin: 0 1% !important;
 	}
