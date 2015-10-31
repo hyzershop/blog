@@ -1019,7 +1019,7 @@ body.category .hentry .entry-title a {
 	}
 
 	div#jp-relatedposts {
-		width: 100%;
+		width: 100% !important;
 	}
 
 	div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post {
