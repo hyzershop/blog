@@ -278,7 +278,8 @@ $(document).ready(function() {
 	function parallax(a) {
 		var plxImg = $(a),
 			scrollTop = $(document).scrollTop(),
-			zTransform = scrollTop/20 + "px",
+		//	zTransform = scrollTop/20 + "px",
+			zTransform = 0,
 			yTransform = scrollTop/7 + "px";
 
 		plxImg.parent().css({
