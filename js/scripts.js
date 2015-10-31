@@ -134,14 +134,14 @@ $(document).ready(function() {
 
 	function menuHide(menu, button) {
 		setTimeout(function() {
-			menu.fadeOut(300);
+			menu.hide();
 			button.removeClass("expanded");
 		}, 100);
 	}
 
 	function menuShow(menu, button) {
 		setTimeout(function() {
-			menu.fadeIn(300);
+			menu.show();
 			button.addClass("expanded");
 		}, 100);
 	}
@@ -173,13 +173,13 @@ $(document).ready(function() {
 	subMenuParent.click(function() {
 		var $this = $(this);
 		menuShow(subMenu, $this);
-		subMenuExit.fadeIn(300);
+		subMenuExit.show();
 	});
 
 	subMenuExit.click(function() {
 		var $this = $(this);
 		menuHide(subMenu, $this);
-		$this.fadeOut(300);
+		$this.hide();
 		mainMenuToggle.click();
 	});
 
