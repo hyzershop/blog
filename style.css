@@ -136,7 +136,7 @@ main::after {
 /* TOP NAV */
 
 .wrapper > header {
-	margin-top: 6px;
+	margin: 2em auto;
 	background: #00b0ff;
 }
 
@@ -188,7 +188,7 @@ header > .nav > ul > li > .sub-menu {
     display: block;
     position: fixed;
     z-index: 11;
-    top: 5.7em;
+    top: 9.7em;
     left: 0;
     width: 100%;
     background: #00b0ff;
