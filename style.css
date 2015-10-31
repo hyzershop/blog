@@ -156,18 +156,29 @@ header > .nav ul {
 
 header > .nav li {
 	display: inline;
+	float: left;
 	padding: 0;
 }
 
 header > .nav li a {
 	color: #fff;
-	padding: 2.2em 2em 2.4em;
+	padding: 2.2em 2em 2.3em;
 	border-bottom: 7px solid #fff;
 }
 
 header > .nav li a:hover,
 header > .nav li.current_page_item a {
 	border-bottom: 7px solid #ff3c7c;
+}
+
+.menu-item-17::before {
+    font-family: "FontAwesome";
+    content: "\f0c9";
+    display: inline-block;
+    position: relative;
+    right: 0;
+    text-align: right;
+    float: right;
 }
 
 
