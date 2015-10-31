@@ -462,6 +462,7 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 
 .flexslider .slides li a > div img {
 	opacity: 0.8;
+	max-height: none;
 	-webkit-filter: blur(3px);
 	-ms-filter: blur(3px);
 	filter: blur(3px);
