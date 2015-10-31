@@ -177,7 +177,8 @@ header > .nav li.current_page_item a {
     color: #fff;
     display: inline-block;
     position: relative;
-    right: 2em;
+    right: 1.4em;
+    font-size: 1.2em;
     text-align: right;
     float: right;
 }
