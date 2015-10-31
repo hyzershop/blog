@@ -271,7 +271,9 @@ $(document).ready(function() {
 	// }
 
 	$(window).scroll(function() {
-		parallax('.flexslider .slides li div > img');
+		$('.flexslider .slides li div > img').each(function() {
+			parallax($(this));
+		});
 	});
 	function parallax(a) {
 		var plxImg = $(a),
