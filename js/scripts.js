@@ -285,8 +285,7 @@ $(document).ready(function() {
 
 		if (scrollTop < 600) {
 			TweenLite.to(plxImg, 0.1, {
-				"-webkit-transform": "translateZ(" + zTransform + ")",
-				"-webkit-transform": "translateY(" + yTransform + ")"
+				"-webkit-transform": "translate3d(0px," + zTransform + "," + yTransform + ")"
 			//	, "-webkit-filter": "blur(" + blur + ")"
 			});
 		}
