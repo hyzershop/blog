@@ -137,6 +137,8 @@ $(document).ready(function() {
 			menu.hide();
 			button.removeClass("expanded");
 		}, 100);
+		$("body").css({"overflow": "scroll"});
+		subMenuExit.fadeOut();
 	}
 
 	function menuShow(menu, button) {
@@ -144,6 +146,7 @@ $(document).ready(function() {
 			menu.fadeIn();
 			button.addClass("expanded");
 		}, 100);
+		$("body").css({"overflow": "hidden"});
 	}
 
 	if ($(window).width() < 840) {
