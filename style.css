@@ -630,10 +630,6 @@ article[grid]:nth-child(3n):not(.has-post-thumbnail) {
 	background: #ff3c7c !important;
 }
 
-article[grid]:nth-child(4n):not(.has-post-thumbnail) {
-	background: #ff3c7c !important;
-}
-
 article[grid]:not(.has-post-thumbnail) * {
 	color: #fff !important;
 }
