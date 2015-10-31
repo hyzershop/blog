@@ -562,10 +562,10 @@ article[grid] {
 }
 
 article[grid]:nth-child(odd) {
-	clear: left;
+	clear: right;
 }
 article[grid]:nth-child(even) {
-	clear: right;
+	clear: left;
 }
 
 .js article[grid] .post-category {
