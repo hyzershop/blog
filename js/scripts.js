@@ -141,7 +141,7 @@ $(document).ready(function() {
 
 	function menuShow(menu, button) {
 		setTimeout(function() {
-			menu.show();
+			menu.fadeIn();
 			button.addClass("expanded");
 		}, 100);
 	}
