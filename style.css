@@ -556,6 +556,7 @@ article[grid]:nth-child(even) {
 
 .js article[grid] .post-thumbnail img {
 	width: 100%;
+	max-height: none;
 	opacity: 0.7;
 }
 
