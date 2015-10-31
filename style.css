@@ -961,7 +961,7 @@ body.category .hentry .entry-title a {
 	}
 
 	.page .site-main, .page .widget-area, .single .site-main, .single .widget-area {
-		padding-top: 20px;
+		padding-top: 35px;
 	}
 }
 @media screen and (max-width: 959px) and (min-width: 768px) {
