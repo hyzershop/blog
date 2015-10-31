@@ -123,7 +123,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
 	var mainMenu = $(".wrapper > header > nav > ul").addClass("main-menu"),
-		subMenu = $(".wrapper > header > nav > ul .sub-menu"),
+		subMenu = $(".wrapper > header > nav > ul > li > .sub-menu"),
 		mainMenuToggle = $("<div id='menu-toggle' data-menu-expanded='false'></div>").appendTo("body"),
 		subMenuParent = $("header > .nav li.menu-item-has-children"),
 		subMenuExit = $("<div class='sub-menu-exit'><img src='/wp-content/themes/gazette-child/images/exit-button.png' width='70' height='70' /></div>");
