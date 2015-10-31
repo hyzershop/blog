@@ -172,8 +172,13 @@ $(document).ready(function() {
 
 	subMenuParent.click(function() {
 		var $this = $(this);
-		menuShow(subMenu, $this);
-		subMenuExit.show();
+		if ( $(this).next(".sub-menu").is(":visible") ) {
+			menuShow(subMenu, $this);
+			subMenuExit.show();
+		} else {
+			menuHide(subMenu, $this);
+			subMenuExit.hide();
+		}
 	});
 
 	subMenuExit.click(function() {
@@ -184,17 +189,6 @@ $(document).ready(function() {
 			mainMenuToggle.click();
 		}
 	});
-
-	
-	$(".menu-item-17 > a").click(function(e) {
-		e.preventDefault;
-		console.log("clicked");
-		if ( $(this).next(".sub-menu").is(":visible") ) {
-			console.log("ran");
-			subMenuExit.click();
-		}
-	});
-
 
 
 
