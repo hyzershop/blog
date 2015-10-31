@@ -278,7 +278,7 @@ $(document).ready(function() {
 	function parallax(a) {
 		var plxImg = $(a),
 			scrollTop = $(document).scrollTop(),
-		//	zTransform = scrollTop/20 + "px",
+		//	zTransform = scrollTop/10 + "px",
 			zTransform = 0,
 			yTransform = scrollTop/7 + "px";
 
@@ -288,7 +288,7 @@ $(document).ready(function() {
 
 		if (scrollTop < 600) {
 			TweenLite.to(plxImg, 0.1, {
-				"-webkit-transform": "translate3d(0px," + zTransform + "," + yTransform + ")"
+				"-webkit-transform": "translate3d(0px," + yTransform + "," + zTransform + ")"
 			//	, "-webkit-filter": "blur(" + blur + ")"
 			});
 		}
