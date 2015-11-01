@@ -226,6 +226,10 @@ header > .nav > ul > li > .sub-menu {
     padding: 8em;
 }
 
+header > .nav > ul > li > .sub-menu > li {
+	margin-right: 1em;
+}
+
 header > .nav > ul > li > .sub-menu a,
 header > .nav > ul > li > .sub-menu a:hover {
 	border: 0;
