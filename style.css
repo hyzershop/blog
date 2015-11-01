@@ -974,7 +974,9 @@ body.page main > section > h1 { display: none; }
 
     position: relative;
     top: 2px;
-    padding-right: 1.4em;
+    padding-right: 4.4em;
+    background: transparent url("/wp-content/themes/hyzer-blog/images/hb-logo.png") no-repeat right 50%;
+    	background-size: 3em 3em;
 }
 
 .mce-EMAIL {
@@ -993,5 +995,9 @@ body.page main > section > h1 { display: none; }
 .mc-embedded-subscribe:focus {
 	background: #ff3c7c;
 	border: 0;
+}
+
+.mc_embed_signup.top .mc_embed_signup_scroll > label {
+	padding-right: 1.4em;
 }
 
