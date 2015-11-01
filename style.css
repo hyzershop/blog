@@ -581,7 +581,7 @@ article[grid]:not(.has-post-thumbnail):hover {
 	background-color: #ff3c7c;
 }
 
-article[grid].has-post-thumbnail {
+article[grid].has-post-thumbnail .article-grid-inner {
 	background-color: transparent;
 }
 
