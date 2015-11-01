@@ -564,7 +564,10 @@ article[grid] {
     margin: 0 2% 3em;
     min-height: 30em;
     text-align: center;
+}
 
+article[grid]:not(.has-post-thumbnail),
+article[grid] .article-grid-inner {
 	background-color: #00b0ff;
 	background-size: 6em auto;
 	background-repeat: no-repeat;
@@ -574,14 +577,14 @@ article[grid] {
     min-height: 38em;
     max-height: 38em;
 }
-article[grid]:hover {
+article[grid]:not(.has-post-thumbnail):hover {
 	background-color: #ff3c7c;
 }
 
-article[grid]:nth-child(3n+2) {
+article[grid]:nth-child(3n+2):not(.has-post-thumbnail) {
 	background-color: #ff3c7c !important;
 }
-article[grid]:nth-child(3n+2):hover {
+article[grid]:nth-child(3n+2):not(.has-post-thumbnail):hover {
 	background-color: #00b0ff !important;
 }
 
