@@ -981,6 +981,8 @@ body.page main > section > h1 { display: none; }
 	padding: 1em 1.5em;
 }
 
+.mce-EMAIL:focus { color: #fff; }
+
 .mc-embedded-subscribe {
 	margin-left: 1.5em;
     padding: 1em;
