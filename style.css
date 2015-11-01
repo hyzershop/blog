@@ -16,7 +16,7 @@ html, body {
 
 .js body {
 	opacity: 0;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 
 footer {
