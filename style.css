@@ -752,10 +752,6 @@ body.category article > .post-category { display: none; }
 	margin-top: 2em;
 }
 
-div.sd-social > * {
-	float: left;
-	clear: both;
-}
 div.sharedaddy h3.sd-title {
     font-family: 'Rock Salt';
     text-transform: lowercase;
