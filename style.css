@@ -977,3 +977,7 @@ body.page main > section > h1 { display: none; }
     padding-right: 1.4em;
 }
 
+.mce-EMAIL {
+	padding: 1em 1.5em;
+}
+

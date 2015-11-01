@@ -248,7 +248,7 @@ $(document).ready(function() {
 		top: 0,
 		left: 0,
 		width: "100%",
-	});
+	}).find("input[type='submit']").attr("value", "Go");
 	$(window).scroll(function() {
 		if ( $(document).scrollTop() > 1000 ) {
 			mc_email_only.slideDown(400);
