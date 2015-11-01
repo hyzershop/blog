@@ -752,7 +752,7 @@ body.category article > .post-category { display: none; }
 	margin-top: 2em;
 }
 
-div.sharedaddy > * {
+div.sd-social > * {
 	float: left;
 	clear: both;
 }
@@ -767,7 +767,7 @@ div.sharedaddy h3.sd-title::before {
 	display: none;
 }
 .sd-content ul li a.sd-button:before {
-	font-size: 28px;
+	font-size: 28px !important;
 }
 
 
