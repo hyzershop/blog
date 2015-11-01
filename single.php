@@ -44,12 +44,13 @@
 			</div>
 
 			<div class="post-after inner">
-				<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+				<div class="post-after-meta">
+					<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
 
-				<p><?php _e( '', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
+					<p><span>You're in</span> the_category(''); // Separated by commas ?></p>
 
-				<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
-
+					<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
+				</div>
 				<?php comments_template(); ?>
 			</div>
 
