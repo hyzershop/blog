@@ -874,8 +874,8 @@ body.page main > section > h1 { display: none; }
 	background: #ff3c7c;
 }
 
-form > div > input:not([type="submit"]),
-form > div > textarea {
+form.contact-form > div > input:not([type="submit"]),
+form.contact-form > div > textarea {
 	width: 100%;
 }
 
