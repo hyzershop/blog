@@ -874,7 +874,8 @@ body.page main > section > h1 { display: none; }
 	background: #ff3c7c;
 }
 
-form > div > input {
+form > div > input:not([type="submit"]),
+form > div > textarea {
 	width: 100%;
 }
 
