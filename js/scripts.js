@@ -115,8 +115,10 @@ $(document).ready(function() {
 		});
 	}
 
-	$("article[grid]").click(function() {
-		$(this).find("h2 a").click();
+	$("article[grid]").each(function() {
+		$(this).click(function(e) {
+			$(e.target).find("h2 a").click();
+		});
 	});
 
 
