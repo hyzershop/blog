@@ -592,7 +592,7 @@ article[grid] {
 	width: 100%;
 	height: auto;
 	max-height: none;
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 article[grid] > span,
