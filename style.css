@@ -237,6 +237,16 @@ header > .nav > ul > li > .sub-menu a:hover {
 	padding: 1em 0;
 }
 
+header > .nav > ul > li > .sub-menu a::before {
+	content: " ";
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: 0.8em;
+    margin-right: 0.5em;
+}
+
 .sub-menu-exit {
 	position: absolute;
 		z-index: 12;
