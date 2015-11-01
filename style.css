@@ -16,6 +16,7 @@ html, body {
 
 .js body {
 	opacity: 0;
+	overflow-x: hidden;
 }
 
 footer {
@@ -1002,6 +1003,3 @@ body.page main > section > h1 { display: none; }
 .mc_embed_signup.top .mc_embed_signup_scroll > label {
 	padding-right: 1.4em;
 }
-
-
-#menu-toggle { display:none; }
