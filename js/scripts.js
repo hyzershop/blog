@@ -118,7 +118,7 @@ $(document).ready(function() {
 	$("article[grid]").click(function() {
 		var link = $(this).find("h2 a"),
 			linkurl = link.attr("href");
-		$(window).load(linkurl);
+		window.location.assign(linkurl);
 	});
 
 
