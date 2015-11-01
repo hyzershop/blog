@@ -256,6 +256,12 @@ $(document).ready(function() {
 
 	$(".comment-form-comment").find("label").hide()
 	.siblings("textarea#comment").attr("placeholder", "Write a comment. It's cool, we won't bite.");
+
+	$(".post-category a").each(function() {
+		if ( $(this).attr("href").indexOf("home-page-featured") ) {
+			$(this).hide();
+		}
+	});
 });
 
 
