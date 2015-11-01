@@ -754,6 +754,7 @@ body.category article > .post-category { display: none; }
 
 div.sharedaddy > * {
 	float: left;
+	clear: both;
 }
 div.sharedaddy h3.sd-title {
     font-family: 'Rock Salt';
