@@ -240,7 +240,7 @@ $(document).ready(function() {
 
 
 	// MAILCHIMP EMAIL ONLY FORM
-	var mc_email_only = $('<div class="mc_embed_signup"><form action="//hyzershop.us10.list-manage.com/subscribe/post?u=c294e1f306a856df1d2ffaee5&amp;id=e402d02301" method="post" class="mc-embedded-subscribe-form validate" name="mc-embedded-subscribe-form" target="_blank" novalidate><div class="mc_embed_signup_scroll"><label for="mce-EMAIL">Get it delivered</label><input type="email" value="" name="EMAIL" class="email mce-EMAIL" placeholder="email address" required><div style="position: absolute; left: -5000px;"><input type="text" name="b_c294e1f306a856df1d2ffaee5_e402d02301" tabindex="-1" value=""></div><div class="clear"><input type="submit" value="Subscribe" name="subscribe" class="mc-embedded-subscribe button"></div></div></form></div>');
+	var mc_email_only = $('<div class="mc_embed_signup"><form action="//hyzershop.us10.list-manage.com/subscribe/post?u=c294e1f306a856df1d2ffaee5&amp;id=e402d02301" method="post" class="mc-embedded-subscribe-form validate" name="mc-embedded-subscribe-form" target="_blank" novalidate><div class="mc_embed_signup_scroll"><label for="mce-EMAIL">Get it delivered</label><input type="email" value="" name="EMAIL" class="email mce-EMAIL" placeholder="email address" required><div style="position: absolute; left: -5000px;"><input type="text" name="b_c294e1f306a856df1d2ffaee5_e402d02301" tabindex="-1" value=""></div><input type="submit" value="Subscribe" name="subscribe" class="mc-embedded-subscribe button"></div></form></div>');
 	// Dropdown email signup
 	mc_email_only.appendTo("body").hide().css({
 		position: "fixed",
