@@ -56,13 +56,13 @@ ul ul {
 }
 
 main ul, main ol, main span {
-	font-size: 1em;
+	font-size: 1.2em;
 	padding-left: 0;
 	font-weight: normal;
 }
 
 main li {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 main li ul {
@@ -76,6 +76,9 @@ p {
 
 .post-content-inner p {
 	font-size: 1.6em;
+}
+.post-content-inner ul {
+	font-size: 1.5em;
 }
 
 li, li a, input {
