@@ -1004,4 +1004,4 @@ body.page main > section > h1 { display: none; }
 }
 
 
-.menu-toggle { display:none; }
+#menu-toggle { display:none; }
