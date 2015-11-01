@@ -297,10 +297,12 @@ $(document).ready(function() {
 });
 
 $(window).load(function() {
-	$("body *").each(function() {
+	$("*").each(function() {
 		var width = $(this).width();
 		var c = $(this).attr("class");
-		console.log(c + "(" + width + ");" );
+		if (width > $(window).width() ) {
+			console.log(c + "(" + width + ");" );
+		}
 	});
 });
 
