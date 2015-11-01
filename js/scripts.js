@@ -287,4 +287,14 @@ $(document).ready(function() {
 });
 
 
+/** CATEGORY FILTER **/
+$(document).ready(function() {
+	$("body.home, body.archive").find("article").each(function() {
+		if ( $(this).hasClass("category-series") ) {
+			$(this).hide();
+		}
+	});
+});
+
+
 })(jQuery);
