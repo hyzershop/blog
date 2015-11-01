@@ -57,7 +57,7 @@ li {
 	font-size: 1em;
 }
 
-li li {
+li ul {
 	font-size: 0.9em;
 	margin-left: 1em;
 }
