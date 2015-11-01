@@ -705,7 +705,7 @@ body.category article > .post-category { display: none; }
 
 .category section > h1 {
 	text-align: center;
-	margin-bottom: 0.3em;
+	margin-bottom: 1em;
 }
 
 .category section > h1::before {
