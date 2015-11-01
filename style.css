@@ -959,7 +959,7 @@ body.page main > section > h1 { display: none; }
 
 /* MAILCHIMP FORMS */
 .mc_embed_signup {
-	background: #f8f8f8;
+	background: #666;
     border-bottom: 1px solid #ddd;
     padding: 2em 0;
     text-align: center;
@@ -969,14 +969,14 @@ body.page main > section > h1 { display: none; }
 	font-family: 'Rock Salt', 'Montserrat', sans-serif;
     font-size: 1.4em;
     text-transform: lowercase;
-    color: #ff3c7c;
+    color: #fff;
     font-weight: bold;
 
     position: relative;
     top: 2px;
     padding-right: 1.4em;
     padding-left: 5.4em;
-    background: transparent url("/wp-content/themes/hyzer-blog/images/hb-logo.png") no-repeat left 50%;
+    background: transparent url("/wp-content/themes/hyzer-blog/images/hb-logo-white.png") no-repeat left 50%;
     	background-size: contain;
 }
 
