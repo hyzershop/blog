@@ -1044,6 +1044,7 @@ form.contact-form > div > textarea {
 #site-footer .widget_nav_menu li {
     list-style: none;
     display: inline;
+    margin-right: 0.5em;
 }
 
 #site-footer .widget_nav_menu li a {
