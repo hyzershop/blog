@@ -91,7 +91,7 @@ $(document).ready(function() {
 				$theCategory = "academy";
 			}
 
-			if ($this.hasClass("category-video")) {
+			if ($this.hasClass("category-videos")) {
 				$theCategory = "video";
 			}
 
