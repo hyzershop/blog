@@ -960,6 +960,7 @@ body.page main > section > h1 { display: none; }
 .mc_embed_signup {
 	background: #fff;
     border-bottom: 1px solid #ddd;
+    padding: 2em 0;
     text-align: center;
 }
 
