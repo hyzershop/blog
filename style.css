@@ -974,9 +974,10 @@ body.page main > section > h1 { display: none; }
 
     position: relative;
     top: 2px;
-    padding-right: 4.4em;
-    background: transparent url("/wp-content/themes/hyzer-blog/images/hb-logo.png") no-repeat right 50%;
-    	background-size: 3em 3em;
+    padding-right: 1.4em;
+    padding-left: 4.4em;
+    background: transparent url("/wp-content/themes/hyzer-blog/images/hb-logo.png") no-repeat left 50%;
+    	background-size: fill;
 }
 
 .mce-EMAIL {
