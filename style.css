@@ -245,11 +245,12 @@ header > .nav > ul > li > .sub-menu a::before {
     position: relative;
     top: 0.6em;
     margin-right: 0.5em;
+	background: transparent no-repeat 50% 50%;
+    background-size: contain;
 }
 
-header > .nav > ul > li > .sub-menu .menu-item-278 a::before {
-	background: transparent url(http://blog.hyzershop.com/wp-content/themes/hyzer-blog/images/academy-icon-white.png) no-repeat 50% 50%;
-	background-size: contain;
+header > .nav > ul > li > .sub-menu #menu-item-19 a::before {
+	background-image: url(http://blog.hyzershop.com/wp-content/themes/hyzer-blog/images/thoughts-icon-white.png);
 }
 
 
