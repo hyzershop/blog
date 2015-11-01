@@ -47,6 +47,14 @@ h1 { font-size: 4em; }
 h2 { font-size: 3.5em; }
 h3 { font-size: 3em; }
 
+ul {
+	font-size: 1.2em;
+}
+
+ul ul {
+	font-size: 1em;
+}
+
 main ul, main ol, main span {
 	font-size: 1.6em;
 	padding-left: 0;
