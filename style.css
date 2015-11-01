@@ -240,15 +240,16 @@ header > .nav > ul > li > .sub-menu a:hover {
 header > .nav > ul > li > .sub-menu a::before {
 	content: " ";
     display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
+    width: 2em;
+    height: 2em;
     position: relative;
-    top: 0.8em;
+    top: 1em;
     margin-right: 0.5em;
 }
 
 header > .nav > ul > li > .sub-menu .menu-item-278 a::before {
 	background: transparent url(http://blog.hyzershop.com/wp-content/themes/hyzer-blog/images/academy-icon-white.png) no-repeat left top;
+	background-size: contain;
 }
 
 
