@@ -105,6 +105,7 @@ $(document).ready(function() {
 				$this.css({
 					backgroundImage: "url(" + thumbImgSrc +")"
 				}).wrapInner(articleInner);
+				
 				articleInner.css({
 					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
 				});
