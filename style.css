@@ -199,13 +199,14 @@ header > .nav > ul > li > .sub-menu {
     left: 0;
     width: 100%;
     background: #00b0ff;
-    padding: 10em;
+    padding: 8em;
 }
 
 header > .nav > ul > li > .sub-menu a,
 header > .nav > ul > li > .sub-menu a:hover {
 	border: 0;
 	font-size: 1.8em;
+	padding: 1em 0;
 }
 
 .sub-menu-exit {
