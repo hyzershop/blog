@@ -244,6 +244,7 @@ $(document).ready(function() {
 	// Dropdown email signup
 	mc_email_only.appendTo("body").hide().css({
 		position: "fixed",
+		zIndex: 20,
 		top: 0,
 		left: 0,
 		width: "100%",
