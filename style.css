@@ -767,6 +767,9 @@ div.sharedaddy h3.sd-title::before {
 	font-size: 28px !important;
 }
 
+.post-after > a {
+	font-size: 1.4em;
+}
 
 /* GENERAL FORM STYLES */
 
