@@ -115,10 +115,10 @@ $(document).ready(function() {
 		});
 	}
 
-	$("article[grid]").each(function() {
-		$(this).click(function() {
-			$(this).find("h2 a").click();
-		});
+	$("article[grid]").click(function() {
+		var link = $(this).find("h2 a"),
+			linkurl = link.attr("href");
+		$(window).load(linkurl);
 	});
 
 
