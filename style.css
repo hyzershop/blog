@@ -47,17 +47,17 @@ h1 { font-size: 4em; }
 h2 { font-size: 3.5em; }
 h3 { font-size: 3em; }
 
-ul, ol, span {
+main ul, main ol, main span {
 	font-size: 1.6em;
 	padding-left: 0;
 	font-weight: normal;
 }
 
-li {
+main li {
 	font-size: 1em;
 }
 
-li ul {
+main li ul {
 	font-size: 0.9em;
 	margin-left: 1em;
 }
