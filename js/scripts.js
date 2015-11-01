@@ -248,7 +248,6 @@ $(document).ready(function() {
 		top: 0,
 		left: 0,
 		width: "100%",
-		padding: "1em 0"
 	});
 	$(window).scroll(function() {
 		if ( $(document).scrollTop() > 1000 ) {
