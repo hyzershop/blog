@@ -227,7 +227,7 @@ header > .nav > ul > li > .sub-menu {
 }
 
 header > .nav > ul > li > .sub-menu > li {
-	margin-right: 1em;
+	margin-right: 3em;
 }
 
 header > .nav > ul > li > .sub-menu a,
@@ -237,7 +237,7 @@ header > .nav > ul > li > .sub-menu a:hover {
 	padding: 1em 0;
 }
 
-header > .nav > ul > li > .sub-menu a::before {
+header > .nav > ul > li > .sub-menu > li > a::before {
 	content: " ";
     display: inline-block;
     width: 2em;
@@ -249,7 +249,7 @@ header > .nav > ul > li > .sub-menu a::before {
     background-size: contain;
 }
 
-header > .nav > ul > li > .sub-menu #menu-item-19 a::before {
+header > .nav > ul > li > .sub-menu #menu-item-19 > li > a::before {
 	background-image: url(http://blog.hyzershop.com/wp-content/themes/hyzer-blog/images/thoughts-icon-white.png);
 }
 
