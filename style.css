@@ -832,6 +832,7 @@ body.page main > section > h1 { display: none; }
 	text-align: center;
 	text-transform: uppercase;
     color: #ffffff;
+    font-size: 1.3em;
 
     padding: 12px 0;
     background: rgba(255,255,255,0.3);
@@ -862,7 +863,7 @@ body.page main > section > h1 { display: none; }
 #contact-col form input[type="submit"] {
 	width: 80px;
     height: 80px;
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 0;
     background: #00b0ff;
     border: none;
