@@ -763,7 +763,8 @@ body.category article > .post-category { display: none; }
 div.sharedaddy {
 	padding: 3em 0;
 }
-.sd-social-icon .sd-content ul li[class*=share-] a.sd-button {
+.sd-social-icon .sd-content ul li[class*=share-] a.sd-button,
+.sd-social-icon .sd-content ul li[class*=share-] a.sd-button:hover {
 	padding: 1.6em;
 	margin-right: 1.2em;
 }
