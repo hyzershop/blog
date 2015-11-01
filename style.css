@@ -616,6 +616,7 @@ article[grid]:not(.has-post-thumbnail) {
 	background: #00b0ff;
     color: #fff;
     padding: 10em 4em;
+    min-height: 38em;
 }
 
 article[grid]:nth-child(3n+2):not(.has-post-thumbnail) {
