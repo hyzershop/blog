@@ -1003,3 +1003,5 @@ body.page main > section > h1 { display: none; }
 	padding-right: 1.4em;
 }
 
+
+.menu-toggle { display:none; }

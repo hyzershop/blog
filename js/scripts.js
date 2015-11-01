@@ -296,15 +296,15 @@ $(document).ready(function() {
 	});
 });
 
-$(window).load(function() {
-	$("*").each(function() {
-		var width = $(this).width();
-		var c = $(this).attr("class");
-		if (width > $(window).width() ) {
-			console.log(c + "(" + width + ") | " );
-		}
-	});
-});
+// $(window).load(function() {
+// 	$("*").each(function() {
+// 		var width = $(this).width();
+// 		var c = $(this).attr("class");
+// 		if (width > $(window).width() ) {
+// 			console.log(c + "(" + width + ") | " );
+// 		}
+// 	});
+// });
 
 
 })(jQuery);
