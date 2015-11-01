@@ -649,6 +649,8 @@ article[grid]:not(.has-post-thumbnail) * {
 
 
 
+body.category article > .post-category { display: none; }
+
 
 
 
