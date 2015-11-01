@@ -67,15 +67,16 @@ $(document).ready(function() {
 		});
 	}
 
-	$(window).resize(categoryIcons);
+	$(window).resize(stylePostsGrid);
 	setTimeout(function() {
-		categoryIcons();
+		stylePostsGrid();
 	}, 1000);
 
-	function categoryIcons() {
+	function stylePostsGrid() {
 		$(".home article[grid='true'], .search article[grid='true']").each(function() {
 			var $this = $(this),
 				thumb = $this.children(".post-thumbnail"),
+				thumbImgSrc = thumb.find("img").attr("src"),
 				postLink = thumb.attr("href"),
 				postCategory = $this.children(".post-category"),
 				thumbHeight = thumb.height(),
@@ -100,13 +101,22 @@ $(document).ready(function() {
 			}
 
 			if ($this.hasClass("has-post-thumbnail")) {
-				postCategory.css({
-					top: -thumbHeight + "px"
-				}).children("a:first-child").css({
-					display: "block",
-					height: thumbHeight + "px",
+				var articleInner = $("<div class='article-grid-inner'></div>");
+				$this.css({
+					backgroundImage: "url(" + thumbImgSrc +")"
+				}).wrapInner(articleInner);
+				articleInner.css({
 					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
 				});
+				thumb.hide();
+
+				// postCategory.css({
+				// 	top: -thumbHeight + "px"
+				// }).children("a:first-child").css({
+				// 	display: "block",
+				// 	height: thumbHeight + "px",
+				// 	backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
+				// });
 			} else {
 				$this.css({
 					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
@@ -120,8 +130,6 @@ $(document).ready(function() {
 			linkurl = link.attr("href");
 		window.location.assign(linkurl);
 	});
-
-
 
 	$(".view-article").each(function() {
 		$(this).text("Keep Reading");
