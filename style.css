@@ -615,9 +615,15 @@ article[grid]:not(.has-post-thumbnail) {
     padding: 10em 4em;
     min-height: 38em;
 }
+article[grid]:not(.has-post-thumbnail):hover {
+	background-color: #ff3c7c;
+}
 
 article[grid]:nth-child(3n+2):not(.has-post-thumbnail) {
 	background-color: #ff3c7c !important;
+}
+article[grid]:nth-child(3n+2):not(.has-post-thumbnail):hover {
+	background-color: #00b0ff !important;
 }
 
 article[grid]:not(.has-post-thumbnail) * {
