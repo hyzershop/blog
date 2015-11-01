@@ -616,7 +616,7 @@ article[grid]:not(.has-post-thumbnail) {
 	background-color: #00b0ff;
 	background-size: 6em auto;
 	background-repeat: no-repeat;
-	background-position: 50% 10%;
+	background-position: 50% 3em;
     color: #fff;
     padding: 10em 4em;
     min-height: 38em;
