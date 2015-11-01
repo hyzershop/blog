@@ -296,5 +296,13 @@ $(document).ready(function() {
 	});
 });
 
+$(window).load(function() {
+	$("body *").each(function() {
+		var width = $(this).width();
+		var c = $(this).attr("class");
+		console.log(c + "(" + width + ");" );
+	});
+});
+
 
 })(jQuery);
