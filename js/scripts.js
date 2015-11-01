@@ -99,13 +99,19 @@ $(document).ready(function() {
 				$theCategory = "thoughts";
 			}
 
-			postCategory.css({
-				top: -thumbHeight + "px"
-			}).children("a:first-child").css({
-				display: "block",
-				height: thumbHeight + "px",
-				backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
-			});
+			if ($this.hasClass("has-post-thumbnail")) {
+				postCategory.css({
+					top: -thumbHeight + "px"
+				}).children("a:first-child").css({
+					display: "block",
+					height: thumbHeight + "px",
+					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
+				});
+			} else {
+				$this.css({
+					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
+				});
+			}
 		});
 	}
 
