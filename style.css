@@ -54,7 +54,7 @@ p, ul, ol, span {
 }
 
 p {
-	font-size: 1.3em;
+	font-size: 1.6em;
 }
 
 li, li a, input {
@@ -87,8 +87,6 @@ input:focus {
 	outline: 0;
 	border: 2px solid #00b0ff;
 }
-
-
 
 h2 {
 	font-size: 3.8em;
