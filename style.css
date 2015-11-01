@@ -955,3 +955,12 @@ body.page main > section > h1 { display: none; }
 }
 
 
+
+
+/* MAILCHIMP FORMS */
+.mc_embed_signup {
+	background: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
