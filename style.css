@@ -71,6 +71,10 @@ main li ul {
 }
 
 p {
+	font-size: 1.2em;
+}
+
+.post-content p {
 	font-size: 1.6em;
 }
 
