@@ -101,14 +101,13 @@ $(document).ready(function() {
 			}
 
 			if ($this.hasClass("has-post-thumbnail")) {
-				var articleInner = $("<div class='article-grid-inner'></div>");
+				var articleInner = $("<div class='article-grid-inner'></div>").css({
+					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
+				});
 				$this.css({
 					backgroundImage: "url(" + thumbImgSrc +")"
 				}).wrapInner(articleInner);
-				
-				articleInner.css({
-					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
-				});
+
 				thumb.hide();
 
 				// postCategory.css({
