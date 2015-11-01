@@ -803,7 +803,7 @@ body.page main > section > h1 { display: none; }
 .about-contact-columns h3 {
     font-weight: 300;
     font-size: 4em;
-    margin-bottom: 40px;
+    margin-bottom: 1em;
 }
 
 .about-contact-columns p {
