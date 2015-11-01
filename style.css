@@ -764,7 +764,7 @@ div.sharedaddy h3.sd-title {
     top: 0.7em;
 }
 div.sharedaddy h3.sd-title::before {
-	display: none;
+	display: none !important;
 }
 .sd-content ul li a.sd-button:before {
 	font-size: 28px !important;
