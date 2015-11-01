@@ -56,13 +56,13 @@ ul ul {
 }
 
 main ul, main ol, main span {
-	font-size: 1.6em;
+	font-size: 1em;
 	padding-left: 0;
 	font-weight: normal;
 }
 
 main li {
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 main li ul {
