@@ -959,9 +959,18 @@ body.page main > section > h1 { display: none; }
 
 /* MAILCHIMP FORMS */
 .mc_embed_signup {
-	background: #fff;
+	background: #f8f8f8;
     border-bottom: 1px solid #ddd;
     padding: 2em 0;
     text-align: center;
+}
+
+.mc_embed_signup_scroll > label:first-child {
+	font-family: 'Rock Salt', 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    text-transform: lowercase;
+    color: #ff3c7c;
+    font-weight: bold;
+    padding-right: 1.4em;
 }
 
