@@ -613,14 +613,17 @@ article[grid] > p,
 }
 
 article[grid]:not(.has-post-thumbnail) {
-	background: #00b0ff;
+	background-color: #00b0ff;
+	background-size: 6em auto;
+	background-repeat: no-repeat;
+	background-position: 50% 1em;
     color: #fff;
     padding: 10em 4em;
     min-height: 38em;
 }
 
 article[grid]:nth-child(3n+2):not(.has-post-thumbnail) {
-	background: #ff3c7c !important;
+	background-color: #ff3c7c !important;
 }
 
 article[grid]:not(.has-post-thumbnail) * {
