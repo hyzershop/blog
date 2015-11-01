@@ -557,6 +557,7 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 /* POSTS GRID */
 
 article[grid] {
+	cursor: pointer;
 	float: left;
 	clear: right;
     width: 46%;

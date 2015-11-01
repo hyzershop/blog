@@ -116,7 +116,7 @@ $(document).ready(function() {
 	}
 
 	$("article[grid]").click(function() {
-
+		$(this).find("h2 a").click();
 	});
 
 
