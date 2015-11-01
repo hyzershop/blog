@@ -493,7 +493,7 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 }
 
 .flexslider .slides li a > div:first-child {
-	background: #004055;
+	background: #000204;
 }
 
 .flexslider .slides li a > div img {
@@ -961,7 +961,7 @@ body.page main > section > h1 { display: none; }
 /* MAILCHIMP FORMS */
 .mc_embed_signup {
 	background: #666;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #777;
     padding: 2em 0;
     text-align: center;
 }
