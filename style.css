@@ -532,6 +532,10 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 	filter: blur(3px);*/
 }
 
+.flexslider .slides li:hover a > div img {
+	opacity: 0.8;
+}
+
 .flex-direction-nav {
 	display: none;
 }
