@@ -555,17 +555,11 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 
 article[grid] {
 	float: left;
+	clear: right;
     width: 46%;
     margin: 0 2% 3em;
     min-height: 30em;
     text-align: center;
-}
-
-article[grid]:nth-child(odd) {
-	clear: right;
-}
-article[grid]:nth-child(even) {
-	clear: left;
 }
 
 .js article[grid] .post-category {
