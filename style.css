@@ -1041,6 +1041,19 @@ form.contact-form > div > textarea {
 	text-transform: uppercase;
 }
 
+#site-footer .widget_nav_menu li {
+    list-style: none;
+    display: inline;
+}
+
+#site-footer .widget_nav_menu li a {
+    color: #fff;
+}
+
+#site-footer .widget_nav_menu li:nth-child(even) a {
+	color: #00b0ff;
+}
+
 
 .copyright {
 	text-align: center;
