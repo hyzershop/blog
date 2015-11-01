@@ -735,9 +735,23 @@ body.category article > .post-category { display: none; }
 	margin-top: 2em;
 }
 
+div.sharedaddy > * {
+	float: left;
+}
+div.sharedaddy h3.sd-title {
+    font-family: 'Rock Salt';
+    text-transform: lowercase;
+    margin-right: 1em;
+    position: relative;
+    top: 0.7em;
+}
+div.sharedaddy h3.sd-title::before {
+	display: none;
+}
 
 
 
+/* GENERAL FORM STYLES */
 
 textarea {
 	background: #f5f5f5;
