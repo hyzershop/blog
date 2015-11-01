@@ -984,10 +984,12 @@ body.page main > section > h1 { display: none; }
 .mc-embedded-subscribe {
 	margin-left: 1.5em;
     padding: 1em;
+    border: 0;
 }
 
 .mc-embedded-subscribe:hover,
 .mc-embedded-subscribe:focus {
 	background: #ff3c7c;
+	border: 0;
 }
 
