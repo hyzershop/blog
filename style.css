@@ -590,6 +590,10 @@ article[grid] {
     margin: 0 2% 3em;
     min-height: 30em;
     text-align: center;
+
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-size: cover;
 }
 
 article[grid]:not(.has-post-thumbnail),
