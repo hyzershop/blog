@@ -73,7 +73,7 @@ $(document).ready(function() {
 	}, 1000);
 
 	function stylePostsGrid() {
-		$(".home article[grid='true'], .archive article[grid='true']").each(function() {
+		$(".home article[grid], .archive article[grid]").each(function() {
 			var $this = $(this),
 				thumb = $this.children(".post-thumbnail"),
 				thumbImgSrc = thumb.find("img").attr("src"),
@@ -100,10 +100,15 @@ $(document).ready(function() {
 				$theCategory = "thoughts";
 			}
 
-			if ( $this.hasClass("has-post-thumbnail") && !$("body").hasClass("category") ) {
+			if ( $this.hasClass("has-post-thumbnail") ) {
 				var articleInner = $("<div class='article-grid-inner'></div>").css({
 					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
 				});
+				if ( !$("body").hasClass("category") ) {
+					articleInner.css({
+						backgroundImage: "none"
+					});
+				}
 				$this.css({
 					backgroundImage: "url(" + thumbImgSrc +")"
 				}).wrapInner(articleInner);
