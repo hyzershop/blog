@@ -243,7 +243,7 @@ header > .nav > ul > li > .sub-menu a::before {
     width: 2em;
     height: 2em;
     position: relative;
-    top: 0.8em;
+    top: 0.6em;
     margin-right: 0.5em;
 }
 
