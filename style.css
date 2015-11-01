@@ -765,7 +765,9 @@ div.sharedaddy h3.sd-title {
 div.sharedaddy h3.sd-title::before {
 	display: none;
 }
-
+.sd-content ul li a.sd-button:before {
+	font-size: 28px;
+}
 
 
 /* GENERAL FORM STYLES */
