@@ -770,8 +770,8 @@ div.sharedaddy h3.sd-title::before {
 	font-size: 28px !important;
 }
 
-.post-after > a {
-	font-size: 1.4em;
+.post-after-categories a[href="http://blog.hyzershop.com/category/home-page-featured/"]{
+	display: none;
 }
 
 /* GENERAL FORM STYLES */
