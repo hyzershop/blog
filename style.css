@@ -247,6 +247,11 @@ header > .nav > ul > li > .sub-menu a::before {
     margin-right: 0.5em;
 }
 
+header > .nav > ul > li > .sub-menu .menu-item-278 a::before {
+	background: transparent url(http://blog.hyzershop.com/wp-content/themes/hyzer-blog/images/academy-icon-white.png) no-repeat left top;
+}
+
+
 .sub-menu-exit {
 	position: absolute;
 		z-index: 12;
