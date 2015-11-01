@@ -115,6 +115,10 @@ $(document).ready(function() {
 		});
 	}
 
+	$("article[grid]").click(function() {
+		
+	});
+
 
 
 	$(".view-article").each(function() {
