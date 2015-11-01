@@ -971,6 +971,9 @@ body.page main > section > h1 { display: none; }
     text-transform: lowercase;
     color: #ff3c7c;
     font-weight: bold;
+
+    position: relative;
+    top: 2px;
     padding-right: 1.4em;
 }
 
