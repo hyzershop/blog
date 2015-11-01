@@ -981,13 +981,13 @@ body.page main > section > h1 { display: none; }
 	padding: 1em 1.5em;
 }
 
-.mc-embedded-subscribe-button {
+.mc-embedded-subscribe {
 	margin-left: 1.5em;
     padding: 1em;
 }
 
-.mc-embedded-subscribe-button:hover,
-.mc-embedded-subscribe-button:focus {
+.mc-embedded-subscribe:hover,
+.mc-embedded-subscribe:focus {
 	background: #ff3c7c;
 }
 
