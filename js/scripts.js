@@ -116,8 +116,8 @@ $(document).ready(function() {
 	}
 
 	$("article[grid]").each(function() {
-		$(this).click(function(e) {
-			$(e.target).find("h2 a").click();
+		$(this).click(function() {
+			$(this).find("h2 a").click();
 		});
 	});
 
