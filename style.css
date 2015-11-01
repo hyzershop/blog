@@ -469,13 +469,13 @@ header .search-input:-ms-input-placeholder { color: #fff; }
     font-family: 'Rock Salt';
     text-transform: lowercase;
     color: #fff;
-    margin: 4.4em auto 0 auto;
+    margin: 6.4em auto 0 auto;
     font-size: 2em;
 }
 
 .flexslider-caption {
 	background: transparent !important;
-    bottom: 23em !important;
+    bottom: 21em !important;
     height: 0em !important;
 }
 
