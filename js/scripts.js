@@ -301,7 +301,7 @@ $(window).load(function() {
 		var width = $(this).width();
 		var c = $(this).attr("class");
 		if (width > $(window).width() ) {
-			console.log(c + "(" + width + ");" );
+			console.log(c + "(" + width + ") | " );
 		}
 	});
 });
