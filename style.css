@@ -583,6 +583,7 @@ article[grid]:not(.has-post-thumbnail):hover {
 
 article[grid].has-post-thumbnail .article-grid-inner {
 	background-color: transparent;
+	background-color: rgba(0,0,0,0.4);
 }
 
 article[grid]:nth-child(3n+2):not(.has-post-thumbnail) {
