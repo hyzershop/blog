@@ -45,11 +45,11 @@
 
 			<div class="post-after inner">
 				<div class="post-after-meta">
-					<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+					<p class="post-after-tags"><?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?></p>
 
 					<p class="post-after-categories">Read more from <?php the_category(' '); // Separated by commas ?></p>
 
-					<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
+					<p><?php edit_post_link(); // Always handy to have Edit Post Links available ?></p>
 				</div>
 				<?php comments_template(); ?>
 			</div>
