@@ -560,6 +560,7 @@ article[grid] {
     width: 46%;
     margin: 0 2% 3em;
     min-height: 30em;
+    max-height: 30em;
     text-align: center;
 }
 
