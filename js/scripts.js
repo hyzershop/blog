@@ -252,7 +252,9 @@ $(document).ready(function() {
 	});
 	$(window).scroll(function() {
 		if ( $(document).scrollTop() > 1000 ) {
-			mc_email_only.slideDown();
+			mc_email_only.slideDown(400);
+		} else {
+			mc_email_only.slideUp(400);
 		}
 	});
 
