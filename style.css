@@ -1074,11 +1074,12 @@ form.contact-form > div > textarea {
 		width: 100%;
 	}
 
-	.col-inner {
+	#about-col .col-inner,
+	#contact-col .col-inner {
 		padding: 10em 14% 10em !important;
 	    min-height: 0;
-	    border-left: 0 none !important;
-		border-right: 0 none !important;
+	    border-left: 0 none;
+		border-right: 0 none;
 	}
 }
 
