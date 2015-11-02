@@ -41,6 +41,7 @@
 
 			<div class="inner post-content-inner">
 				<?php the_content(); // Dynamic Content ?>
+				<div class="next-post"><?php next_post_link( '%link', 'Next Article', true, '13' ); ?></div>
 			</div>
 
 			<div class="post-after inner">
@@ -57,7 +58,6 @@
 		</article>
 		<!-- /article -->
 
-	<div class="next-post"><?php next_post_link( '%link', 'Next Article', true, '13' ); ?></div>
 
 	<?php endwhile; ?>
 
