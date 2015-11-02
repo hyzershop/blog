@@ -218,8 +218,17 @@ $(document).ready(function() {
 		}
 	});
 
+	/** Category icons in submenu **/
+	$("header > .nav > ul > li > .sub-menu > li > a::before").each(function() {
+		var strippedURL = $(this).parent("a").attr("href").replace("http://blog.hyzershop.com/category/", ""),
+			category = strippedURL.replace("/", "");
+		$(this).css({
+			"background-image": "url('/wp-content/themes/hyzer-blog/images/" + category + "-icon-white.png')"
+		});
+	});
 
 
+/** PARALLAX **/
 	$(window).scroll(function() {
 		$('.flexslider .slides li.flex-active-slide div > img').each(function() {
 			parallax($(this));
@@ -244,7 +253,7 @@ $(document).ready(function() {
 		}
 	}
 
-
+/** SIZE GRID IMAGES
 	$(window).resize(sizePostThumbnails);
 	sizePostThumbnails();
 	function sizePostThumbnails() {
@@ -255,6 +264,7 @@ $(document).ready(function() {
 			$this.css({"max-height": $maxHeight});
 		});
 	}
+ **/
 
 
 
@@ -312,14 +322,6 @@ $(document).ready(function() {
 		if ( $(this).hasClass("category-series") ) {
 			$(this).hide();
 		}
-	});
-
-	$("header > .nav > ul > li > .sub-menu > #menu-item-19 > a::before").each(function() {
-		var strippedURL = $(this).attr("href").replace("http://blog.hyzershop.com/category/", ""),
-			category = strippedURL.replace("/", "");
-		$(this).css({
-			"background-image": "url('/wp-content/themes/hyzer-blog/images/" + category + "-icon-white.png')"
-		});
 	});
 });
 
