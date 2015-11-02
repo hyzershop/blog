@@ -186,7 +186,6 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		if ($(window).width() < 840) {
 			menuHide(mainMenu, mainMenuToggle);
-			menuHide(subMenu, subMenuExit);
 		} else {
 			menuShow(mainMenu, mainMenuToggle);
 			menuHide(subMenu, subMenuParent);
