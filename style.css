@@ -363,6 +363,7 @@ header > .nav > ul > li > .sub-menu > li > a::before {
 		height: 100%;
 		padding: 2em;
 		background: rgba(0,176,255,0.95);
+		overflow: scroll;
 	}
 
     .js .nav > ul {
