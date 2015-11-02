@@ -1279,6 +1279,10 @@ footer form input[type="submit"]:focus {
     text-align: center;
 }
 
+.mc_embed_signup input {
+	display: inline;
+}
+
 .mc_embed_signup_scroll > label:first-child {
 	font-family: 'Rock Salt', 'Montserrat', sans-serif;
     font-size: 1.4em;
@@ -1318,6 +1322,7 @@ footer form input[type="submit"]:focus {
 
 @media only screen and (max-width: 960px) {
 	.mc_embed_signup input {
+		display: block;
 		width: 70%;
 	    margin: 2em auto 0;
 	    padding: 1.3em 1.5em;
