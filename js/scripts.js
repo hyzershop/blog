@@ -313,6 +313,14 @@ $(document).ready(function() {
 			$(this).hide();
 		}
 	});
+
+	$("header > .nav > ul > li > .sub-menu > #menu-item-19 > a::before").each(function() {
+		var strippedURL = $(this).attr("href").replace("http://blog.hyzershop.com/category/", ""),
+			category = strippedURL.replace("/", "");
+		$(this).css({
+			"background-image": "url('/wp-content/themes/hyzer-blog/images/" + category + "-icon-white.png')"
+		});
+	});
 });
 
 // $(window).load(function() {
