@@ -110,6 +110,7 @@ input {
 input:focus {
 	outline: 0;
 	border: 2px solid #00b0ff;
+	background: #00b0ff;
 }
 
 h2 {
