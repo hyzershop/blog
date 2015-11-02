@@ -1064,6 +1064,7 @@ body.page main > section > h1 { display: none; }
     height: 80px;
     font-size: 1em;
     padding: 0;
+    margin: 0 auto;
     background: #00b0ff;
     border: none;
 }
