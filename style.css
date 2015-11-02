@@ -902,6 +902,7 @@ body.category article > .post-category { display: none; }
 .tablepress tbody td, .tablepress tfoot th {
 	background: #00b0ff;
 	border-color: #fff;
+	color: #fff;
 }
 
 
