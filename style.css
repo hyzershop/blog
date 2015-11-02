@@ -822,6 +822,10 @@ body.category article > .post-category { display: none; }
 
 /* CATEGORY ARCHIVE */
 
+.category article .post-category {
+	display: none;
+}
+
 .category section > h1 {
 	text-align: center;
 	margin-bottom: 1em;
