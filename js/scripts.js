@@ -104,10 +104,10 @@ $(document).ready(function() {
 				var articleInner = $("<div class='article-grid-inner'></div>").css({
 					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
 				});
-				if ( $("body").hasClass("category") ) {
+				if ( $("body").hasClass("category") && !$(this).hasClass("wrapped-inner") ) {
 					articleInner.css({
 						backgroundImage: "none"
-					});
+					}).addClass("wrapped-inner");
 				}
 				$this.css({
 					backgroundImage: "url(" + thumbImgSrc +")"
