@@ -882,6 +882,7 @@ body.category article > .post-category { display: none; }
 
 .single .post-content-inner {
 	margin-top: 3em;
+	max-width: 800px;
 }
 
 
