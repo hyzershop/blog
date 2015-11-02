@@ -1161,6 +1161,7 @@ form.contact-form > div > textarea {
 
 #site-footer .widget_nav_menu li a {
     color: #ff3c7c;
+    font-size: 1.5em;
 }
 
 #site-footer .widget_nav_menu li:nth-child(even) a {
