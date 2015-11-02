@@ -1337,7 +1337,7 @@ footer form input[type="submit"]:focus {
 
 	.mc_embed_signup.top .mc_embed_signup_scroll > label {
 		padding: 0 0 0 1em;
-	    margin-top: 4em;
+	    margin-top: 0;
 	    display: inline-block;
 	    width: 70%;
 	}
