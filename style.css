@@ -1247,6 +1247,10 @@ footer form input[type="submit"]:focus {
 	background: #ff3c7c;
 }
 
+.contact-form input[type="checkbox"] {
+	float: left;
+}
+
 
 
 /* MAILCHIMP FORMS */
