@@ -1330,6 +1330,17 @@ footer form input[type="submit"]:focus {
 	    padding: 1.1em 0;
 	    font-size: 1.8em;
 	}
+
+    .mc_embed_signup.top .mc_embed_signup_scroll {
+    	font-size: 1.3em;
+    }
+
+	.mc_embed_signup.top .mc_embed_signup_scroll > label {
+		padding: 0 0 0 1em;
+	    margin-top: 4em;
+	    display: inline-block;
+	    width: 70%;
+	}
 }
 
 
