@@ -237,6 +237,10 @@ header > .nav > ul > li > .sub-menu a:hover {
 	padding: 1em 0;
 }
 
+header > .nav > ul > li > .sub-menu a:hover {
+	color: #ff3c7c;
+}
+
 header > .nav > ul > li > .sub-menu > li > a::before {
 	content: " ";
     display: inline-block;
