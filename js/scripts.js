@@ -93,7 +93,7 @@ $(document).ready(function() {
 			}
 
 			if ($this.hasClass("category-videos")) {
-				$theCategory = "video";
+				$theCategory = "videos";
 			}
 
 			if ($this.hasClass("category-thoughts")) {
