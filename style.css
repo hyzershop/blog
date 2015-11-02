@@ -424,7 +424,7 @@ header > .nav > ul > li > .sub-menu > li > a::before {
 
 header .widget_search {
 	position: absolute;
-		right: 5%;
+		right: 15%;
 	float: right;
 	width: auto;
 }
