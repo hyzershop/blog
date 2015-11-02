@@ -1366,6 +1366,10 @@ footer form input[type="submit"]:focus {
 	    cursor: pointer;
 	    z-index: 99;
 	}
+
+	.mc_embed_signup.top.hide-always {
+		display: none !important;
+	}
 }
 
 
