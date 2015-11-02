@@ -354,9 +354,10 @@ header > .nav > ul > li > .sub-menu > li > a::before {
 		transition: all 0.5s;
 	}
 
-	header > .nav > ul > li > .sub-menu {
+	.js .nav > ul > li > .sub-menu {
 		top: 0;
 		height: 100%;
+		padding: 2em;
 	}
 
     .js .nav > ul {
