@@ -603,7 +603,7 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 	filter: blur(3px);*/
 }
 
-.flexslider .slides li:hover a > div img {
+#home-page-banner:hover .flexslider .slides li > a > div img {
 	opacity: 0.8;
 }
 
