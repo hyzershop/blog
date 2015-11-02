@@ -922,6 +922,12 @@ div.sharedaddy h3.sd-title::before {
 	display: none;
 }
 
+@media only screen and (max-width:960px) {
+	.single .post-title {
+		font-size: 5em;
+	}
+}
+
 /* GENERAL FORM STYLES */
 
 textarea {
