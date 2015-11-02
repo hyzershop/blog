@@ -1331,7 +1331,15 @@ footer form input[type="submit"]:focus {
 	padding-right: 1.4em;
 }
 
+.mc_embed_signup.top .exit {
+	display: none;
+}
+
 @media only screen and (max-width: 960px) {
+	.mc_embed_signup.top {
+		display: none;
+	}
+
 	.mc_embed_signup input {
 		display: block;
 		width: 70%;

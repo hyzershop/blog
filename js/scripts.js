@@ -274,29 +274,30 @@ $(document).ready(function() {
 
 
 	$(window).load(function() {
+		if ($(window).width() > 960) {
 		// MAILCHIMP EMAIL ONLY FORM
-		var signupTopExit = $("<div class='exit'>x</div>");
-		var mc_email_only = $(".mc_embed_signup.top");
-
-		$(".mc_embed_signup.top").append(signupTopExit);
-		// Dropdown email signup
-		mc_email_only.hide().css({
-			position: "fixed",
-			zIndex: 20,
-			top: 0,
-			left: 0,
-			width: "100%",
-		});
-		$(window).scroll(function() {
-			if ( $(document).scrollTop() > 1000 ) {
-				mc_email_only.slideDown(400);
-			} else {
-				mc_email_only.slideUp(400);
-			}
-		});
-		signupTopExit.click(function() {
-			mc_email_only.hide().addClass("hide-always");
-		});
+			var signupTopExit = $("<div class='exit'>x</div>");
+			var mc_email_only = $(".mc_embed_signup.top");
+			$(".mc_embed_signup.top").append(signupTopExit);
+			// Dropdown email signup
+			mc_email_only.hide().css({
+				position: "fixed",
+				zIndex: 20,
+				top: 0,
+				left: 0,
+				width: "100%",
+			});
+			$(window).scroll(function() {
+				if ( $(document).scrollTop() > 1000 ) {
+					mc_email_only.slideDown(400);
+				} else {
+					mc_email_only.slideUp(400);
+				}
+			});
+			signupTopExit.click(function() {
+				mc_email_only.hide().addClass("hide-always");
+			});
+		}
 	});
 
 
