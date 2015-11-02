@@ -492,6 +492,10 @@ header .search-input::-moz-placeholder {  /* Firefox 19+ */ color: #fff; }
 header .search-input:-ms-input-placeholder { color: #fff; }
 
 @media only screen and (max-width: 960px) {
+	header .widget_search {
+		right: 5%;
+	}
+
 	header .widget_search > form.search-expanded {
 	    float: none;
 	    position: fixed;
