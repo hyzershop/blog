@@ -156,7 +156,7 @@ main::after {
 	margin: 0 auto;
 }
 
-.single-inner {
+.single .inner {
 	width: 70%;
 }
 
@@ -936,6 +936,12 @@ form :-ms-input-placeholder { color: #00b0ff; }
 input:focus,
 textarea:focus {
 	background: #00b0ff;
+}
+
+@media only screen and (max-width: 960px) {
+	.js .single .post .inner.post-header-inner {
+		padding: 5em 5% 3em 5%;
+	}
 }
 
 
