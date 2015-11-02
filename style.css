@@ -1000,6 +1000,7 @@ body.page main > section > h1 { display: none; }
 	color: white;
 	font-weight: normal;
 	line-height: 1.6;
+	font-size: 1.6em;
 }
 
 .about-contact-columns h3.contact-success {
