@@ -1327,7 +1327,7 @@ footer form input[type="submit"]:focus {
 	.mc_embed_signup input[type="submit"] {
 		width: 70%;
 	    margin: 0.5em auto;
-	    padding: 1.3em 1.5em;
+	    padding: 1.1em 0;
 	    font-size: 1.8em;
 	}
 }
