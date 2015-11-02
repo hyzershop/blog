@@ -1368,7 +1368,8 @@ footer form input[type="submit"]:focus {
 	}
 
 	.mc_embed_signup.top.hide-always {
-		display: none !important;
+		visibility: hidden !important;
+		height: 0; overflow: hidden;
 	}
 }
 
