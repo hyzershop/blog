@@ -1265,7 +1265,7 @@ footer form input[type="submit"]:focus {
 
 .textwidget .contact-form input[type=email], .textwidget .contact-form input[type=text], .textwidget .contact-form textarea {
 	width: 90% !important;
-	margin: 0 auto !important;
+	margin: 1em auto !important;
 	float: none !important;
 }
 
