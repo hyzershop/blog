@@ -1186,7 +1186,7 @@ footer ul {
 	color: #888;
 }
 
-@media only screen and max-width(960px) {
+@media only screen and (max-width:960px) {
 	.footer-inner > div {
 		width: 100%;
 		margin: 0;
