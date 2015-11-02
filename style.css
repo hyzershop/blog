@@ -377,7 +377,7 @@ header > .nav > ul > li > .sub-menu > li > a::before {
     	width: 100%;
     }
 
-    .nav > ul li a {
+    .nav > ul > li > a {
     	color: #00b0ff;
     	font-size: 1.3em;
     	text-transform: uppercase;
