@@ -1139,6 +1139,10 @@ footer ul {
 	padding-left: 0;
 }
 
+#menu-footer-menu {
+	text-align: center;
+}
+
 .widget_wpcom_social_media_icons_widget ul {
 	text-align: center;
 }
