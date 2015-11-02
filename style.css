@@ -1069,6 +1069,16 @@ form.contact-form > div > textarea {
 	width: 100%;
 }
 
+@media only screen and (max-width:960px) {
+	#about-col, #contact-col {
+		width: 100%;
+	}
+
+	.col-inner {
+		padding: 10em 14% 10em !important;
+	    min-height: 0;
+	}
+}
 
 
 
