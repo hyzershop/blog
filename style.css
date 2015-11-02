@@ -825,9 +825,11 @@ body.category article > .post-category { display: none; }
 .category section > h1 {
 	text-align: center;
 	margin-bottom: 1em;
+	font-family: 'Rock Salt';
+	text-transform: lowercase;
 }
 
-.category section > h1::before {
+/*.category section > h1::before {
 	content: " ";
     display: inline-block;
     width: 1.5em;
@@ -835,7 +837,7 @@ body.category article > .post-category { display: none; }
     position: relative;
     top: 15px;
     margin-right: 0.5em;
-}
+}*/
 
 
 
