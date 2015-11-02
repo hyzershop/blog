@@ -228,6 +228,7 @@ header > .nav > ul > li > .sub-menu {
 
 header > .nav > ul > li > .sub-menu > li {
 	margin-right: 3em;
+	padding: 2em 0;
 }
 
 header > .nav > ul > li > .sub-menu a,
