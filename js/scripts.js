@@ -271,25 +271,31 @@ $(document).ready(function() {
  **/
 
 
- 	$(".mc_embed_signup.top").after("<div class='exit'></div>");
 
 
-	// MAILCHIMP EMAIL ONLY FORM
-	var mc_email_only = $(".mc_embed_signup.top");
-	// Dropdown email signup
-	mc_email_only.hide().css({
-		position: "fixed",
-		zIndex: 20,
-		top: 0,
-		left: 0,
-		width: "100%",
-	});
-	$(window).scroll(function() {
-		if ( $(document).scrollTop() > 1000 ) {
-			mc_email_only.slideDown(400);
-		} else {
-			mc_email_only.slideUp(400);
-		}
+
+	$(window).load(function() {
+		// MAILCHIMP EMAIL ONLY FORM
+		var signupTopExit = $("<div class='exit'></div>").after(".mc_embed_signup.top");
+		var mc_email_only = $(".mc_embed_signup.top");
+		// Dropdown email signup
+		mc_email_only.hide().css({
+			position: "fixed",
+			zIndex: 20,
+			top: 0,
+			left: 0,
+			width: "100%",
+		});
+		$(window).scroll(function() {
+			if ( $(document).scrollTop() > 1000 ) {
+				mc_email_only.slideDown(400);
+			} else {
+				mc_email_only.slideUp(400);
+			}
+		});
+		signupTopExit.click(function() {
+			mc_email_only.hide();
+		});
 	});
 
 
