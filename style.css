@@ -234,11 +234,12 @@ header > .nav > ul > li > .sub-menu a,
 header > .nav > ul > li > .sub-menu a:hover {
 	border: 0;
 	font-size: 1.8em;
-	padding: 1em 0;
+	margin: 1em 0;
+    padding: 0;
 }
 
 header > .nav > ul > li > .sub-menu a:hover {
-	color: #ff3c7c;
+	text-decoration: underline;
 }
 
 header > .nav > ul > li > .sub-menu > li > a::before {
