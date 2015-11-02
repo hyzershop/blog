@@ -1167,6 +1167,10 @@ form.contact-form > div > textarea {
 	color: #00b0ff;
 }
 
+#site-footer .widget_nav_menu li a:hover {
+	text-decoration: underline;
+}
+
 
 .copyright {
 	text-align: center;
