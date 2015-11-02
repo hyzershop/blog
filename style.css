@@ -1128,6 +1128,10 @@ form.contact-form > div > textarea {
 	color: #fff;
 }
 
+footer ul {
+	padding-left: 0;
+}
+
 .widget_wpcom_social_media_icons_widget ul {
 	text-align: center;
 }
@@ -1188,7 +1192,6 @@ form.contact-form > div > textarea {
 		margin: 0;
 	}
 }
-
 
 
 
