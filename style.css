@@ -1254,6 +1254,10 @@ footer form input[type="submit"]:focus {
 	float: left;
 }
 
+.contact-form label {
+	display: none;
+}
+
 
 
 /* MAILCHIMP FORMS */
