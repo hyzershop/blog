@@ -27,7 +27,7 @@ img {
 	max-width: 100%;
 }
 
-.fullwidthimage { width: 100%; }
+.fullwidthimage { width: 100%; height: auto !important; }
 
 p.aligncenter iframe {
 	display: block;
@@ -888,6 +888,10 @@ body.category article > .post-category { display: none; }
 .single .post-content-inner {
 	margin-top: 3em;
 	max-width: 800px;
+}
+
+.post-content-inner iframe {
+	width: 100%;
 }
 
 
