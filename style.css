@@ -367,7 +367,7 @@ header > .nav > ul > li > .sub-menu > li > a::before {
 
     .js .nav > ul ul {
     	list-style: none;
-    	padding-top: 60px;
+    	padding-top: 1em;
     }
 
     .js .nav > ul li {
