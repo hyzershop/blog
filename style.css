@@ -798,6 +798,7 @@ article[grid] > p,
 	width: 100%;
 	background: #eee;
 	padding: 2em 0;
+	margin-bottom: 4em;
 }
 
 .nav-previous a,
