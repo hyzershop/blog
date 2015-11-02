@@ -380,6 +380,15 @@ header > .nav > ul > li > .sub-menu > li > a::before {
     	text-align: center;
     	padding: 10px 0;
     	width: 100%;
+    	font-size: 1.4em;
+    }
+
+    .js .nav > ul > li li {
+    	font-size: 1em;
+    }
+
+    .js .nav > ul > li li li {
+    	font-size: 0.8em;
     }
 
     .nav > ul > li > a {
