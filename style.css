@@ -152,8 +152,12 @@ main::after {
 }
 
 .inner {
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
+}
+
+.single-inner {
+	width: 70%;
 }
 
 /*.single article .inner {
@@ -165,7 +169,7 @@ main::after {
 }*/
 
 @media only screen and (max-width:960px) {
-	.inner {
+	.single .inner {
 		width: 90%;
 	}
 }
