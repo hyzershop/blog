@@ -82,7 +82,7 @@ $(document).ready(function() {
 				thumbHeight = thumb.height(),
 				$theCategory;
 
-			$this.find(".post-category > a:first-child").text("").attr("href", postLink);
+			$this.find(".post-category > a").text("").attr("href", postLink);
 
 			if ($this.hasClass("category-basics")) {
 				$theCategory = "basics";
