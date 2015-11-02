@@ -1260,7 +1260,7 @@ footer form input[type="submit"]:focus {
 }
 
 .contact-form label {
-	display: none;
+	display: none !important;
 }
 
 .textwidget .contact-form input[type=email], .textwidget .contact-form input[type=text], .textwidget .contact-form textarea {
