@@ -276,7 +276,7 @@ $(document).ready(function() {
 
 	$(window).load(function() {
 		// MAILCHIMP EMAIL ONLY FORM
-		var signupTopExit = $("<div class='exit'></div>").insertAfter(".mc_embed_signup.top");
+		var signupTopExit = $("<div class='exit'></div>").after(".mc_embed_signup.top");
 		var mc_email_only = $(".mc_embed_signup.top");
 		// Dropdown email signup
 		mc_email_only.hide().css({
