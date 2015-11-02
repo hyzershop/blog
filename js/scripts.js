@@ -279,7 +279,7 @@ $(document).ready(function() {
 		var signupTopExit = $("<div class='exit'></div>");
 		var mc_email_only = $(".mc_embed_signup.top");
 
-		$(".mc_embed_signup.top").insertAfter(signupTopExit);
+		$(".mc_embed_signup.top").after(signupTopExit);
 		// Dropdown email signup
 		mc_email_only.hide().css({
 			position: "fixed",
