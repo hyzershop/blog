@@ -856,16 +856,6 @@ body.category article > .post-category { display: none; }
 	max-height: none;
 }
 
-@media screen and (max-width: 959px) {
-	.post-hero img {
-    	width: 960px;
-	    max-width: 960px;
-	    position: relative;
-	    left: 50%;
-	    margin-left: -480px;
-    }
-}
-
 .js .post-header, .js .post-header a {
 	color: #fff;
 }
@@ -948,13 +938,24 @@ div.sharedaddy h3.sd-title::before {
 	display: none;
 }
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-width: 960px) {
+	.post-hero img {
+    	width: 960px;
+	    max-width: 960px;
+	    position: relative;
+	    left: 50%;
+	    margin-left: -480px;
+	}
 	.single .post-title {
 		font-size: 5em;
 	}
 
 	.copyright {
 	    border-top: 8em solid #666;
+	}
+
+	article[grid] .excerpt {
+		display: none;
 	}
 }
 
