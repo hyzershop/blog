@@ -220,7 +220,7 @@ $(document).ready(function() {
 
 	/** Category icons in submenu **/
 	$("header > .nav > ul > li > .sub-menu > li > a::before").each(function() {
-		var strippedURL = $(this).parents("li").find("a").attr("href").replace("http://blog.hyzershop.com/category/", ""),
+		var strippedURL = $(this).parent().parent().find("a").attr("href").replace("http://blog.hyzershop.com/category/", ""),
 			category = strippedURL.replace("/", "");
 		$(this).css({
 			"background-image": "url('/wp-content/themes/hyzer-blog/images/" + category + "-icon-white.png')"
