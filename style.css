@@ -903,6 +903,9 @@ body.category article > .post-category { display: none; }
 	background: #00b0ff;
 	border-color: #fff;
 	color: #fff;
+	font-weight: bold;
+    font-size: 1.4em;
+    padding: 2em;
 }
 
 
