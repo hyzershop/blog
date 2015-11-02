@@ -1191,6 +1191,64 @@ form.contact-form > div > textarea {
 
 
 
+
+
+footer form label { display: none; }
+#contact-col form input {
+	text-align: center;
+}
+
+footer form ::-webkit-input-placeholder { color: #ffffff; }
+footer form :-moz-placeholder { color: #ffffff; }
+footer form ::-moz-placeholder { color: #ffffff; }
+footer form :-ms-input-placeholder { color: #ffffff; }
+
+footer form input,
+footer form textarea {
+	text-align: center;
+	text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.3em;
+
+    padding: 8px 0;
+    background: rgba(255,255,255,0.3);
+    border: 3px solid #00b0ff;    
+    border-radius: 50px;
+}
+
+footer form textarea {
+	border-radius: 20px;
+}
+
+footer input:focus::-webkit-input-placeholder { opacity: 0; }
+footer input:focus:-moz-placeholder { opacity: 0; }
+footer input:focus::-moz-placeholder { opacity: 0; }
+footer input:focus:-ms-input-placeholder { opacity: 0; }
+footer textarea:focus::-webkit-input-placeholder { opacity: 0; }
+footer textarea:focus:-moz-placeholder { opacity: 0; }
+footer textarea:focus::-moz-placeholder { opacity: 0; }
+footer textarea:focus:-ms-input-placeholder { opacity: 0; }
+
+footer blockquote.contact-form-submission {
+	display: none;
+}
+
+footer form input[type="submit"] {
+	width: 60px;
+    height: 60px;
+    font-size: 1em;
+    padding: 0;
+    background: #00b0ff;
+    border: none;
+}
+
+footer form input[type="submit"]:hover,
+footer form input[type="submit"]:focus {
+	background: #ff3c7c;
+}
+
+
+
 /* MAILCHIMP FORMS */
 .mc_embed_signup {
 	background: #666;
@@ -1235,3 +1293,6 @@ form.contact-form > div > textarea {
 .mc_embed_signup.top .mc_embed_signup_scroll > label {
 	padding-right: 1.4em;
 }
+
+
+
