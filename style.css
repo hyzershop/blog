@@ -91,6 +91,12 @@ a { color: #666; }
 
 a:hover { color: #ff3c7c; }
 
+.post-content-inner a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #222;
+}
+
 ::selection { background: #00b0ff; }
 
 .montserrat { font-family: 'Montserrat', Helvetica, sans-serif !important; }
