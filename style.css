@@ -1317,7 +1317,6 @@ footer form input[type="submit"]:focus {
 .mc-embedded-subscribe:hover,
 .mc-embedded-subscribe:focus {
 	background: #ff3c7c;
-	border: 0;
 }
 
 .mc_embed_signup.top .mc_embed_signup_scroll > label {
