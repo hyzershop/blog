@@ -1319,7 +1319,14 @@ footer form input[type="submit"]:focus {
 @media only screen and (max-width: 960px) {
 	.mc_embed_signup input {
 		width: 70%;
-	    margin: 2em auto;
+	    margin: 2em auto 0;
+	    padding: 1.3em 1.5em;
+	    font-size: 1.4em;
+	}
+
+	.mc_embed_signup input[type="submit"] {
+		width: 70%;
+	    margin: 1em auto;
 	    padding: 1.3em 1.5em;
 	    font-size: 1.4em;
 	}
