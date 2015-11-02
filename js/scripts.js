@@ -107,14 +107,14 @@ $(document).ready(function() {
 				if ( $("body").hasClass("category") ) {
 					articleInner.css({
 						backgroundImage: "none"
-					})
+					});
 				}
-				$this.css({
-					backgroundImage: "url(" + thumbImgSrc +")"
-				})
 
 				if ( !$(this).hasClass("wrapped-inner") ) {
 					$(this).wrapInner(articleInner).addClass("wrapped-inner");
+					$this.css({
+						backgroundImage: "url(" + thumbImgSrc +")"
+					});
 				}
 
 				thumb.hide();
@@ -126,11 +126,12 @@ $(document).ready(function() {
 				// 	height: thumbHeight + "px",
 				// 	backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
 				// });
-			} else {
-				$this.css({
-					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
-				});
-			}
+			} 
+			// else {
+			// 	$this.css({
+			// 		backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"
+			// 	});
+			// }
 		});
 	}
 
