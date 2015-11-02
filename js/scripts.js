@@ -352,4 +352,9 @@ $(document).ready(function() {
 // });
 
 
+$(document).ready(function() {
+	$(".next-post").before(".sharedaddy");
+});
+
+
 })(jQuery);
