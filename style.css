@@ -926,6 +926,10 @@ div.sharedaddy h3.sd-title::before {
 	.single .post-title {
 		font-size: 5em;
 	}
+
+	.copyright {
+	    border-top: 8em solid #666;
+	}
 }
 
 /* GENERAL FORM STYLES */
