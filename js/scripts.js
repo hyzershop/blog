@@ -145,6 +145,8 @@ $(document).ready(function() {
 		$(this).text("Keep Reading");
 	});
 
+	$("#contact-col form input[type='submit']").attr("value", "go");
+
 
 });
 
