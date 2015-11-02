@@ -102,6 +102,7 @@ a:hover { color: #ff3c7c; }
 aside.sidebar { display: none; }
 
 input {
+	display: block;
 	outline: 0;
 	border: 2px solid #00b0ff;
 		border-radius: 100px;
