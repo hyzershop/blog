@@ -354,7 +354,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$(".next-post").each(function() {
-		$(this).insertBefore(".sharedaddy");
+		var social = $(this).siblings(".sharedaddy");
+		$(this).insertBefore(social);
 	});
 });
 
