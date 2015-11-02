@@ -404,6 +404,11 @@ header > .nav > ul > li > .sub-menu > li > a::before {
     .nav > ul li a:hover {
     	color: #ff3c7c;
     }
+
+    .sub-menu-exit {
+    	top: 1em;
+    	right: 1em;
+    }
 }
 
 
