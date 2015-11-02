@@ -250,7 +250,8 @@ header > .nav > ul > li > .sub-menu {
     left: 0;
     width: 100%;
     background: #00b0ff;
-    padding: 5em;
+    padding: 2em 6em 4em;
+    font-size: 1.1em;
 }
 
 header > .nav > ul > li > .sub-menu > li {
