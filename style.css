@@ -747,6 +747,20 @@ article[grid] > p,
 	}
 }
 
+/* Pagination */
+.pagination {
+	float: left;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.pagination > div {
+	width: 100%;
+}
+
+
+
 
 
 body.category article > .post-category { display: none; }
