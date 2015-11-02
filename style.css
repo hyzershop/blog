@@ -1357,7 +1357,6 @@ footer form input[type="submit"]:focus {
 	}
 
 	.mc_embed_signup.top .exit {
-	    content: "x";
 	    position: absolute;
 	    display: block;
 	    color: #fff;
