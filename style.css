@@ -1252,6 +1252,8 @@ footer form input[type="submit"]:focus {
 
 .contact-form input[type="checkbox"] {
 	float: left;
+	margin-bottom: 13px;
+    margin-right: 5px;
 }
 
 .contact-form label {
