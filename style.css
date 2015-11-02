@@ -1356,7 +1356,7 @@ footer form input[type="submit"]:focus {
 	    width: 70%;
 	}
 
-	.mc_embed_signup.top .exit::after {
+	.mc_embed_signup.top .exit {
 	    content: "x";
 	    position: absolute;
 	    display: block;
