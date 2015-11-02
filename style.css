@@ -1341,6 +1341,18 @@ footer form input[type="submit"]:focus {
 	    display: inline-block;
 	    width: 70%;
 	}
+
+	.mc_embed_signup.top .exit::after {
+	    content: "x";
+	    position: absolute;
+	    display: block;
+	    color: #fff;
+	    top: 0px;
+	    right: 20px;
+	    font-size: 4em;
+	    cursor: pointer;
+	    z-index: 99;
+	}
 }
 
 
