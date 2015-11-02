@@ -431,9 +431,13 @@ header > .nav > ul > li > .sub-menu > li > a::before {
 
 header .widget_search {
 	position: absolute;
-		right: 15%;
+		right: 5%;
 	float: right;
 	width: auto;
+}
+
+.single header .widget_search {
+	right: 15%;
 }
 
 header .widget_search > form {
@@ -499,7 +503,7 @@ header .search-input::-moz-placeholder {  /* Firefox 19+ */ color: #fff; }
 header .search-input:-ms-input-placeholder { color: #fff; }
 
 @media only screen and (max-width: 960px) {
-	header .widget_search {
+	.single header .widget_search {
 		right: 5%;
 	}
 
