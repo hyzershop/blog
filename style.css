@@ -901,9 +901,9 @@ body.category article > .post-category { display: none; }
 }
 
 .tablepress tbody td, .tablepress tfoot th {
-	background: #00b0ff;
+/*	background: #00b0ff;
 	border-color: #fff;
-	color: #fff;
+	color: #fff;*/
 	font-weight: bold;
     font-size: 1.4em;
     padding: 2em;
