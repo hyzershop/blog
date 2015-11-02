@@ -296,7 +296,7 @@ $(document).ready(function() {
 			}
 		});
 		signupTopExit.click(function() {
-			mc_email_only.hide().parent().addClass("hide-always");
+			mc_email_only.hide().parents(".mc_embed_signup").addClass("hide-always");
 		});
 	});
 
