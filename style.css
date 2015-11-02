@@ -899,6 +899,11 @@ body.category article > .post-category { display: none; }
 	width: 100%;
 }
 
+.tablepress tbody td, .tablepress tfoot th {
+	background: #00b0ff;
+	border-color: #fff;
+}
+
 
 div.sharedaddy {
 	padding: 3em 0;
