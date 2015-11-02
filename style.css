@@ -152,17 +152,23 @@ main::after {
 }
 
 .inner {
-	width: 90%;
+	width: 70%;
 	margin: 0 auto;
 }
 
-.single article .inner {
+/*.single article .inner {
 	width: 70%;
-}
+}*/
 
 /*.home .grid-inner {
 	margin-top: -2.2em;
 }*/
+
+@media only screen and (max-width:960px) {
+	.inner {
+		width: 90%;
+	}
+}
 
 
 

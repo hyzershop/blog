@@ -57,7 +57,7 @@
 		</article>
 		<!-- /article -->
 
-	<div class="next-post"><?php next_post_link( '%link', 'Next post in category', TRUE ); ?></div>
+	<div class="next-post"><?php next_post_link( '%link', 'Next post in category', true ); ?></div>
 
 	<?php endwhile; ?>
 
