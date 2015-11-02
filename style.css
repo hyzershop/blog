@@ -1338,6 +1338,7 @@ footer form input[type="submit"]:focus {
 @media only screen and (max-width: 960px) {
 	.mc_embed_signup.top {
 		display: none;
+		visibility: hidden;
 	}
 
 	.mc_embed_signup input {
