@@ -1260,6 +1260,10 @@ footer form input[type="submit"]:focus {
 	display: none;
 }
 
+footer .contact-form > div > * {
+	width: 100%;
+}
+
 
 
 /* MAILCHIMP FORMS */
