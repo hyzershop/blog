@@ -1261,8 +1261,10 @@ footer form input[type="submit"]:focus {
 	display: none;
 }
 
-footer .contact-form > div > * {
-	width: 100%;
+.textwidget .contact-form input[type=email], .textwidget .contact-form input[type=text], .textwidget .contact-form textarea {
+	width: 90%;
+	margin: 0 auto;
+	float: none;
 }
 
 
