@@ -1077,6 +1077,8 @@ form.contact-form > div > textarea {
 	.col-inner {
 		padding: 10em 14% 10em !important;
 	    min-height: 0;
+	    border-left: 0 none;
+		border-right: 0 none;
 	}
 }
 
