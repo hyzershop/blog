@@ -495,8 +495,9 @@ header .widget_search button.search-submit {
     height: 3em;
     width: 3em;
     padding: 0;
-    position: relative;
+    position: absolute;
     	top: 0.8em;
+    	right: 0;
 }
 
 header .search-input {
