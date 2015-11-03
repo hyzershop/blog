@@ -156,20 +156,20 @@ $(document).ready(function() {
 
 	var mainMenu = $(".wrapper > header > nav > ul").addClass("main-menu"),
 		subMenu = $(".wrapper > header > nav > ul > li > .sub-menu"),
-		mainMenuToggle = $("<div id='menu-toggle' data-menu-expanded='false'></div>").appendTo("body"),
+		mainMenuToggle = $("<div id='menu-toggle' data-menu-expanded='false'></div>").appendTo("body > .wrapper"),
 		subMenuParent = $("header > .nav li.menu-item-has-children"),
 		subMenuExit = $("<div class='sub-menu-exit'><img src='/wp-content/themes/gazette-child/images/exit-button.png' width='70' height='70' /></div>");
 
 	subMenu.hide();
-	mainMenuToggle.appendTo("body");
-	subMenuExit.appendTo("body").hide();
+	mainMenuToggle.appendTo("body > .wrapper");
+	subMenuExit.appendTo("body > .wrapper").hide();
 
 	function menuHide(menu, button) {
 		setTimeout(function() {
 			menu.hide();
 			button.removeClass("expanded");
 		}, 100);
-		$("body").css({"overflow": "scroll"});
+		$("body > .wrapper").css({"overflow": "scroll"});
 		subMenuExit.fadeOut();
 	}
 
@@ -178,7 +178,7 @@ $(document).ready(function() {
 			menu.fadeIn();
 			button.addClass("expanded");
 		}, 100);
-		$("body").css({"overflow": "hidden"});
+		$("body > .wrapper").css({"overflow": "hidden"});
 	}
 
 	if ($(window).width() < 840) {

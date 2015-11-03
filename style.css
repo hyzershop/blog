@@ -16,6 +16,9 @@ html, body {
 
 .js body {
 	opacity: 0;
+}
+
+.js body > .wrapper {
 	overflow-x: hidden !important;
 }
 
@@ -1434,7 +1437,8 @@ footer form input[type="submit"]:focus {
 
 	.mc_embed_signup.top.hide-always {
 		visibility: hidden !important;
-		height: 0; overflow: hidden;
+		height: 0;
+		overflow: hidden;
 	}
 }
 
