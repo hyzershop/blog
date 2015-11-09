@@ -1,9 +1,9 @@
 (function($) {
 $(document).ready(function() {
 
-	$("body").delay(1000).animate({
+	$("body").delay(1000).css({
 		opacity: 1
-	}, 500);
+	});
 
 	var searchForm = $("header .widget_search > form");
 
@@ -25,10 +25,12 @@ $(document).ready(function() {
 		}
 	});
 
-	$(window).resize(vAlignLargeImages);
+	vAlignLargeImages();
 	setTimeout(function() {
 		vAlignLargeImages();
-	}, 1000);
+	}, 2000);
+	$(window).resize(vAlignLargeImages);
+	$(window).load(vAlignLargeImages);
 	function vAlignLargeImages() {
 		var largeImg = $(".single .post-thumbnail img, .flexslider .slides img");
 		
@@ -73,7 +75,7 @@ $(document).ready(function() {
 	}, 1000);
 
 	function stylePostsGrid() {
-		$(".home article[grid], .archive article[grid]").each(function() {
+		$("article[grid]").each(function() {
 			var $this = $(this),
 				thumb = $this.children(".post-thumbnail"),
 				thumbImgSrc = thumb.find("img").attr("src"),

@@ -31,6 +31,13 @@ img {
 	height: auto !important;
 }
 
+.wp-caption {
+	border: 0 none;
+}
+.wp-caption-text {
+	margin: 1em 0 0 0;
+}
+
 .fullwidthimage { width: 100%; height: auto !important; }
 
 p.aligncenter iframe {
@@ -51,7 +58,7 @@ h1 { font-size: 4em; }
 h2 { font-size: 3.5em; }
 h3 { font-size: 3em; }
 
-ul {
+ul, ol {
 	font-size: 1.2em;
 }
 
@@ -81,8 +88,30 @@ p {
 .post-content-inner p {
 	font-size: 1.6em;
 }
-.post-content-inner ul {
+.post-content-inner ul,
+.post-content-inner ol {
 	font-size: 1.5em;
+	padding-left: 1em;
+}
+
+.post-content-inner ol {
+	padding-left: 1.3em;
+}
+
+.post-content-inner ul li {
+	list-style: none;
+	padding-top: 0.2em;
+}
+
+.post-content-inner ul li li {
+	padding-top: 0;
+}
+
+.post-content-inner img {
+    border-radius: 1.2em;
+/*    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+*/    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 li, li a, input {
@@ -223,13 +252,12 @@ header > .nav li {
 
 header > .nav li a {
 	color: #fff;
-	padding: 2.2em 2em 2.3em;
-	border-bottom: 7px solid #fff;
+	padding: 2.4em 2em 2.3em;
 }
 
 header > .nav li a:hover,
 header > .nav li.current_page_item a {
-	border-bottom: 7px solid #ff3c7c;
+	color: #f4f4f4;
 }
 
 header > .nav > ul > li.menu-item-has-children::before {
@@ -238,6 +266,7 @@ header > .nav > ul > li.menu-item-has-children::before {
     color: #fff;
     display: inline-block;
     position: relative;
+    top: -1px;
     right: 1em;
     font-size: 1.2em;
     text-align: right;
@@ -496,8 +525,8 @@ header .widget_search button.search-submit {
     width: 3em;
     padding: 0;
     position: absolute;
-    	top: 0.8em;
-    	right: 0;
+    	top: 1.9em;
+    	right: 2em;
 }
 
 header .search-input {
@@ -534,7 +563,7 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 	    width: 100%;
 	    max-width: 100%;
 	    margin: 0;
-	    height: 9em;
+	    height: 10em;
 	    padding-left: 2em;
 	    z-index: 10;
 	    border-left: 0;
@@ -542,8 +571,8 @@ header .search-input:-ms-input-placeholder { color: #fff; }
 
 	header .widget_search > form.search-expanded .search-submit {
 		position: absolute;
-		top: 3em;
-	    right: 2em;
+		top: 3.5em;
+	    right: 3em;
 	}
 
 	header .widget_search > form.search-expanded .search-input {
@@ -820,8 +849,15 @@ article[grid] > p,
 	display: block;
 	font-size: 2.2em;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 0.5em;
     padding: 2em 0;
+    color: #00b0ff;
+}
+
+.nav-previous a:hover,
+.next-post a:hover {
+	color: #ff3c7c;
 }
 
 
@@ -919,6 +955,11 @@ body.category article > .post-category { display: none; }
 	font-weight: bold;
     font-size: 1.4em;
     padding: 2em;
+}
+
+.tablepress tfoot th, .tablepress thead th {
+	background: #00b0ff;
+	color: #fff;
 }
 
 
