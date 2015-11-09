@@ -91,7 +91,21 @@ p {
 .post-content-inner ul,
 .post-content-inner ol {
 	font-size: 1.5em;
-	padding-left: 1em;
+	padding-left: 0.8em;
+}
+
+.post-content-inner > .styled-list {
+	border-left: 8px solid #ddd;
+}
+
+.post-content-inner > .styled-list li,
+.post-content-inner > .styled-list li a {
+	color: #666;
+	text-decoration: none;
+}
+
+.post-content-inner > .styled-list li a {
+	color: #444;
 }
 
 .post-content-inner ol {
