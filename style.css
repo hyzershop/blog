@@ -714,6 +714,7 @@ article[grid] {
     background-repeat: no-repeat;
     background-position: 50% top;
     background-size: cover;
+    box-shadow: 1px 1px 0px #fff;
 }
 
 article[grid]:not(.has-post-thumbnail),
