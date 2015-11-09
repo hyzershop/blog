@@ -108,6 +108,10 @@ p {
 	color: #444;
 }
 
+.post-content-inner > .styled-list li a:hover {
+	color: #00b0ff;
+}
+
 .post-content-inner ol {
 	padding-left: 1.3em;
 }
