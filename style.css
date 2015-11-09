@@ -20,7 +20,6 @@ html, body {
 
 .js body > .wrapper {
 	overflow-x: hidden !important;
-	background: url(/wp-content/themes/hyzer-blog/images/bg-texture.gif) repeat left 200px;
 }
 
 footer {
@@ -186,6 +185,9 @@ main {
 	position: relative;
 		z-index: 5;
 	margin-top: 6px;
+	padding-bottom: 50px;
+
+	background: url(/wp-content/themes/hyzer-blog/images/bg-texture.gif) repeat left 200px;
 }
 
 main::after {
@@ -1220,7 +1222,7 @@ form.contact-form > div > textarea {
 #site-footer {
 	background: #666;
 	border-top: 0;
-	margin-top: 50px;
+	margin-top: 0;
 }
 
 .footer-inner > div {
