@@ -20,7 +20,7 @@ html, body {
 
 .js body > .wrapper {
 	overflow-x: hidden !important;
-	background: url(/wp-content/themes/hyzer-blog/images/bg-texture.gif) repeat left top;
+	background: url(/wp-content/themes/hyzer-blog/images/bg-texture.gif) repeat left 200px;
 }
 
 footer {
