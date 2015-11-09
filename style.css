@@ -385,6 +385,11 @@ header > .nav > ul > li > .sub-menu > li > a::before {
 }
 
 @media only screen and (max-width: 839px) {
+	header > .nav li a:hover,
+	header > .nav li.current_page_item a {
+		color: #999999;
+	}
+
 	#menu-toggle,
 	#menu-toggle::before {
 		display: block;
@@ -1018,7 +1023,7 @@ div.sharedaddy h3.sd-title::before {
 /* GENERAL FORM STYLES */
 
 textarea {
-	background: #f5f5f5;
+	background: #ffffff;
 	color: #00b0ff;
 	outline: none;
 	border: none;
@@ -1052,6 +1057,29 @@ textarea:focus {
 	.js .single .post .inner.post-header-inner {
 		padding: 5em 5% 3em 5%;
 	}
+}
+
+.comment-form input {
+	padding: 0.6em;
+}
+
+.comment-form label {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #888;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+.comment-form #submit {
+	padding: 0.8em 1.8em;
+}
+
+.comment-subscription-form input {
+	float: left;
+    clear: none;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
 }
 
 
