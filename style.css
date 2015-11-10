@@ -132,6 +132,11 @@ ul.quick-hits, ol.quick-hits, .quick-hits {
 	border-left: 10px solid #00b0ff;
 }
 
+ul.quick-hits > li {
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
 
 
 .post-content-inner img {
