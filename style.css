@@ -94,6 +94,19 @@ p {
 	padding-left: 0.8em;
 }
 
+.post-content-inner ol {
+	padding-left: 1.3em;
+}
+
+.post-content-inner ul li {
+	list-style: none;
+	padding-top: 0.2em;
+}
+
+.post-content-inner ul li li {
+	padding-top: 0;
+}
+
 .post-content-inner > .styled-list {
 	border-left: 8px solid #ddd;
 }
@@ -113,18 +126,13 @@ p {
 	color: #00b0ff;
 }
 
-.post-content-inner ol {
-	padding-left: 1.3em;
+ul.quick-hits, ol.quick-hits, .quick-hits {
+	padding: 2em 2.2em;
+	background: #fff;
+	border-left: 10px solid #00b0ff;
 }
 
-.post-content-inner ul li {
-	list-style: none;
-	padding-top: 0.2em;
-}
 
-.post-content-inner ul li li {
-	padding-top: 0;
-}
 
 .post-content-inner img {
     border-radius: 1.2em;
