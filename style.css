@@ -127,14 +127,14 @@ p {
 }
 
 ul.quick-hits, ol.quick-hits, .quick-hits {
-	padding: 2em 2.2em;
+	padding: 1.5em 2.2em;
 	background: #fff;
 	border-left: 10px solid #00b0ff;
 }
 
 ul.quick-hits > li {
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
 }
 
 
