@@ -1072,6 +1072,13 @@ blockquote::before {
     width: 20px;
 }
 
+blockquote img {
+	position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    left: -100px;
+}
+
 @media only screen and (max-width: 960px) {
 	.post-hero img {
     	width: 960px;
