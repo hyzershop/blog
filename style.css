@@ -111,9 +111,12 @@ p {
 	border-left: 8px solid #ddd;
 }
 
+.post-content-inner > ol.styled-list {
+	padding-left: 2.2em;
+}
+
 .post-content-inner > .styled-list li,
 .post-content-inner > .styled-list li a {
-	font-size: 1em;
 	color: #666;
 	text-decoration: none;
 }
