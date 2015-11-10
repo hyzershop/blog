@@ -1030,8 +1030,46 @@ div.sharedaddy h3.sd-title::before {
 	font-size: 28px !important;
 }
 
+.sd-social-icon .sd-button span.share-count {
+	border-radius: 100% !important;
+    background: #00b0ff !important;
+    color: #fff !important;
+    font-size: 9px !important;
+    padding: 8px !important;
+    width: 26px !important;
+    height: 26px !important;
+    font-weight: bold !important;
+}
+
 .post-after-categories a[href="http://blog.hyzershop.com/category/home-page-featured/"]{
 	display: none;
+}
+
+/* Tweetable blockquotes! */
+
+blockquote {
+	margin-left: 0;
+    position: relative;
+}
+
+blockquote p {
+	padding: 0.8em 0;
+    font-size: 3.8em;
+    margin: 0.5em 0;
+    line-height: 1.2;
+    color: #888;
+    font-weight: bold;
+}
+
+blockquote::before {
+    content: " ";
+    position: absolute;
+    left: -38px;
+    top: 0;
+    height: 100%;
+    display: block;
+    border-right: 10px solid #00b0ff;
+    width: 20px;
 }
 
 @media only screen and (max-width: 960px) {
