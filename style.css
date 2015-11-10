@@ -1053,9 +1053,9 @@ blockquote {
 }
 
 blockquote p {
-	padding: 0.8em 0;
+	padding: 0.4em 0;
     font-size: 3.8em;
-    margin: 0.5em 0;
+    margin: 0.7em 0;
     line-height: 1.2;
     color: #888;
     font-weight: bold;
