@@ -365,7 +365,7 @@ $(document).ready(function() {
 	$(".post-content-inner blockquote").each(function() {
 		var $this = $(this),
 			twitterBtn = $("<img src='/wp-content/themes/hyzer-blog/images/twitter-circle-icon.png' alt='Tweet this!' width='60' height='60' />");
-		$this.before(twitterBtn);
+		$this.prepend(twitterBtn);
 	});
 });
 
