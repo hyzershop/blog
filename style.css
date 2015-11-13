@@ -1085,7 +1085,7 @@ blockquote img {
 	position: absolute;
     top: 50%;
     margin-top: -30px !important;
-    left: -100px;
+    left: -82px;
 }
 
 @media only screen and (max-width: 960px) {
