@@ -1066,14 +1066,11 @@ blockquote {
 }
 
 blockquote::before {
-    content: " ";
+/*    content: " ";
     position: absolute;
     left: -38px;
     top: 0;
-    height: 100%;
-    display: block;
-    border-right: 10px solid #00b0ff;
-    width: 20px;
+    display: block;*/
 }
 
 blockquote img {
