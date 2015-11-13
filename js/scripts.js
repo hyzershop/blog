@@ -366,8 +366,18 @@ $(document).ready(function() {
 		var $this = $(this),
 			twitterBtn = $("<img src='/wp-content/themes/hyzer-blog/images/twitter-circle-icon.png' alt='Tweet this!' width='60' height='60' />");
 		$this.prepend(twitterBtn);
+
+		twitterBtn.click(function() {
+			var text = $this.text(),
+				textStr = text.replace(" ", "%20"),
+				tweetUrl = "https://twitter.com/intent/tweet?text=" + textStr + "&url=http%3A%2F%2Fbit.ly%2F1MFi8s4&hashtags=discgolf,hyzerblog&via=hyzer_blog";
+			
+			window.open(tweetUrl,"_blank");
+		});
 	});
 });
+
+
 
 
 })(jQuery);

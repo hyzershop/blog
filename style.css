@@ -243,6 +243,10 @@ main::after {
 	width: 70%;
 }
 
+.single .header.inner {
+	width: 90%;
+}
+
 /*.single article .inner {
 	width: 70%;
 }*/
