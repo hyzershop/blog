@@ -161,7 +161,11 @@ a:hover { color: #ff3c7c; }
 .post-content-inner a {
 	font-weight: bold;
 	text-decoration: underline;
-	color: #222;
+	color: #444;
+}
+
+.post-content-inner a:hover {
+	color: #0090ef;
 }
 
 ::selection { background: #00b0ff; }
