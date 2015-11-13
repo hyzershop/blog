@@ -372,7 +372,7 @@ $(document).ready(function() {
 				textStr = text.replace(" ", "%20"),
 				currentUrl = window.location.href,
 				currentUrlStr = currentUrl.replace(" ", "%20").replace("/", "%2F").replace(":", "%3A");
-				tweetUrl = "https://twitter.com/intent/tweet?text=" + textStr + "&url=" + currentUrlStr + "&hashtags=discgolf,hyzerblog&via=hyzer_blog";
+				tweetUrl = "https://twitter.com/intent/tweet?text=" + textStr + "&url=" + currentUrlStr + "&hashtags=discgolf,hyzerblog&via=hyzer_shop";
 			
 			window.open(tweetUrl,"_blank");
 		});
