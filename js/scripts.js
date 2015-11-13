@@ -375,6 +375,8 @@ $(document).ready(function() {
 				tweetUrl = "https://twitter.com/intent/tweet?text=" + textStr + "&url=" + currentUrlStr + "&hashtags=discgolf,hyzerblog&via=hyzer_shop";
 			
 			window.open(tweetUrl,"_blank");
+		}).hover(function() {
+			$(this).siblings("p").toggleClass("blue");
 		});
 	});
 });

@@ -1074,9 +1074,10 @@ blockquote::before {
 }
 
 blockquote img {
+	cursor: pointer;
 	position: absolute;
     top: 50%;
-    margin-top: -30px;
+    margin-top: -30px !important;
     left: -100px;
 }
 
