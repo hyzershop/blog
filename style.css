@@ -1252,6 +1252,15 @@ body.page main > section > h1 { display: none; }
 .site-content #contact-form-46 { max-width: 480px; margin: 0 auto; }
 .site-content .contact-form > div { margin-bottom: 10px; }
 
+#contact-form-46 h5.rock-salt.blue {
+	font-size: 3em;
+    line-height: 1;
+    font-family: Montserrat !important;
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 #contact-col form textarea {
 	border-radius: 20px;
 }
