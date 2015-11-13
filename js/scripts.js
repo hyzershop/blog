@@ -376,7 +376,7 @@ $(document).ready(function() {
 			
 			window.open(tweetUrl,"_blank");
 		}).hover(function() {
-			$(this).siblings("p").toggleClass("blue");
+			$(this).siblings("p").toggleClass("twitter-blue");
 		});
 	});
 });
