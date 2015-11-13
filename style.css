@@ -535,9 +535,9 @@ header .widget_search {
 	width: auto;
 }
 
-.single header .widget_search {
+/*.single header .widget_search {
 	right: 15%;
-}
+}*/
 
 header .widget_search > form {
 	float: right;
