@@ -459,6 +459,7 @@ header > .nav > ul > li > .sub-menu > li > a::before {
 	}
 
     .js .nav > ul {
+    	display: none;
     	position: fixed;
 	    z-index: 9;
 	    top: 0;
