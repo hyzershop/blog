@@ -217,7 +217,7 @@ h2 a {
 }
 
 .big-button {
-	width: 5em;
+	width: 30em;
 }
 
 .big-button.centered,
@@ -231,11 +231,13 @@ h2 a {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
+	text-align: center;
 	color: #fff;
 
 	border: 3px solid #00b0ff;
+	border-radius: 20em;
 	background: transparent;
-	background: rgba(0,0,0,0.1);
+	background: rgba(255,255,255,0.1);
 }
 
 .big-button a:hover {
