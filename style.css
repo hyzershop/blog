@@ -216,6 +216,37 @@ h2 a {
 	color: #00b0ff;
 }
 
+.big-button {
+	width: 5em;
+}
+
+.big-button.centered,
+.big-button.aligncenter {
+	margin: 0 auto;
+}
+
+.big-button a {
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+
+	border: 3px solid #00b0ff;
+	background: transparent;
+	background: rgba(0,0,0,0.1);
+}
+
+.big-button a:hover {
+	background: #00b0ff;
+	color: #fff;
+}
+
+.small-button {
+
+}
+
 
 
 
