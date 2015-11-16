@@ -31,6 +31,8 @@ img {
 	height: auto !important;
 }
 
+.centered { text-align: center; }
+
 .wp-caption {
 	border: 0 none;
 }
@@ -170,13 +172,16 @@ a:hover { color: #ff3c7c; }
 
 ::selection { background: #00b0ff; }
 
-.montserrat { font-family: 'Montserrat', Helvetica, sans-serif !important; }
+.montserrat, .sans { font-family: 'Montserrat', Helvetica, sans-serif !important; }
 .rocksalt { font-family: 'Rock Salt', Helvetica, sans-serif !important; }
 .viga { font-family: 'Viga', Helvetica, sans-serif !important; }
 .blue { color: #00b0ff !important; }
 .white { color: #ffffff !important; }
 .pink { color: #ff3c7c !important; }
 .twitter-blue { color: #1AB7EA !important; }
+.uppercase { text-transform: uppercase !important; }
+.lowercase { text-transform: lowercase !important; }
+.normal-case { text-transform: none !important; }
 
 aside.sidebar { display: none; }
 
@@ -1187,6 +1192,10 @@ textarea:focus {
 .page .site-content-inner,
 .page .site-main { width: 100%; padding: 0; }
 body.page main > section > h1 { display: none; }
+
+body.page:not(.what-were-about) main section {
+	padding: 6em 5%;
+}
 
 #about-col, #contact-col {
 	float: left;
