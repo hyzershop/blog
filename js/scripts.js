@@ -108,7 +108,8 @@ $(document).ready(function() {
 				});
 				if ( $("body").hasClass("category") ) {
 					articleInner.css({
-						backgroundImage: "none"
+						backgroundImage: "none",
+						"padding": "7em 4em"
 					});
 				}
 
