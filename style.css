@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5 {
 	margin-top: 0;
 	margin-bottom: 0.5em;
 	line-height: 1;
+	word-wrap: break-word;
 }
 
 h1 { font-size: 4em; }
@@ -218,11 +219,13 @@ h2 a {
 
 .big-button {
 	width: 30em;
+	margin-top: 5em;
 }
 
 .big-button.centered,
 .big-button.aligncenter {
-	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .big-button a {
@@ -232,8 +235,9 @@ h2 a {
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
-	color: #fff;
+	color: #00b0ff;
 
+	padding: 2.2em 4em;
 	border: 3px solid #00b0ff;
 	border-radius: 20em;
 	background: transparent;
@@ -967,9 +971,11 @@ body.category article > .post-category { display: none; }
 
 .category section > h1 {
 	text-align: center;
-	margin-bottom: 1em;
-	font-family: 'Rock Salt';
-	text-transform: lowercase;
+    padding-top: 1em;
+    margin-bottom: 1.3em;
+    font-family: 'Rock Salt';
+    text-transform: lowercase;
+    font-size: 5em;
 }
 
 /*.category section > h1::before {
