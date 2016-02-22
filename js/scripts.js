@@ -102,6 +102,14 @@ $(document).ready(function() {
 				$theCategory = "thoughts";
 			}
 
+			if ($this.hasClass("category-lab")) {
+				$theCategory = "lab";
+			}
+
+			if ($this.hasClass("category-review")) {
+				$theCategory = "review";
+			}
+
 			if ( $this.hasClass("has-post-thumbnail") ) {
 				var articleInner = $("<div class='article-grid-inner'></div>").css({
 					backgroundImage: "url(/wp-content/themes/hyzer-blog/images/" + $theCategory + "-icon-white.png)"

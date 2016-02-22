@@ -800,13 +800,17 @@ article[grid] {
 	clear: right;
     width: 46%;
     margin: 0 2% 5em;
-    min-height: 30em;
+    line-height: 18em;
     text-align: center;
 
     background-repeat: no-repeat;
     background-position: 50% top;
     background-size: cover;
     box-shadow: 1px 1px 0px #fff;
+}
+
+article[grid] * {
+	line-height: 1;
 }
 
 article[grid]:not(.has-post-thumbnail),
@@ -960,6 +964,22 @@ article[grid] > p,
 
 
 body.category article > .post-category { display: none; }
+
+body.categories article.home-page-featured,
+body.categories article.series {
+	display: none;
+}
+
+body.categories article[grid] {
+	background-color: #ff3c7c !important;
+}
+
+body.categories article[grid] img {
+	width: 50%;
+	max-width: 19em;
+	display: inline-block;
+	vertical-align: middle;
+}
 
 
 
